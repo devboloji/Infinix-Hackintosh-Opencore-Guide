@@ -2,11 +2,16 @@ These are the builts from me for BigSur.  You might get the future updates for t
 
 # What's Working.>>
 - Sleep / Wake
-- Wifi and Bluetooth (bluetooth file transfer works)
--  App Store (see post install guide for more info)
+- Wifi
+- Bluetooth (also bluetooth file transfer works)
+- App Store (see post install guide for more info)
 - Onboard audio
 - USB 2.0 / USB 3.0
 - USB 2.0 / USB 3.0
+- headphones
+- Trackpad
+- brightness keys(it's used as printscr and beside key for) increase and decrease brightness.
+- Input and Output
 - Everything (Much More).
 
 ## <What's Not working>
@@ -106,6 +111,7 @@ Restart your laptop and go to bios and reboot from usb.
 
 Restart your laptop and go to bios and reboot from usb.
 - 6. Boot to the usb.and install.Enjoy!!!!
+Disclaimer - I am not Responsible for any cause of damage for your device.
                                                                        
 Thanks to the OpenCore Team, Olarila Team, SAITEJA, AMD Team, Mieze, btwise, and also me ofcourse.
 
