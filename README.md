@@ -73,10 +73,39 @@ download starts.
 - 14.Paste both of those files in the> com.apple.recovery.boot < folder in your Sdcard or flash drive partiton
 - 15.Download the latest EFI created [here](https://github.com/devboloji/Infinix_INBook_X1_XL11_i3-Hackintosh-Guide-Opencore/releases)
 - 16.Copy the EFI folder and paste it in your USB partiton
+Restart your laptop and go to bios and reboot from usb.
 Note: Make sure to apply the correct bios settings before continuing (provided above)
 
-- # macOS BigSur Offline Installer 
-1.Search and Download BigSur .raw from [Here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/)
+# macOS Guide:
+                                                                       
+- 1.Launch Disk Utility
+- 2.Select View > Show all devices at the top left
+- 3.Select your flash drive and format it as MS-DOS (FAT) Use any formatter to format.
+ Note: Must format to MBR even you have UEFI System.
+- 4. Open up your usb partiton and create a folder named com.apple.recovery.boot
+- 5.Download and extract the OpenCore Package
+- 6.Select the macrecovery folder in the opencorepkg folder at /Utilities/macrecovery/
+- 7.Right click and click "New terminal at folder"
+- 8.Run the command:
+ python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 
+ download in the terminal window
+- 9.This will put some files in the macrecovery folder but we only need BaseSystem.dmg and BaseSystem.chunklist
+- 10.Paste both of those files in the com.apple.recovery.boot folder in your flash drive partiton
+- 11.Download the latest EFI created [here](https://github.com/devboloji/Infinix_INBook_X1_XL11_i3-Hackintosh-Guide-Opencore/releases)
+- 12.Copy the EFI folder and paste it in your USB partiton
+Note: Make sure to apply the correct bios settings before continuing (provided above)
 
+Restart your laptop and go to bios and reboot from usb.
+
+ # macOS BigSur Offline Installer from mac
+- 1.Search and Download Olarila BigSur .raw from [Here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/)
+- 2.Download etcher from [here](https://www.balena.io/etcher/)
+- 3.Make Usb bootable (Flash the Sdcard) using Etcher and olarila bigsur.
+- 4.mount the efi of Sdcard or bootable drive.
+- 5.and paste the Efi to USB. Efi [here](https://github.com/devboloji/Infinix_INBook_X1_XL11_i3-Hackintosh-Guide-Opencore/releases)
+
+Restart your laptop and go to bios and reboot from usb.
+- 6. Boot to the usb.and install.Enjoy!!!!
+                                                                       
 Thanks to the OpenCore Team, Olarila Team, SAITEJA, AMD Team, Mieze, btwise, and also me ofcourse.
 
