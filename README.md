@@ -16,10 +16,10 @@ This is the first built from me for BigSur.  You might get the future updates fo
 # Introduction
 EFI folder and Guide for Infinix_INBook_X1 i3 1005G1 8gb,256gb BigSur.
 
-Tested CPUs: i3 1005G1 10gen
-Integrated Graphics: UHD G1
-Sound Card: ALC269
-Wireless Cards Tested: [Intel® Wi-Fi 6E AX210.
+- Tested CPUs: i3 1005G1 10gen.
+- Integrated Graphics: UHD G1
+- Sound Card: ALC269 (use alcid=26).
+- Wireless Cards Tested: [Intel® Wi-Fi 6E AX210.
 
 # Bios
 - Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS
@@ -54,27 +54,29 @@ This is a simple and quick summary of the online install USB creation
 Windows Guide:
  - REQUIRED 4gb SDcard, Need to be format to fat32(MBR). Use any formatter to format.
  Note: Must format to MBR even you have UEFI System.
-1.Download [rufus](https://rufus.ie/en/)
-2.Select the desired flash drive you would like to put the installer on under the device option
-3.Select non-bootable as the boot selection (REQUIRED)
-4.Select FAT-32 or Large FAT-32 as the partition scheme
-5.Open up the usb partition in file explorer and delete the files created by rufus
-6.Create a folder on that partiton named com.apple.recovery.boot
-7.Install [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path)
-8.Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases)
-9.Select the macrecovery folder in the opencorepkg folder at>  /Utilities/macrecovery/
-10.Click on home > copy path at the top of file explorer
-11.Fire up command prompt and type cd and hit spacebar and paste the path of the macrecovery folder.
-12.Run the command:
+
+- 1.Download [rufus](https://rufus.ie/en/)
+- 2.Select the desired flash drive you would like to put the installer on under the device option
+- 3.Select> non-bootable <as the boot selection (REQUIRED)
+- 4.Select> FAT-32 <or> Large FAT-32 <as the partition scheme
+- 5.Open up the usb partition in file explorer and delete the files created by rufus
+- 6.Create a folder on that partiton named> com.apple.recovery.boot <
+- 7.Install [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path)
+- 8.Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases)
+- 9.Select the macrecovery folder in the opencorepkg folder at>  /Utilities/macrecovery/ <
+- 10.Click on home > copy path at the top of file explorer
+- 11.Fire up command prompt and type cd and hit spacebar and paste the path of the macrecovery folder.
+- 12.Run the command:
  python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 
 download starts.
-13.This will put some files in the macrecovery folder but we only need BaseSystem.dmg and BaseSystem.chunklist
-14.Paste both of those files in the> com.apple.recovery.boot < folder in your flash drive partiton
-15.Download the latest EFI created [here](https://github.com/racka98/Lenovo-Thinkpad-T450-T450s-Hackintosh-Guide-Opencore/releases)
-16.Copy the EFI folder and paste it in your USB partiton
+- 13.This will put some files in the macrecovery folder but we only need <BaseSystem.dmg> and <BaseSystem.chunklist>
+- 14.Paste both of those files in the> com.apple.recovery.boot < folder in your Sdcard or flash drive partiton
+- 15.Download the latest EFI created [here](https://github.com/devboloji/Infinix_INBook_X1_XL11_i3-Hackintosh-Guide-Opencore/releases)
+- 16.Copy the EFI folder and paste it in your USB partiton
 Note: Make sure to apply the correct bios settings before continuing (provided above)
 
-**Full Changelog**: https://github.com/devboloji/Infinix_INBook_X1_XL11_i3-Hackintosh-Guide-Opencore/commits/v1.0
+- # macOS BigSur Offline Installer 
+1.Search and Download BigSur .raw from [Here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/)
 
 Thanks to the OpenCore Team, Olarila Team, SAITEJA, AMD Team, Mieze, btwise, and also me ofcourse.
 
