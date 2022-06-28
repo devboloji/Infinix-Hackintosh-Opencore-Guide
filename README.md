@@ -1,4 +1,4 @@
-This is the first built from me for BigSur.  You might get the future updates for this machine.
+These are the builts from me for BigSur.  You might get the future updates for this machine.
 
 # What's Working.>>
 - Sleep / Wake
