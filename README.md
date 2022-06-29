@@ -74,7 +74,7 @@ Windows Guide:
 - 11.Fire up command prompt and type cd and hit spacebar and paste the path of the macrecovery folder.
 - 12.Run the command:
  python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download 
- download starts.
+ - download starts.
 - 13.This will put some files in the macrecovery folder but we only need <BaseSystem.dmg> and <BaseSystem.chunklist>
 - 14.Paste both of those files in the> com.apple.recovery.boot < folder in your Sdcard or flash drive partiton
 - 15.Download the latest EFI created [here](https://github.com/devboloji/Infinix_INBook_X1_XL11_i3-Hackintosh-Guide-Opencore/releases)
@@ -94,7 +94,7 @@ Note: Make sure to apply the correct bios settings before continuing (provided a
 - 7.Right click and click "New terminal at folder"
 - 8.Run the command:
  python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download
- download in the terminal window
+- download in the terminal window
 - 9.This will put some files in the macrecovery folder but we only need BaseSystem.dmg and BaseSystem.chunklist
 - 10.Paste both of those files in the com.apple.recovery.boot folder in your flash drive partiton
 - 11.Download the latest EFI created [here](https://github.com/devboloji/Infinix_INBook_X1_XL11_i3-Hackintosh-Guide-Opencore/releases)
