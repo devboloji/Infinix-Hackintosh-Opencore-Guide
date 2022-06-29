@@ -1,4 +1,5 @@
 These are the builts from me for BigSur.  You might get the future updates for this machine.
+Report me If you find the bugs or any issues. And don't ask for ETA.
 
 # What's Working.>>
 - Sleep / Wake
