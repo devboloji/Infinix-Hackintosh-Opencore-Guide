@@ -2,7 +2,6 @@ These are the builts from me for BigSur.  You might get the future updates for t
 Report me If you find the bugs or any issues. And don't ask for ETA.
 
 # What's Working.>>
-- Sleep / Wake
 - Wifi
 - Bluetooth (also bluetooth file transfer works)
 - App Store (see post install guide for more info)
@@ -13,10 +12,12 @@ Report me If you find the bugs or any issues. And don't ask for ETA.
 - Trackpad
 - brightness keys(it's used as printscr and beside key for) increase and decrease brightness.
 - Input and Output
+- Wake/ Shutdown
 - Everything (Much More).
 
 ## <What's Not working>
 * iMessages, Facetime.
+* Sleep(Using sleep, fans still spins and causes battery drain)(Use any hibernate app in macos) Any one is welcomed to fix this issue
 * This Update is for BigSur 11.6.7, and not for Monterey or More.
 
 # Introduction
