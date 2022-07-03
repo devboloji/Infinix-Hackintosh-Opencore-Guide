@@ -115,5 +115,5 @@ Restart your laptop and go to bios and reboot from usb.
 - 6. Boot to the usb.and install.Enjoy!!!!
 Disclaimer - I am not Responsible for any cause of damage for your device.
                                                                        
-Thanks to the OpenCore Team, Olarila Team, SAITEJA, AMD Team, Mieze, btwise, and also me ofcourse.
+Thanks to the OpenCore Team, Olarila Team, SAITEJA, AMD Team, Mieze, btwise,Ziden flakes and also me ofcourse.
 
