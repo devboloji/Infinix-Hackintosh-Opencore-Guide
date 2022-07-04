@@ -12,12 +12,14 @@ Report me If you find the bugs or any issues. And don't ask for ETA.
 - Trackpad
 - brightness keys(it's used as printscr and beside key for) increase and decrease brightness.
 - Input and Output
-- Wake/ Shutdown
+- Wake / Shutdown
+- Short sleep (.If you make sleep for long hours, The laptop shutdowns and to boot up, to bootup your device you need to plug in the charge like macbook. But you can make sleep to for 1 to 3 hours(but you will lose 2 to 3 percentage for every hour when  you put your device into sleep.) 
+This is due to continuous fan spinning when sleep. Anyone is welcomed to fix these issues. First contact me to do that
 - Everything (Much More).
 
 ## <What's Not working>
 * iMessages, Facetime.
-* Sleep(Using sleep, fans still spins and causes battery drain)(Use any hibernate app in macos) Any one is welcomed to fix this issue
+* Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Use any hibernate app in macos) Any one is welcomed to fix this issue, contact me.
 * This Update is for BigSur 11.6.7, and not for Monterey or More.
 
 # Introduction
