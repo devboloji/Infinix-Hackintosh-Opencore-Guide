@@ -1,5 +1,25 @@
-These are the builts from me for BigSur.  You might get the future updates for this machine.
+
+# Infinix-Hackintosh-Guide-Opencore
+This repo contains the installation guide and EFI files required to get a perfectly functional and Big Sur and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim. Everything is stable and functional as described in the Readme.
+<hr>
+These are the builts from me.  You might get the future updates for this machine.
+
+ **I will try my best to keep the repo updated with the latest kexts and OpenCore version**
+ -**For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality**
 Report me If you find the bugs or any issues. And don't ask for ETA.
+- **With every EFI update you retrieve from here please remember to go through the post install guide**
+![img](https://img.shields.io/badge/Release%20Update-July-red) ![img](https://img.shields.io/badge/macOS%20Support-Monterey--11.6.7-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.2-red)
+
+# Introduction
+
+EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
+
+- `Tested CPUs`: **i3-1005G1**(not tested in i5/i7, If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev))
+- `Integrated Graphics`: **G1/G4 graphics**
+- `Sound Card`: **ALC269 (use alcid=26)**
+- `Wireless Cards Tested`: **Intel® Wi-Fi 6E AX210.**
+<hr>
+
 
 # What's Working.>>
 - Wifi
@@ -21,14 +41,6 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 * iMessages, Facetime.
 * Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Use any hibernate app in macos) Any one is welcomed to fix this issue, contact me.
 * This Update is for BigSur 11.6.7, and not for Monterey or More.
-
-# Introduction
-EFI folder and Guide for Infinix_INBook_X1 i3 1005G1 8gb,256gb BigSur.
-
-- Tested CPUs: i3 1005G1 10gen.
-- Integrated Graphics: UHD G1
-- Sound Card: ALC269 (use alcid=26).
-- Wireless Cards Tested: [Intel® Wi-Fi 6E AX210.
 
 # Bios
 - Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS
