@@ -151,11 +151,10 @@ This is not done by default to bluetooth working.
 Use `MacBookAir9,1` SMBios. Recommended : opencore configurator, Go to the  `PlatformInfo >SMBios`Tick the "Add to the section to config file" in `SMBIOS` and `DATAHUB -GENERIC- PLATFORMNVRAM` and continue your Adding your SMBIOS.
 Follow this [Opencore guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) to set up serial number and the accompanying info to get iServices.
 ### 5.To fix cursor glitch
-```
-Goto Bios Settings -> Chipset Section -> System Agent (SA) Configuration -> Graphics Configuration
+Goto Bios Settings -> `Chipset Section -> System Agent (SA) Configuration -> Graphics Configuration`
 
-Set DVMT Total Gfx Memory setting to Max
-Set DVMT PPre-Allocated Setting to 160M or to max
+Set` DVMT Total Gfx Memory` setting to `Max`
+Set `DVMT PPre-Allocated` Setting to `160M` or to `max`
 
  Inform me, If there is any spelling mistake in the Installtion or any where...                                                                      
 Thanks to the OpenCore Team, SAITEJA for testing, also me ofcourse.
