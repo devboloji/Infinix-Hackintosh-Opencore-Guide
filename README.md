@@ -67,34 +67,44 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - Every setting is not Available so check your self
 - Intel Virtualization Technology
 
+### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
+
 # INSTALLATION
-- ## macOS Big Sur Online Installer (Recomended)
-This is a simple and quick summary of the online install USB creation
+## macOS Bigsur Online Installer with Windows:
+**This is a simple and quick summary of the online install USB creation**
 
-Windows Guide:
- - REQUIRED 4gb SDcard, Need to be format to fat32(MBR). Use any formatter to format.
- Note: Must format to MBR even you have UEFI System.
+Windows Guide:(Works for Macos users also)
 
-- 1.Download [rufus](https://rufus.ie/en/)
-- 2.Select the desired flash drive you would like to put the installer on under the device option
-- 3.Select> non-bootable <as the boot selection (REQUIRED)
-- 4.Select> FAT-32 <or> Large FAT-32 <as the partition scheme
-- 5.Open up the usb partition in file explorer and delete the files created by rufus
-- 6.Create a folder on that partiton named> com.apple.recovery.boot <
-- 7.Install [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path)
-- 8.Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases)
-- 9.Select the macrecovery folder in the opencorepkg folder at>  /Utilities/macrecovery/ <
-- 10.Click on home > copy path at the top of file explorer
-- 11.Fire up command prompt and type cd and hit spacebar and paste the path of the macrecovery folder.
-- 12.Run the command:
- python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download 
- - download starts.
-- 13.This will put some files in the macrecovery folder but we only need <BaseSystem.dmg> and <BaseSystem.chunklist>
-- 14.Paste both of those files in the> com.apple.recovery.boot < folder in your Sdcard or flash drive partiton
-- 15.Download the latest EFI created [here](https://github.com/devboloji/Infinix_INBook_X1_XL11_i3-Hackintosh-Guide-Opencore/releases)
-- 16.Copy the EFI folder and paste it in your USB partiton
-Restart your laptop and go to bios and reboot from usb.
-Note: Make sure to apply the correct bios settings before continuing (provided above)
+1. Download [rufus](https://rufus.ie/en/)
+2. Select the desired flash drive or Sdcard you would like to put the installer on under the device option
+3. Select `non-bootable` as the boot selection (REQUIRED)
+4. Select `FAT-32` or `Large FAT-32` as the partition scheme
+- **`For mac users`**
+1. Launch Disk Utility
+2. `Select View` > `Show all devices` at the top left
+3. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`
+and change `guid patition table`-> `Master Boot Record Partiton`.
+5. Open up the usb partition in file explorer and delete the files created by rufus
+6. Create a folder on that partiton named `com.apple.recovery.boot`
+7. Install Python from Microsoft store or Download manually for MAC and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path)
+8. Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases)
+9. Select the "macrecovery" folder in the "opencorepkg" folder at `/Utilities/macrecovery/`
+10. Click on home > copy path at the top of file explorer
+11. Fire up command prompt or Terminal and type `cd` and hit spacebar and paste the path of the macrecovery folder.
+12. Run the command For BigSur: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
+- Run the command For Monterey: `macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download`
+13. This will put some files in the macrecovery folder but we only need "BaseSystem.dmg" and "BaseSystem.chunklist" (takes approx. 600mb to 800mb internet)for Downloading the Macos installer.
+14. Paste both of those files in the `com.apple.recovery.boot` folder in your flash drive partiton or sdcard or pendrive.
+15. Download the latest EFI created [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
+16. Copy the folder named `EFI` and paste it in your USB partiton, beside the `com.apple.recovery.boot`
+
+`Note: Make sure to apply the correct bios settings before continuing (provided above)`
+
+17. Restart your laptop and hit `F12`
+18. Select your flash drive as temporary boot option
+19. Now in the OpenCore menu select the name of your USB partiton
+Great! Now install and set up macOS Big Sur as usual(This process will be required 14gb internet to download full Macos bigsur). When you are done be sure to read my post install guide.
+
 
 # macOS Guide:
                                                                        
