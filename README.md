@@ -22,7 +22,7 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 <hr>
 
 
-# What's Working.>>
+# What's Working.
 - Wifi
 - Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
 - App Store (see post install guide for more info)
@@ -37,7 +37,7 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 This is due to continuous fan spinning when sleep. Anyone is welcomed to fix these issues. First contact me to do that
 - Everything (Much More).
 
-## <What's Not working>
+## What's Not working
 * Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Use any hibernate app in macos) Any one is welcomed to fix this issue, contact me.
 * Hdmi slot.
 
@@ -126,6 +126,28 @@ Restart your laptop and go to bios and reboot from usb.
 - 6. Boot to the usb.and install.Enjoy!!!!
 Disclaimer - I am not Responsible for any cause of damage for your device.
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
+<hr>
+
+# Post Install
+Once you have verifed that your machine boots properly without any issues as described in the "What Works section", proceed to do the following
+
+### 1. Enable Verbose mode (the black screen with logs on boot up)A real hackintosh Users uses this.
+In Config.plist, navigate to NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> boot-args and give a single space and add the `-v` argument
+
+### 2. Disable ShowPicker
+In the Config.plist, You can disable the boot picker screen so that you boot straight to th Apple logo by setting under `Misc` -> `Boot` -> `ShowPicker` False (NO)
+Note: you can still see the boot picker with ShowPicker set to no/false by spamming Esc before the apple logo is displayed during boot.
+
+ ### 3. Boot faster
+You can Disable IntelBluetoothFirmware.kext & IntelBluetoothInjector.kext to be able to Boot faster those kexts in config.plist for BigSur.
+For Monterey, Disable IntelBluetoothFirmware.kext & Bluetool fixup.kext to be able to Boot faster those kexts in config.plist
+This is not done by default to bluetooth working.
+***For those on macOS Monterey do not enable IntelBluetoothInjector kext because the system will not boot***
+  
+### 6. Add Device Properties for Serial number, MLB, ROM, Sytem-UUID and optionally SystemProductName.
+Use `MacBookAir9,1` SMBios. Recommended : opencore configurator, Go to the  `PlatformInfo >SMBios`Tick the "Add to the section to config file" in `SMBIOS` and `DATAHUB -GENERIC- PLATFORMNVRAM` and continue your Adding your SMBIOS.
+Follow this [Opencore guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) to set up serial number and the accompanying info to get iServices.
+
                                                                        
 Thanks to the OpenCore Team, SAITEJA for testing, also me ofcourse.
 
