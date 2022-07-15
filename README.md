@@ -149,6 +149,6 @@ This is not done by default to bluetooth working.
 Use `MacBookAir9,1` SMBios. Recommended : opencore configurator, Go to the  `PlatformInfo >SMBios`Tick the "Add to the section to config file" in `SMBIOS` and `DATAHUB -GENERIC- PLATFORMNVRAM` and continue your Adding your SMBIOS.
 Follow this [Opencore guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) to set up serial number and the accompanying info to get iServices.
 
-                                                                       
+ Inform me, If there is any spelling mistake in the Installtion or any where...                                                                      
 Thanks to the OpenCore Team, SAITEJA for testing, also me ofcourse.
 
