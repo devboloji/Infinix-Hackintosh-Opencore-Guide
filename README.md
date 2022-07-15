@@ -6,7 +6,7 @@ These are the builts from me.  You might get the future updates for this machine
 
  **I will try my best to keep the repo updated with the latest kexts and OpenCore version**
  -**For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality**
-Report me If you find the bugs or any issues. And don't ask for ETA.
+Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Time of Time).
 - **With every EFI update you retrieve from here please remember to go through the post install guide**
 
 ![img](https://img.shields.io/badge/Release%20Update-July-red) ![img](https://img.shields.io/badge/macOS%20Support-Monterey--11.6.7-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.2-red)
@@ -70,70 +70,58 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 ### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
 
 # INSTALLATION
-## macOS Bigsur Online Installer with Windows:
+## macOS Bigsur Online Installer with Windows And Mac Users:
 **This is a simple and quick summary of the online install USB creation**
 
-Windows Guide:(Works for Macos users also)
-
+Online Windows and macOS Guide:
+- **`For Windows users`**
 1. Download [rufus](https://rufus.ie/en/)
 2. Select the desired flash drive or Sdcard you would like to put the installer on under the device option
 3. Select `non-bootable` as the boot selection (REQUIRED)
-4. Select `FAT-32` or `Large FAT-32` as the partition scheme
+4. Select `FAT-32` or `Large FAT-32` as the partition scheme and hit start.
 - **`For mac users`**
 1. Launch Disk Utility
 2. `Select View` > `Show all devices` at the top left
 3. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`
-and change `guid patition table`-> `Master Boot Record Partiton`.
-5. Open up the usb partition in file explorer and delete the files created by rufus
-6. Create a folder on that partiton named `com.apple.recovery.boot`
-7. Install Python from Microsoft store or Download manually for MAC and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path)
-8. Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases)
-9. Select the "macrecovery" folder in the "opencorepkg" folder at `/Utilities/macrecovery/`
-10. Click on home > copy path at the top of file explorer
-11. Fire up command prompt or Terminal and type `cd` and hit spacebar and paste the path of the macrecovery folder.
-12. Run the command For BigSur: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
+4.change `guid patition table`-> `Master Boot Record Partiton` and hit start.
+
+5. If in windows,Open up the usb partition in file explorer and delete the files created by rufus.
+6. Then ........
+7. Create a folder in USB or pendrive or flash drive named `com.apple.recovery.boot`.
+8. Now, Install Python from Microsoft store or Download manually for MAC and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path for windows users.)
+9. Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases)
+10. Select the "macrecovery" folder in the "opencorepkg" folder at `/Utilities/macrecovery/`
+11. Click on home > copy path at the top of file explorer
+12. Fire up command prompt or Terminal and type `cd` and hit spacebar and paste the path of the macrecovery folder.
+13. Run the command For BigSur: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
 - Run the command For Monterey: `macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download`
-13. This will put some files in the macrecovery folder but we only need "BaseSystem.dmg" and "BaseSystem.chunklist" (takes approx. 600mb to 800mb internet)for Downloading the Macos installer.
-14. Paste both of those files in the `com.apple.recovery.boot` folder in your flash drive partiton or sdcard or pendrive.
-15. Download the latest EFI created [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
-16. Copy the folder named `EFI` and paste it in your USB partiton, beside the `com.apple.recovery.boot`
+14. This will put some files in the macrecovery folder but we only need "BaseSystem.dmg" and "BaseSystem.chunklist" (takes approx. 600mb to 800mb internet)for Downloading the Macos installer.
+15. Paste both of those files in the `com.apple.recovery.boot` folder in your flash drive partiton or sdcard or pendrive.
+16. Download the latest EFI created [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
+17. Copy the folder named `EFI` and paste it in your USB partiton, beside the `com.apple.recovery.boot`
 
 `Note: Make sure to apply the correct bios settings before continuing (provided above)`
 
-17. Restart your laptop and hit `F12`
-18. Select your flash drive as temporary boot option
+17. Restart your laptop and hit `Delete`button continuously until you go to bios settings.
+18. Select your flash drive as temporary boot option in boot menu.
 19. Now in the OpenCore menu select the name of your USB partiton
 Great! Now install and set up macOS Big Sur as usual(This process will be required 14gb internet to download full Macos bigsur). When you are done be sure to read my post install guide.
 
-
-# macOS Guide:
-                                                                       
-- 1.Launch Disk Utility
-- 2.Select View > Show all devices at the top left
-- 3.Select your flash drive and format it as MS-DOS (FAT) Use any formatter to format.
- Note: Must format to MBR even you have UEFI System.
-- 4. Open up your usb partiton and create a folder named com.apple.recovery.boot
-- 5.Download and extract the OpenCore Package
-- 6.Select the macrecovery folder in the opencorepkg folder at /Utilities/macrecovery/
-- 7.Right click and click "New terminal at folder"
-- 8.Run the command:
- python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download
-- download in the terminal window
-- 9.This will put some files in the macrecovery folder but we only need BaseSystem.dmg and BaseSystem.chunklist
-- 10.Paste both of those files in the com.apple.recovery.boot folder in your flash drive partiton
-- 11.Download the latest EFI created [here](https://github.com/devboloji/Infinix_INBook_X1_XL11_i3-Hackintosh-Guide-Opencore/releases)
-- 12.Copy the EFI folder and paste it in your USB partiton
-Note: Make sure to apply the correct bios settings before continuing (provided above)
-
-Restart your laptop and go to bios and reboot from usb.
-
- # macOS BigSur Offline Installer from mac
-- 1.Search and Download Olarila BigSur .raw from [Here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/)
+ # MacOS BigSur Offline Installer from Windows and macOS:
+ ### If you don't put the efi after making olarila .raw img, The system will take only 4 to 7mb until insallation. and You can put the efi after booting to the macOS using openocore configurator.
+ 
+- 1.Search and Download Olarila BigSur or Monterey .raw from [Here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/)the latest version of bigsur is 11.6.7 and for Monterey is 12.3.1
 - 2.Download etcher from [here](https://www.balena.io/etcher/)
 - 3.Make Usb bootable (Flash the Sdcard) using Etcher and olarila bigsur.
-- 4.mount the efi of Sdcard or bootable drive.
-- 5.and paste the Efi to USB. Efi [here](https://github.com/devboloji/Infinix_INBook_X1_XL11_i3-Hackintosh-Guide-Opencore/releases)
+- 4.mount the efi of Sdcard or bootable drive.You can watch about mounting the efi in windows[Youtube](https://www.youtube.com/watch?v=-XwKjS6hbwQ) just watch how to select the olarila image from the website and mounting the efi 
+- For mac users use Opencore Configurator.app official [here](https://mackie100projects.altervista.org/download-opencore-configurator/)
+- Delete the default EFI folder which is in bootable usb
+- 5.and paste the Efi to USB. Download Efi [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore)
 
+- Restart your laptop and hit `Delete`button continuously until you go to bios settings.
+- Select your flash drive as temporary boot option in boot menu.
+- Now in the OpenCore menu select the name of your USB partiton
+ - install.Enjoy!!!!
 Restart your laptop and go to bios and reboot from usb.
 - 6. Boot to the usb.and install.Enjoy!!!!
 Disclaimer - I am not Responsible for any cause of damage for your device.
