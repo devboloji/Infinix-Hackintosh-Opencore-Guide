@@ -8,6 +8,7 @@ These are the builts from me.  You might get the future updates for this machine
  -**For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality**
 Report me If you find the bugs or any issues. And don't ask for ETA.
 - **With every EFI update you retrieve from here please remember to go through the post install guide**
+
 ![img](https://img.shields.io/badge/Release%20Update-July-red) ![img](https://img.shields.io/badge/macOS%20Support-Monterey--11.6.7-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.2-red)
 
 # Introduction
@@ -23,24 +24,22 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 # What's Working.>>
 - Wifi
-- Bluetooth (also bluetooth file transfer works)
+- Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
 - App Store (see post install guide for more info)
 - Onboard audio
 - USB 2.0 / USB 3.0
-- USB 2.0 / USB 3.0
-- headphones
+- Wired headphones
 - Trackpad
-- brightness keys(it's used as printscr and beside key for) increase and decrease brightness.
-- Input and Output
+- brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
+- OnBoard Audio Input and Output
 - Wake / Shutdown
-- Short sleep (.If you make sleep for long hours, The laptop shutdowns and to boot up, to bootup your device you need to plug in the charge like macbook. But you can make sleep to for 1 to 3 hours(but you will lose 2 to 3 percentage for every hour when  you put your device into sleep.) 
+- Short sleep (.If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 2 to 3 percentage for every hour when  you put your device into sleep.) 
 This is due to continuous fan spinning when sleep. Anyone is welcomed to fix these issues. First contact me to do that
 - Everything (Much More).
 
 ## <What's Not working>
-* iMessages, Facetime.
 * Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Use any hibernate app in macos) Any one is welcomed to fix this issue, contact me.
-* This Update is for BigSur 11.6.7, and not for Monterey or More.
+* Hdmi slot.
 
 # Bios
 - Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS
