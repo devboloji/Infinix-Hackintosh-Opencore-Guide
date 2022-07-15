@@ -1,3 +1,6 @@
+[Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
+## [Monterey & BigSur Efi.... here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
+
 
 # Infinix-Hackintosh-Guide-Opencore
 This repo contains the installation guide and EFI files required to get a perfectly functional and Big Sur and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim. Everything is stable and functional as described in the Readme.
