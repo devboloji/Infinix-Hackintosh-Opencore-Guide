@@ -1,5 +1,4 @@
 [Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
-## [Monterey & BigSur Efi.... here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
 
 
 # Infinix-Hackintosh-Guide-Opencore
