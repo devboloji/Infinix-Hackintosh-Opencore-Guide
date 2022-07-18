@@ -27,6 +27,7 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 # What's Working.
 - Wifi
+- Working Imessages and Facetime for these my [postinstall](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install)
 - Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
 - App Store (see post install guide for more info)
 - Onboard audio
@@ -155,6 +156,9 @@ Goto Bios Settings -> `Chipset Section -> System Agent (SA) Configuration -> Gra
 
 Set` DVMT Total Gfx Memory` setting to `Max`
 Set `DVMT PPre-Allocated` Setting to `160M` or to `max`
+### 6.Fix Imessage and Facetime.
+If you are new to the apple account or if you are using apple account for the first time in hackintosh, You need to use the apple account for one month and use icloud. Even though, the imessages or factime don't work..
+The thing is "Use it" for a month or more and automatically after some days, Magically facetime and imessages workss...Tada...
 
  Inform me, If there is any spelling mistake in the Installtion or any where...                                                                      
 Thanks to the OpenCore Team, SAITEJA for testing, also me ofcourse.
