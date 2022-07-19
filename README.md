@@ -10,7 +10,11 @@
  - **For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality**
 Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Time of Time).
 - **With every EFI update you retrieve from here please remember to go through the post install guide**
-- Disclaimer - I am not Responsible for any cause of damage for your device.
+ 
+|                          Disclaimer                           |
+|---------------------------------------------------------------|
+|- I am not Responsible for any cause of damage for your device.|     
+
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
 ![img](https://img.shields.io/badge/Release%20Update-July-red) ![img](https://img.shields.io/badge/macOS%20Support-Monterey--11.6.7-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.2-red)
@@ -29,16 +33,16 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 # What's Working.
 - Wifi
-- Working Imessages and Facetime for these my [post install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) which is below the installation .
+- Working Imessages and Facetime. For these, read my [post install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) which is below the installation .
 - Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
-- App Store (see post install guide for more info)
+- App Store
 - Onboard audio(input/output)
 - USB 2.0 / USB 3.0
 - Wired headphones
-- You will get upto 3 1/2 hours to 4 hours battery backup for streaming 1080p-youtube  and for coding without any pause.You may get more than me.
+- You will get upto 3 1/2 hours to 4 hours battery backup for streaming 1080p-youtube and for coding without any pause.You may get more than me.
 - Trackpad 
 - brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
-- OnBoard Audio Input and Output
+- OnBoard Audio(Input/ Output)
 - Wake / Shutdown
 - Short sleep. (If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 2 to 3 percentage for every hour when  you put your device into sleep.) 
 This is due to continuous fan spinning when sleep. Anyone is welcomed to fix these issues. First contact me to do that
@@ -97,29 +101,29 @@ Online Windows and macOS Guide:
 5.hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
 
 6. Then ........
-8. Now, Install Python from Microsoft store or Download manually for MAC and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path for windows users.)
-9. Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases) (Release version is fine).
-10.Select the "macrecovery" folder in the "opencorepkg" folder at `/Utilities/macrecovery/`
-11.Copy the path of the "macrecovery" folder in file manager or finder.
-12.Fire up command prompt or Terminal and type `cd` and hit spacebar and paste the path of the macrecovery folder.
-13.For BigSur -Run the command: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
+7. Now, Install Python from Microsoft store or Download manually for MAC and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path for windows users.)
+8. Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases) (Release version is fine).
+9.Select the "macrecovery" folder in the "opencorepkg" folder at `/Utilities/macrecovery/`
+10.Copy the path of the "macrecovery" folder in file manager or finder.
+11.Fire up command prompt or Terminal and type `cd` and hit spacebar and paste the path of the macrecovery folder.
+12.For BigSur -Run the command: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
 - For Monterey -Run the command: `macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download`
-14. This will download some files in the macrecovery folder but we only need "BaseSystem.dmg" and "BaseSystem.chunklist" (takes approx. 600mb to 800mb internet)for Downloading the Macos installer.
-15.Create a folder in USB or pendrive or flash drive named `com.apple.recovery.boot`.
-16. Paste both of those files in the `com.apple.recovery.boot` folder in your flash drive partiton or sdcard or pendrive.
-17. Download the latest EFI created [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
-18. Copy the folder named `EFI` and paste it in your USB partiton.
+13. This will download some files in the macrecovery folder but we only need "BaseSystem.dmg" and "BaseSystem.chunklist" (takes approx. 600mb to 800mb internet)for Downloading the Macos installer.
+14.Create a folder in USB or pendrive or flash drive named `com.apple.recovery.boot`.
+15. Paste both of those files in the `com.apple.recovery.boot` folder in your flash drive partiton or sdcard or pendrive.
+16. Download the latest EFI created [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
+17. Copy the folder named `EFI` and paste it in your USB partiton.
 #### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
 #### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
 
 `Note: Make sure to apply the correct bios settings before continuing (provided above)`
 
-17. Restart your laptop and hit `Delete`button continuously until you go to bios settings.
-18. Select your flash drive as temporary boot option in boot menu.
-19. Now in the OpenCore menu select the name of your USB partiton.
-20. Great! Now install and set up macOS Big Sur as usual(This process will be required 14gb internet to download full Macos bigsur).
-21. the system reboots for once or twice so, when rebooting choose the usb everytime until you see your Macos Partition name in boot menu.
-22. After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
+18. Restart your laptop and hit `Delete`button continuously until you go to bios settings.
+19. Select your flash drive as temporary boot option in boot menu.
+20. Now in the OpenCore menu select the name of your USB partiton.
+21. Great! Now install and set up macOS Big Sur as usual(This process will be required 14gb internet to download full Macos bigsur).
+22. the system reboots for once or twice so, when rebooting choose the usb everytime until you see your Macos Partition name in boot menu.
+23. After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 
 # MacOS BigSur Offline Installer from Windows and macOS:
  
@@ -134,16 +138,18 @@ Online Windows and macOS Guide:
 #### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
 #### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
 
-- Restart your laptop and hit `Delete`button continuously until you go to bios settings.
-- Select your sd card or flash drive as temporary boot option in boot menu.
-- Now in the OpenCore menu select the name of your USB partiton
- - install.Enjoy!!!!
- -  After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
+- 6.Restart your laptop and hit `Delete`button continuously until you go to bios settings.
+- 7.Select your sd card or flash drive as temporary boot option in boot menu.
+- 8.Now in the OpenCore menu select the name of your USB partiton
+- install.Enjoy!!!!
+-  9.After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 
 <hr>
 
 # Post Install
 Once you have verifed that your machine boots properly without any issues as described in the "What Works section", proceed to do the following
+### 0. Boot os without usb or any drive
+After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 
 ### 1. Enable Verbose mode (the black screen with logs on boot up)A real hackintosh Users uses this.
 In Config.plist, navigate to NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> boot-args and give a single space and add the `-v` argument
@@ -166,6 +172,7 @@ Goto Bios Settings -> `Chipset Section -> System Agent (SA) Configuration -> Gra
 
 Set` DVMT Total Gfx Memory` setting to `Max`
 Set `DVMT PPre-Allocated` Setting to `160M` or to `max`
+
 ### 6.Fix Imessage and Facetime.
 If you are new to the apple account or if you are using apple account for the first time in hackintosh, You need to use the apple account for one month and use icloud. Even though, the imessages or factime don't work..
 The thing is "Use it" for a month or more and automatically after some days, Magically facetime and imessages workss...Tada...
