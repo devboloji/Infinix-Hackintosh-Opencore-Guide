@@ -30,7 +30,7 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 - Working Imessages and Facetime for these my [post install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) which is below the installation .
 - Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
 - App Store (see post install guide for more info)
-- Onboard audio
+- Onboard audio(input/output)
 - USB 2.0 / USB 3.0
 - Wired headphones
 - You will get upto 3 1/2 hours to 4 hours battery backup for streaming 1080p-youtube  and for coding without any pause.You may get more than me.
@@ -74,8 +74,6 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - Every setting is not Available so check your self
 - Intel Virtualization Technology.
 
-### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
-### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
 <hr>
 # INSTALLATION
 ## macOS Bigsur Online Installer with Windows And Mac Users:
@@ -89,25 +87,27 @@ Online Windows and macOS Guide:
 4. Select `FAT-32` or `Large FAT-32` as the partition scheme. Hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
 5. If in windows,Open up the usb partition in file explorer and delete all the files created by rufus manually.
 - **`For mac users`**
-1. Launch Disk Utility
+1. Launch `Disk Utility`
 2. `Select View` > `Show all devices` at the top left
 3. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`
 4.change `guid patition table`-> `Master Boot Record Partiton`.
 5.hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
 
 6. Then ........
-7. Create a folder in USB or pendrive or flash drive named `com.apple.recovery.boot`.
 8. Now, Install Python from Microsoft store or Download manually for MAC and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path for windows users.)
-9. Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases)
-10. Select the "macrecovery" folder in the "opencorepkg" folder at `/Utilities/macrecovery/`
-11. Click on home > copy path at the top of file explorer
-12. Fire up command prompt or Terminal and type `cd` and hit spacebar and paste the path of the macrecovery folder.
-13. Run the command For BigSur: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
-- Run the command For Monterey: `macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download`
-14. This will put some files in the macrecovery folder but we only need "BaseSystem.dmg" and "BaseSystem.chunklist" (takes approx. 600mb to 800mb internet)for Downloading the Macos installer.
-15. Paste both of those files in the `com.apple.recovery.boot` folder in your flash drive partiton or sdcard or pendrive.
-16. Download the latest EFI created [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
-17. Copy the folder named `EFI` and paste it in your USB partiton, beside the `com.apple.recovery.boot`
+9. Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases) (Release version is fine).
+10.Select the "macrecovery" folder in the "opencorepkg" folder at `/Utilities/macrecovery/`
+11.Copy the path of the "macrecovery" folder in file manager or finder.
+12.Fire up command prompt or Terminal and type `cd` and hit spacebar and paste the path of the macrecovery folder.
+13.For BigSur -Run the command: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
+- For Monterey -Run the command: `macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download`
+14. This will download some files in the macrecovery folder but we only need "BaseSystem.dmg" and "BaseSystem.chunklist" (takes approx. 600mb to 800mb internet)for Downloading the Macos installer.
+15.Create a folder in USB or pendrive or flash drive named `com.apple.recovery.boot`.
+16. Paste both of those files in the `com.apple.recovery.boot` folder in your flash drive partiton or sdcard or pendrive.
+17. Download the latest EFI created [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
+18. Copy the folder named `EFI` and paste it in your USB partiton.
+#### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
+#### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
 
 `Note: Make sure to apply the correct bios settings before continuing (provided above)`
 
@@ -117,7 +117,6 @@ Online Windows and macOS Guide:
 Great! Now install and set up macOS Big Sur as usual(This process will be required 14gb internet to download full Macos bigsur). When you are done be sure to read my post install guide.
 
  # MacOS BigSur Offline Installer from Windows and macOS:
- ### If you don't put the efi after making olarila .raw img, The system will take only 4 to 7mb until insallation. and You can put the efi after booting to the macOS using openocore configurator.
  
 - 1.Search and Download Olarila BigSur or Monterey .raw from [Here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/)the latest version of bigsur is 11.6.7 and for Monterey is 12.3.1
 - 2.Download etcher from [here](https://www.balena.io/etcher/)
@@ -128,11 +127,13 @@ Great! Now install and set up macOS Big Sur as usual(This process will be requir
 - 5.and paste the Efi to USB. Download Efi [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore)
 
 - Restart your laptop and hit `Delete`button continuously until you go to bios settings.
-- Select your flash drive as temporary boot option in boot menu.
+- Select your sd card or flash drive as temporary boot option in boot menu.
 - Now in the OpenCore menu select the name of your USB partiton
  - install.Enjoy!!!!
-Restart your laptop and go to bios and reboot from usb.
-- 6. Boot to the usb.and install.Enjoy!!!!
+
+#### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
+#### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
+
 Disclaimer - I am not Responsible for any cause of damage for your device.
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 <hr>
