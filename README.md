@@ -23,9 +23,9 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 - `Tested CPUs`: **i3-1005G1**(not tested in i5/i7, If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev))
 - `Integrated Graphics`: **G1/G4 graphics**
 - `Sound Card`: **ALC269 (use alcid=26)**
-- `Wireless Cards Tested`: **Intel® Wi-Fi 6E AX210.**
+- `Wireless Cards Tested`: **Intel® AX210.**
+- `Trackpad`: **Voodoo2IC** synaptic
 <hr>
-
 
 # What's Working.
 - Wifi
@@ -77,6 +77,7 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - Intel Virtualization Technology.
 
 <hr>
+
 # INSTALLATION
 ## macOS Bigsur Online Installer with Windows And Mac Users:
 **This is a simple and quick summary of the online install USB creation**
@@ -139,8 +140,6 @@ Online Windows and macOS Guide:
  - install.Enjoy!!!!
  -  After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 
-Disclaimer - I am not Responsible for any cause of damage for your device.
-- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 <hr>
 
 # Post Install
@@ -162,7 +161,7 @@ This is not done by default to bluetooth working.
 ### 4. Add Device Properties for Serial number, MLB, ROM, Sytem-UUID and optionally SystemProductName.
 Use `MacBookAir9,1` SMBios. Recommended : opencore configurator, Go to the  `PlatformInfo >SMBios`Tick the "Add to the section to config file" in `SMBIOS` and `DATAHUB -GENERIC- PLATFORMNVRAM` and continue your Adding your SMBIOS.
 Follow this [Opencore guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) to set up serial number and the accompanying info to get iServices.
-### 5.To fix cursor glitch
+### 5.To fix cursor glitch (ignore,if you are done, before installing)
 Goto Bios Settings -> `Chipset Section -> System Agent (SA) Configuration -> Graphics Configuration`
 
 Set` DVMT Total Gfx Memory` setting to `Max`
@@ -170,6 +169,9 @@ Set `DVMT PPre-Allocated` Setting to `160M` or to `max`
 ### 6.Fix Imessage and Facetime.
 If you are new to the apple account or if you are using apple account for the first time in hackintosh, You need to use the apple account for one month and use icloud. Even though, the imessages or factime don't work..
 The thing is "Use it" for a month or more and automatically after some days, Magically facetime and imessages workss...Tada...
+
+Disclaimer - I am not Responsible for any cause of damage for your device.
+- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
  Inform me, If there is any spelling mistake in the Installtion or any where...                                                                      
 Thanks to the OpenCore Team, SAITEJA for testing, also me ofcourse.
