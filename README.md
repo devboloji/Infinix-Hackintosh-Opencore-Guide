@@ -1,13 +1,13 @@
 [Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
 
 
-# Infinix-Hackintosh-Guide-Opencore
-This repo contains the installation guide and EFI files required to get a perfectly functional and Big Sur and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim. Everything is stable and functional as described in the Readme.
+# Infinix-Hackintosh-Guide-Opencore.
+- This repo contains the installation guide and EFI files required to get a perfectly functional and Big Sur and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim. Everything is stable and functional as described in the Readme.
 <hr>
-These are the builts from me.  You might get the future updates for this machine.
+- These are the builts from me.  You might get the future updates for this machine.
 
- **I will try my best to keep the repo updated with the latest kexts and OpenCore version**
- -**For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality**
+ **I will try my best to keep the repo updated with the latest kexts and OpenCore version.**
+ - **For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality**
 Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Time of Time).
 - **With every EFI update you retrieve from here please remember to go through the post install guide**
 
