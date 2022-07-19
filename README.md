@@ -57,11 +57,13 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS
 - ## Disable:
 - Fast Boot
+- disable wake on wlan and bluetooth (which causes sleep issues)
+- Disable windows bit-lock encryption (ignore, if you don't lock it)
 - Secure Boot
 - Serial/COM Port
 - Parallel Port(if you have)
 - VT-d (can be enabled if you set DisableIoMapper to YES)
-- CSM(you may not have in i3)
+- CSM
 - Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
 - Intel Platform Trust (if you don't see in bios, leave it)
 - CFG Lock (MSR 0xE2 write protection)(This must be off, if you can't find the option then enable AppleXcpmCfgLock under Kernel -> Quirks. Your hack will not boot with CFG-Lock enabled)
