@@ -85,15 +85,16 @@ Online Windows and macOS Guide:
 - **`For Windows users`**
 1. Download [rufus](https://rufus.ie/en/)
 2. Select the desired flash drive or Sdcard you would like to put the installer on under the device option
-3. Select `non-bootable` as the boot selection (REQUIRED)
-4. Select `FAT-32` or `Large FAT-32` as the partition scheme and hit start.
+3. Open rufus and Select `non-bootable` as the `boot selection` (REQUIRED)
+4. Select `FAT-32` or `Large FAT-32` as the partition scheme. Hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
+5. If in windows,Open up the usb partition in file explorer and delete all the files created by rufus manually.
 - **`For mac users`**
 1. Launch Disk Utility
 2. `Select View` > `Show all devices` at the top left
 3. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`
-4.change `guid patition table`-> `Master Boot Record Partiton` and hit start.
+4.change `guid patition table`-> `Master Boot Record Partiton`.
+5.hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
 
-5. If in windows,Open up the usb partition in file explorer and delete the files created by rufus.
 6. Then ........
 7. Create a folder in USB or pendrive or flash drive named `com.apple.recovery.boot`.
 8. Now, Install Python from Microsoft store or Download manually for MAC and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path for windows users.)
