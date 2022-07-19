@@ -10,6 +10,8 @@
  - **For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality**
 Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Time of Time).
 - **With every EFI update you retrieve from here please remember to go through the post install guide**
+- Disclaimer - I am not Responsible for any cause of damage for your device.
+- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
 ![img](https://img.shields.io/badge/Release%20Update-July-red) ![img](https://img.shields.io/badge/macOS%20Support-Monterey--11.6.7-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.2-red)
 
@@ -113,10 +115,12 @@ Online Windows and macOS Guide:
 
 17. Restart your laptop and hit `Delete`button continuously until you go to bios settings.
 18. Select your flash drive as temporary boot option in boot menu.
-19. Now in the OpenCore menu select the name of your USB partiton
-Great! Now install and set up macOS Big Sur as usual(This process will be required 14gb internet to download full Macos bigsur). When you are done be sure to read my post install guide.
+19. Now in the OpenCore menu select the name of your USB partiton.
+20. Great! Now install and set up macOS Big Sur as usual(This process will be required 14gb internet to download full Macos bigsur).
+21. the system reboots for once or twice so, when rebooting choose the usb everytime until you see your Macos Partition name in boot menu.
+22. After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 
- # MacOS BigSur Offline Installer from Windows and macOS:
+# MacOS BigSur Offline Installer from Windows and macOS:
  
 - 1.Search and Download Olarila BigSur or Monterey .raw from [Here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/)the latest version of bigsur is 11.6.7 and for Monterey is 12.3.1
 - 2.Download etcher from [here](https://www.balena.io/etcher/)
@@ -126,13 +130,14 @@ Great! Now install and set up macOS Big Sur as usual(This process will be requir
 - Delete the default EFI folder which is in bootable usb
 - 5.and paste the Efi to USB. Download Efi [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore)
 
+#### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
+#### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
+
 - Restart your laptop and hit `Delete`button continuously until you go to bios settings.
 - Select your sd card or flash drive as temporary boot option in boot menu.
 - Now in the OpenCore menu select the name of your USB partiton
  - install.Enjoy!!!!
-
-#### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
-#### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
+ -  After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 
 Disclaimer - I am not Responsible for any cause of damage for your device.
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
