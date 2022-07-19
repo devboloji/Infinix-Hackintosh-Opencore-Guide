@@ -44,7 +44,7 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 ## What's Not working
 * Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Use any hibernate app in macos) Any one is welcomed to fix this issue, contact me.
 * Hdmi slot.
-
+* Don't expect too much battery in this Hackintosh like windows.But you definately get more performance sure than windows without plugin the charge in this MacOS..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has realtime sky Nishita with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL".  in windows , And we don't need openCL in macos according to me..
 # Bios
 - Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS
 - ## Disable:
