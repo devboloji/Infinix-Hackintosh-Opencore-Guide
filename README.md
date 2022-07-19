@@ -27,7 +27,7 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 # What's Working.
 - Wifi
-- Working Imessages and Facetime for these my [postinstall](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install)
+- Working Imessages and Facetime for these my [post install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) which is below the installation .
 - Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
 - App Store (see post install guide for more info)
 - Onboard audio
