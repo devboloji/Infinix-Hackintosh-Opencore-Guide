@@ -33,18 +33,20 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 - Onboard audio
 - USB 2.0 / USB 3.0
 - Wired headphones
-- Trackpad
+- You will get upto 3 1/2 hours to 4 hours battery backup for streaming 1080p-youtube  and for coding without any pause.You may get more than me.
+- Trackpad 
 - brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
 - OnBoard Audio Input and Output
 - Wake / Shutdown
-- Short sleep (.If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 2 to 3 percentage for every hour when  you put your device into sleep.) 
+- Short sleep. (If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 2 to 3 percentage for every hour when  you put your device into sleep.) 
 This is due to continuous fan spinning when sleep. Anyone is welcomed to fix these issues. First contact me to do that
 - Everything (Much More).
+- #### Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested before, You can also test it.
 
 ## What's Not working
 * Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Use any hibernate app in macos) Any one is welcomed to fix this issue, contact me.
 * Hdmi slot.
-* Don't expect too much battery in this Hackintosh like windows.But you definately get more performance sure than windows without plugin the charge in this MacOS..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has realtime sky Nishita with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL".  in windows , And we don't need openCL in macos according to me..
+* Don't expect too much battery in this Hackintosh like windows.But you definitely get more performance sure than windows without plugin the charge in this MacOS..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has realtime sky Nishita with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL".  in windows , And we don't need openCL in macos according to me..
 # Bios
 - Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS
 - ## Disable:
@@ -55,24 +57,25 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - VT-d (can be enabled if you set DisableIoMapper to YES)
 - CSM(you may not have in i3)
 - Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
-- Intel SGX
-- Intel Platform Trust
+- Intel Platform Trust (if you don't see in bios, leave it)
 - CFG Lock (MSR 0xE2 write protection)(This must be off, if you can't find the option then enable AppleXcpmCfgLock under Kernel -> Quirks. Your hack will not boot with CFG-Lock enabled)
 
 - ## Enable:
 - VT-x
-- Above 4G decoding
+- Above 4G decoding(if you don't see in bios, leave it)
 - Hyper-Threading
 - Execute Disable Bit
 - EHCI/XHCI Hand-off
 - OS type: Windows 8.1/10 UEFI Mode
-- DVMT Pre-Allocated(iGPU Memory): 256MB
+- DVMT Pre-Allocated(iGPU Memory): 256MB or MAX
+- Set` DVMT Total Gfx Memory` setting to `Max`
+- Set `DVMT PPre-Allocated` Setting to `160M` or to `max`
 - SATA Mode: AHCI
 - Every setting is not Available so check your self
-- Intel Virtualization Technology
+- Intel Virtualization Technology.
 
 ### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
-### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installation of macos or using the MacOS as a daily driver.
+### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
 <hr>
 # INSTALLATION
 ## macOS Bigsur Online Installer with Windows And Mac Users:
