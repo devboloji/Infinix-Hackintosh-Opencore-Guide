@@ -72,7 +72,8 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - Intel Virtualization Technology
 
 ### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
-
+### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installation of macos or using the MacOS as a daily driver.
+<hr>
 # INSTALLATION
 ## macOS Bigsur Online Installer with Windows And Mac Users:
 **This is a simple and quick summary of the online install USB creation**
