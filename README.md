@@ -101,13 +101,14 @@ Online Windows and macOS Guide:
 5.hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
 
 6. Then ........
-7. Now, Install Python from Microsoft store or Download manually for MAC and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path for windows users.)
+7. Now, Install Python from Microsoft store or Download manually for MAC and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path to environmet variables for windows users.)
 8. Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases) (Release version is fine).
 9.Select the "macrecovery" folder in the "opencorepkg" folder at `/Utilities/macrecovery/`
 10.Copy the path of the "macrecovery" folder in file manager or finder.
 11.Fire up command prompt or Terminal and type `cd` and hit spacebar and paste the path of the macrecovery folder.
-12.For BigSur -Run the command: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
+12.For BigSur  -Run the command: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
 - For Monterey -Run the command: `macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download`
+
 13. This will download some files in the macrecovery folder but we only need "BaseSystem.dmg" and "BaseSystem.chunklist" (takes approx. 600mb to 800mb internet)for Downloading the Macos installer.
 14.Create a folder in USB or pendrive or flash drive named `com.apple.recovery.boot`.
 15. Paste both of those files in the `com.apple.recovery.boot` folder in your flash drive partiton or sdcard or pendrive.
@@ -132,17 +133,17 @@ Online Windows and macOS Guide:
 - 3.Make Usb bootable (Flash the Sdcard) using Etcher and olarila bigsur.
 - 4.mount the efi of Sdcard or bootable drive.You can watch about mounting the efi in windows[Youtube](https://www.youtube.com/watch?v=-XwKjS6hbwQ) just watch how to select the olarila image from the website and mounting the efi 
 - For mac users use Opencore Configurator.app official [here](https://mackie100projects.altervista.org/download-opencore-configurator/)
-- Delete the default EFI folder which is in bootable usb
-- 5.and paste the Efi to USB. Download Efi [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore)
+- 5.Delete the default EFI folder which is in bootable usb
+- 6.and paste the Efi to USB. Download Efi [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore)
 
 #### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
 #### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
 
-- 6.Restart your laptop and hit `Delete`button continuously until you go to bios settings.
-- 7.Select your sd card or flash drive as temporary boot option in boot menu.
-- 8.Now in the OpenCore menu select the name of your USB partiton
+- 7.Restart your laptop and hit `Delete`button continuously until you go to bios settings.
+- 8.Select your sd card or flash drive as temporary boot option in boot menu.
+- 9.Now in the OpenCore menu select the name of your USB partiton
 - install.Enjoy!!!!
--  9.After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
+- 10.After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 
 <hr>
 
