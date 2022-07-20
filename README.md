@@ -18,6 +18,10 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
+# Any one can donate me or buy me a coffee :
+# via paytm here :
+# via phonepe : 
+
 ![img](https://img.shields.io/badge/Release%20Update-July-red) ![img](https://img.shields.io/badge/macOS%20Support-Monterey--11.6.7-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.2-red)
 
 # Introduction
@@ -181,7 +185,12 @@ Set `DVMT PPre-Allocated` Setting to `160M` or to `max`
 If you are new to the apple account or if you are using apple account for the first time in hackintosh, You need to use the apple account for one month and use icloud. Even though, the imessages or factime don't work..
 The thing is "Use it" for a month or more and automatically after some days, Magically facetime and imessages workss...Tada...
 
-Disclaimer - I am not Responsible for any cause of damage for your device.
+### 7.Fix "interface is small" (small text and window issue)
+- To fix, use [one key high dpi](https://github.com/xzhih/one-key-hidpi) here and run `hidpi.command` in the folder and choose `(1) Enable HIDPI` by typing `1` -> Then choose `Macbook` -> choose  `(2) 1920x1080 Display (use 1424x802, fix underscaled after sleep)` -> Reboot your device 
+-  After rebooting, go to `system Preferences` -> `Display` -> choose `Scaled` and select what you like.
+<hr>
+
+## Disclaimer - I am not Responsible for any cause of damage for your device.
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
  Inform me, If there is any spelling mistake in the Installtion or any where...                                                                      
