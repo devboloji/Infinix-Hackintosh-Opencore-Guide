@@ -19,8 +19,8 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
 # Any one can donate me or buy me a coffee :
-# via paytm here :
-# via phonepe : 
+# via paytm here : working under progress
+# via phonepe : working under progress
 
 ![img](https://img.shields.io/badge/Release%20Update-July-red) ![img](https://img.shields.io/badge/macOS%20Support-Monterey--11.6.7-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.2-red)
 
