@@ -6,6 +6,8 @@
 <hr>
 
 - These are the builts from me.  You might get the future updates for this machine.
+# Any one can donate me or buy me a coffee :
+## via paytm here :`7095160636857@paytm`
 
  **I will try my best to keep the repo updated with the latest kexts and OpenCore version.**
  - **For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality**
@@ -18,8 +20,6 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
-# Any one can donate me or buy me a coffee :
-# via paytm here : 7095160636857@paytm
 
 ![img](https://img.shields.io/badge/Release%20Update-July-red) ![img](https://img.shields.io/badge/macOS%20Support-Monterey--11.6.7-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.2-red)
 
