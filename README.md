@@ -42,13 +42,12 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 - Working Imessages and Facetime. For these, read my [post install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) which is below the installation .
 - Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
 - App Store
-- Onboard audio(input/output)
+- OnBoard Audio(Input/ Output)
 - USB 2.0 / USB 3.0
 - Wired headphones
 - You will get upto 3 1/2 hours to 4 hours battery backup for streaming 1080p-youtube and for coding without any pause.You may get more than me.
 - Trackpad 
 - brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
-- OnBoard Audio(Input/ Output)
 - Wake / Shutdown
 - Short sleep. (If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 2 to 3 percentage for every hour when  you put your device into sleep.) 
 This is due to continuous fan spinning when sleep. Anyone is welcomed to fix these issues. First contact me to do that
