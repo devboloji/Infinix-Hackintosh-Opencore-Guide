@@ -37,6 +37,7 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 
 EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 **Its Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.**
+
 - `Tested CPUs`: **i3-1005G1**(not tested in i5/i7, If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev))
 - `Integrated Graphics`: **G1/G4 graphics**
 - `Sound Card`: **ALC269 (use alcid=26)**
@@ -49,17 +50,18 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 - #### Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested before, You can also test it.
 - #### I have also tested the python benchmark test : Results:  
 
- **In windows**
+ **In windows :**
  
 the script finished compiling on time (on balanced mode)- **4min 36sec.**
 
 the script finished compiling on time (on performance mode)- **4min 26sec.**
 
- **On macOS(hacintosh)**
+ **On macOS(hacintosh) :**
 
 the script finished compiling on time - **4min 16sec.**
 
 - You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows , And we don't need openCL in macos according to me..
+- Note - we need to lose the battery backup for performance. You get 4hr battery for common usage.
 <details>
  <summary><strong> What's working ✅ </strong></summary>
  </br>
@@ -90,7 +92,7 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 
 <details>
  <summary><strong> Setting Up with Bios</strong></summary>
-- Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS
+  Note:Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS
  <details>
 <summary><strong>Disable:</strong></summary>
  
