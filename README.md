@@ -1,4 +1,4 @@
-[Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
+| [Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases) |
 
 
 # Infinix-Hackintosh-Guide-Opencore.
@@ -64,27 +64,42 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 - `Trackpad`: **Voodoo2IC** synaptic
 <hr>
 
-### What's working ✅
-- Wifi
-- Working Imessages and Facetime. For these, read my [post install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) which is below the installation .
-- Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
-- App Store
-- OnBoard Audio(Input/ Output)
-- USB 2.0 / USB 3.0
-- Wired headphones
-- You will get upto 3 1/2 hours to 4 hours battery backup for streaming 1080p-youtube and for coding without any pause.You may get more than me.
-- Trackpad 
-- brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
-- Wake / Shutdown
-- Short sleep. (If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 2 to 3 percentage for every hour when  you put your device into sleep.) 
+### Status
+<details>
+ <summary><strong> What's working ✅ </strong></summary>
+ </br>
+ 
+- [x] Wifi
+- [x] iMessage, FaceTime, App Store, iTunes Store `Please generate your own SMBIOS`read my [post install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) which is below the installation.
+- [x] Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
+- [x] OnBoard Audio(Input/ Output)
+- [x] USB ports
+- [x] Wired headphones
+- [x] You will get upto 3 1/2 hours to 4 hours battery backup for streaming 1080p-youtube and for coding without any pause.You may get more than me.
+- [x] Trackpad 
+- [x] brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
+- [x] Wake / Shutdown
+- [x] Short sleep. (If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 2 to 3 percentage for every hour when  you put your device into sleep.) 
 This is due to continuous fan spinning when sleep. Anyone is welcomed to fix these issues. First contact me to do that
 - Everything (Much More).
 - #### Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested before, You can also test it.
+- I have also tested the python benchmark test : Results:  
+** In windows,**
+the script finished compiling on time (on balanced mode)- **4min 36sec.**
+the script finished compiling on time (on performance mode)- **4min 26sec.**
+- ** On macOS(hacintosh)**
+the script finished compiling on time - 4min 16sec.
 
-### What's not working ⚠️
+</details>
+<details>
+ <summary><strong>What's not working ⚠️</strong></summary>
+ </br>
+ 
 * Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Donot use any hibernate app in macos) Any one is welcomed to fix this issue, contact me.
 * Hdmi slot.
 * Don't expect too much battery in this Hackintosh like windows.But you definitely get more performance sure than windows without plugin the charge in this MacOS..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has realtime sky Nishita with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL".  in windows , And we don't need openCL in macos according to me..
+</details>
+
 ### Bios
 - Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS
 - ## Disable:
