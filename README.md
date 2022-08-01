@@ -14,10 +14,10 @@
  I will try my best to keep the repo updated with the latest kexts and OpenCore version.
  - For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality
 Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Time of Time).
-- **With every EFI update you retrieve from here please remember to go through the post install guide**
-- 
-## Any one can donate me or buy me a coffee :
-### via paytm here :`7095160636857@paytm`
+- With every EFI update you retrieve from here please remember to go through the **post install guide**
+
+### Any one can donate me or buy me a coffee :
+#### via paytm here :`7095160636857@paytm`
  <details><summary>DISCLAIMER</summary>
  
 |                          Disclaimer                               |
@@ -47,21 +47,21 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 ### Status
 
-- #### Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested before, You can also test it.
+- Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested before, You can also test it.
 - #### I have also tested the python benchmark test : Results:  
 
  **In windows :**
  
-the script finished compiling on time (on balanced mode)- **4min 36sec.**
+- the script finished compiling on time (on balanced mode)- **4min 36sec.**
 
-the script finished compiling on time (on performance mode)- **4min 26sec.**
+- the script finished compiling on time (on performance mode)- **4min 26sec.**
 
  **On macOS(hacintosh) :**
 
-the script finished compiling on time - **4min 16sec.**
+- the script finished compiling on time - **4min 16sec.**
 
 - You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows , And we don't need openCL in macos according to me..
-- Note - we need to lose the battery backup for performance. You get 4hr battery for common usage.
+ Note - we need to lose the battery backup for performance. You get 4hr battery for common usage.
 <details>
  <summary><strong> What's working ✅ </strong></summary>
  </br>
@@ -128,14 +128,14 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 
  <hr>
  
-<details>
- <summary><strong>INSTALLATION PROCESS</strong></summary>
- 
-## INSTALLATION
-### macOS Bigsur Online Installer with Windows And Mac Users:
-**This is a simple and quick summary of the online install USB creation**
 
-Online Windows and macOS Guide:
+## INSTALLATION
+**This is a simple and quick summary of the online install USB creation**
+You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
+ ### macOS Bigsur Installer with Windows And Mac Users:
+<details>
+ <summary><strong>Process1.MacOS BigSur Online Installer from Windows and macOS:</strong></summary>
+ 
 - **`For Windows users`**
 1. Download [rufus](https://rufus.ie/en/)
 2. Select the desired flash drive or Sdcard you would like to put the installer on under the device option
@@ -175,7 +175,9 @@ Online Windows and macOS Guide:
 22. the system reboots for once or twice so, when rebooting choose the usb everytime until you see your Macos Partition name in boot menu.
 23. After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 
-# MacOS BigSur Offline Installer from Windows and macOS:
+ </details>
+ <details>
+  <summary><strong>process2.MacOS BigSur Offline Installer from Windows and macOS:</strong></summary>
  
 - 1.Search and Download Olarila BigSur or Monterey .raw from [Here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/)the latest version of bigsur is 11.6.7 and for Monterey is 12.3.1
 - 2.Download etcher from [here](https://www.balena.io/etcher/)
@@ -199,41 +201,58 @@ Online Windows and macOS Guide:
 
 # Post Install
 Once you have verifed that your machine boots properly without any issues as described in the "What Works section", proceed to do the following
-### 0. Boot os without usb or any drive
+
+<details><summary><strong>0. Boot os without usb or any drive</strong></summary>
+ 
 After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
+</details>
 
-### 1. Enable Verbose mode (the black screen with logs on boot up)A real hackintosh Users uses this.
-In Config.plist, navigate to NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> boot-args and give a single space and add the `-v` argument
+<details><summary><strong>1.Fix the black screen texts on boot up</strong></summary>
 
-### 2. Disable ShowPicker
+( Enabling Verbose mode)A real hackintosh User uses this. To enable it, In Config.plist, navigate to NVRAM -> Add -> `7C436110-AB2A-4BBB-A880-FE41995C9F82` -> `boot-args` and give a single space and add the `-v` argument.
+ </details>
+
+<details><summary><strong> 2. Disable ShowPicker</strong></summary>
+ 
 In the Config.plist, You can disable the boot picker screen so that you boot straight to th Apple logo by setting under `Misc` -> `Boot` -> `ShowPicker` False (NO)
 Note: you can still see the boot picker with ShowPicker set to no/false by spamming Esc before the apple logo is displayed during boot.
+</details>
 
- ### 3. Boot faster
+<details><summary><strong>3. Boot faster</strong></summary>
 You can Disable IntelBluetoothFirmware.kext & IntelBluetoothInjector.kext to be able to Boot faster those kexts in config.plist for BigSur.
 For Monterey, Disable IntelBluetoothFirmware.kext & Bluetool fixup.kext to be able to Boot faster those kexts in config.plist
 This is not done by default to bluetooth working.
 ***For those on macOS Monterey do not enable IntelBluetoothInjector kext because the system will not boot***
-  
-### 4. Add Device Properties for Serial number, MLB, ROM, Sytem-UUID and optionally SystemProductName.
+</details>  
+
+<details><summary><strong> 4. Add Device Properties for Serial number, MLB, ROM, Sytem-UUID.</strong></summary>
+ 
 Use `MacBookAir9,1` SMBios. Recommended : opencore configurator, Go to the  `PlatformInfo >SMBios`Tick the "Add to the section to config file" in `SMBIOS` and `DATAHUB -GENERIC- PLATFORMNVRAM` and continue your Adding your SMBIOS.
 Follow this [Opencore guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) to set up serial number and the accompanying info to get iServices.
-### 5.To fix cursor glitch (ignore,if you are done, before installing)
+ </details>
+ 
+<details><summary><strong> 5.To fix cursor glitch (ignore,if you are done, before installing)</strong></summary>
+ 
 Goto Bios Settings -> `Chipset Section -> System Agent (SA) Configuration -> Graphics Configuration`
 
 Set` DVMT Total Gfx Memory` setting to `Max`
 Set `DVMT PPre-Allocated` Setting to `160M` or to `max`
-
-### 6.Fix Imessage and Facetime.
+</details>
+<details><summary><strong>6.Fix Imessage and Facetime</strong></summary>
+ 
 If you are new to the apple account or if you are using apple account for the first time in hackintosh, You need to use the apple account for one month and use icloud. Even though, the imessages or factime don't work..
 The thing is "Use it" for a month or more and automatically after some days, Magically facetime and imessages workss...Tada...
-
-### 7.Fix "interface is small" (small text and window issue)
-- To fix, use [one key high dpi](https://github.com/xzhih/one-key-hidpi) here and run `hidpi.command` in the folder and choose `(1) Enable HIDPI` by typing `1` -> Then choose `Macbook` -> choose  `(2) 1920x1080 Display (use 1424x802, fix underscaled after sleep)` -> Reboot your device 
+ </details>
+ 
+ <details><summary><strong> 7.Fix "interface is small" (small text and window issue)</string></summary>
+ 
+- To fix, use [one key high dpi](https://github.com/xzhih/one-key-hidpi) here and run `hidpi.command` in the folder and choose `(1) Enable HIDPI` by typing `1` -> Then choose `Macbook` -> choose  `(2) 1920x1080 Display (use 1424x802, fix underscaled after sleep)` -> Reboot your device.
+ 
 -  After rebooting, go to `system Preferences` -> `Display` -> choose `Scaled` and select what you like.
+  </details>
+  
 <hr>
 
-## Disclaimer - I am not Responsible for any cause of damage for your device.
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
  Inform me, If there is any spelling mistake in the Installtion or any where...                                                                      
