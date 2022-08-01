@@ -10,7 +10,7 @@
 
 - These are the builts from me.  You might get the future updates for this machine.
 
- I will try my best to keep the repo updated with the latest kexts and OpenCore version.
+ - I will try my best to keep the repo updated with the latest kexts and OpenCore version.
  - For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality
 Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Time of Time).
 - With every EFI update you retrieve from here please remember to go through the **post install guide**
@@ -55,16 +55,14 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 - Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested before, You can also test it.
 - #### I have also tested the python benchmark test : Results:  
+      **In windows :**
+          - the script finished compiling on time (on balanced mode)- **4min 36sec.**
 
- **In windows :**
- 
-- the script finished compiling on time (on balanced mode)- **4min 36sec.**
+          - the script finished compiling on time (on performance mode)- **4min 26sec.**
 
-- the script finished compiling on time (on performance mode)- **4min 26sec.**
-
- **On macOS(hacintosh) :**
-
-- the script finished compiling on time - **4min 16sec.**
+      **On macOS(hacintosh) :**
+         
+          - the script finished compiling on time - **4min 16sec.**
 
 - You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows , And we don't need openCL in macos according to me..
  Note - we need to lose the battery backup for performance. You get 4hr battery for common usage.
@@ -228,6 +226,7 @@ Note: you can still see the boot picker with ShowPicker set to no/false by spamm
 You can Disable IntelBluetoothFirmware.kext & IntelBluetoothInjector.kext to be able to Boot faster those kexts in config.plist for BigSur.
 For Monterey, Disable IntelBluetoothFirmware.kext & Bluetool fixup.kext to be able to Boot faster those kexts in config.plist
 This is not done by default to bluetooth working.
+
 ***For those on macOS Monterey do not enable IntelBluetoothInjector kext because the system will not boot***
 </details>  
 
