@@ -3,7 +3,6 @@
 
 ## Infinix-Hackintosh-Guide-Opencore.
 - This repo contains the installation guide and EFI files required to get a perfectly functional of Big Sur and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim. Everything is stable and functional as described in the Readme.
-[Releases](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
 
 ### If anyone has infinix i3 model and if you are trying to change their OS in your device for the first time,since they purchased. Contact me! It's important 
 
