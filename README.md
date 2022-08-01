@@ -1,7 +1,7 @@
 | [Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases) |
 
 
-# Infinix-Hackintosh-Guide-Opencore.
+## Infinix-Hackintosh-Guide-Opencore.
 - This repo contains the installation guide and EFI files required to get a perfectly functional of Big Sur and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim. Everything is stable and functional as described in the Readme.
 [Releases](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
 
@@ -10,13 +10,15 @@
 <hr>
 
 - These are the builts from me.  You might get the future updates for this machine.
-# Any one can donate me or buy me a coffee :
-### via paytm here :`7095160636857@paytm`
 
- **I will try my best to keep the repo updated with the latest kexts and OpenCore version.**
- - **For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality**
+ I will try my best to keep the repo updated with the latest kexts and OpenCore version.
+ - For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality
 Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Time of Time).
 - **With every EFI update you retrieve from here please remember to go through the post install guide**
+- 
+## Any one can donate me or buy me a coffee :
+### via paytm here :`7095160636857@paytm`
+ <details><summary>DISCLAIMER</summary>
  
 |                          Disclaimer                               |
 |-------------------------------------------------------------------|
@@ -24,6 +26,8 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 |I am not responsible for any damages you may cause.                |
 |- Should you find an error or improve anything,whether in the config or in the documentation,please consider opening an issue or pull request.|    
 
+ </details>
+ 
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
 
@@ -32,31 +36,7 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 ## Introduction
 
 EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
-### Its Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.
-
-<details>  
-<summary><strong>Getting started 📖</strong></summary>
-</br>
-
-**Meet the bootloader:**
-
-- [Why OpenCore](https://dortania.github.io/OpenCore-Install-Guide/why-oc.html)
-- Dortania's [website](https://dortania.github.io)
-
-**Recommended tools:**
-
-- Plist editor [ProperTree](https://github.com/corpnewt/ProperTree)
-- Handy-dandy ESP mounting script [MountEFI](https://github.com/corpnewt/MountEFI)
-- Update OpenCore and kexts [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
-
-**Resources**
-
-- [OpenCore](https://github.com/acidanthera/OpenCorePkg)
-- [Infinix config](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/releases)
-
-</details>
-
-
+**Its Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.**
 - `Tested CPUs`: **i3-1005G1**(not tested in i5/i7, If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev))
 - `Integrated Graphics`: **G1/G4 graphics**
 - `Sound Card`: **ALC269 (use alcid=26)**
@@ -65,6 +45,21 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 <hr>
 
 ### Status
+
+- #### Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested before, You can also test it.
+- #### I have also tested the python benchmark test : Results:  
+
+ **In windows**
+ 
+the script finished compiling on time (on balanced mode)- **4min 36sec.**
+
+the script finished compiling on time (on performance mode)- **4min 26sec.**
+
+ **On macOS(hacintosh)**
+
+the script finished compiling on time - **4min 16sec.**
+
+- You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows , And we don't need openCL in macos according to me..
 <details>
  <summary><strong> What's working ✅ </strong></summary>
  </br>
@@ -82,13 +77,6 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 - [x] Short sleep. (If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 2 to 3 percentage for every hour when  you put your device into sleep.) 
 This is due to continuous fan spinning when sleep. Anyone is welcomed to fix these issues. First contact me to do that
 - Everything (Much More).
-- #### Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested before, You can also test it.
-- I have also tested the python benchmark test : Results:  
-** In windows,**
-the script finished compiling on time (on balanced mode)- **4min 36sec.**
-the script finished compiling on time (on performance mode)- **4min 26sec.**
-- ** On macOS(hacintosh)**
-the script finished compiling on time - 4min 16sec.
 
 </details>
 <details>
@@ -97,12 +85,15 @@ the script finished compiling on time - 4min 16sec.
  
 * Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Donot use any hibernate app in macos) Any one is welcomed to fix this issue, contact me.
 * Hdmi slot.
-* Don't expect too much battery in this Hackintosh like windows.But you definitely get more performance sure than windows without plugin the charge in this MacOS..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has realtime sky Nishita with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL".  in windows , And we don't need openCL in macos according to me..
+* Don't expect too much battery in this Hackintosh like windows.
 </details>
 
-### Bios
+<details>
+ <summary><strong> Setting Up with Bios</strong></summary>
 - Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS
-- ## Disable:
+ <details>
+<summary><strong>Disable:</strong></summary>
+ 
 - Fast Boot
 - disable wake on wlan and bluetooth (which causes sleep issues)
 - Disable windows bit-lock encryption (ignore, if you don't lock it)
@@ -114,8 +105,10 @@ the script finished compiling on time - 4min 16sec.
 - Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
 - Intel Platform Trust (if you don't see in bios, leave it)
 - CFG Lock (MSR 0xE2 write protection)(This must be off, if you can't find the option then enable AppleXcpmCfgLock under Kernel -> Quirks. Your hack will not boot with CFG-Lock enabled)
-
-- ### Enable:
+ </details>
+<details>
+ <summary><strong>Enable:</strong></summary>
+ 
 - VT-x
 - Above 4G decoding(if you don't see in bios, leave it)
 - Hyper-Threading
@@ -128,11 +121,16 @@ the script finished compiling on time - 4min 16sec.
 - SATA Mode: AHCI
 - Every setting is not Available so check your self
 - Intel Virtualization Technology.
+</details>
+</details>
 
-<hr>
-
-# INSTALLATION
-## macOS Bigsur Online Installer with Windows And Mac Users:
+ <hr>
+ 
+<details>
+ <summary><strong>INSTALLATION PROCESS</strong></summary>
+ 
+## INSTALLATION
+### macOS Bigsur Online Installer with Windows And Mac Users:
 **This is a simple and quick summary of the online install USB creation**
 
 Online Windows and macOS Guide:
@@ -194,6 +192,7 @@ Online Windows and macOS Guide:
 - install.Enjoy!!!!
 - 10.After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 
+</details>
 <hr>
 
 # Post Install
