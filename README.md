@@ -55,7 +55,10 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 - Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested in different sinarios, You can also test it and let us know about it in [telegram-group](https://t.me/Infinix_Inbook_discussion)
 
-<img align="right" src="images/infinix x1 i3 benchmarks.jpeg" alt="infinx inbook x1 i3 laptop benchmarksimage" width="300">
+- You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows , And we don't need openCL in macos according to me..
+ Note - we need to lose the battery backup for performance. You get 4hr battery for common usage.
+
+<img align="top" src="images/infinix x1 i3 benchmarks.jpeg" alt="infinx inbook x1 i3 laptop benchmarksimage" width="300">
 
 - #### I have also tested the python program benchmark test  (Just used terminal not IDE) : Results:  
 
@@ -69,9 +72,8 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
          
         - the script finished compiling on time - 4min 16sec.
 
-   used this [benchmark program](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html)
-- You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows , And we don't need openCL in macos according to me..
- Note - we need to lose the battery backup for performance. You get 4hr battery for common usage.
+   used this [benchmark program](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html) compiled the program x16000 times once.
+
 <details>
  <summary><strong> What's working ✅ </strong></summary>
  </br>
