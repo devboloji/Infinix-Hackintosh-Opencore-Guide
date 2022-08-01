@@ -5,32 +5,57 @@
 - This repo contains the installation guide and EFI files required to get a perfectly functional of Big Sur and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim. Everything is stable and functional as described in the Readme.
 [Releases](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
 
-## If anyone has infinix i3 model and if you are trying to change their OS in your device for the first time,since they purchased. Contact me! It's important 
+### If anyone has infinix i3 model and if you are trying to change their OS in your device for the first time,since they purchased. Contact me! It's important 
 
 <hr>
 
 - These are the builts from me.  You might get the future updates for this machine.
 # Any one can donate me or buy me a coffee :
-## via paytm here :`7095160636857@paytm`
+### via paytm here :`7095160636857@paytm`
 
  **I will try my best to keep the repo updated with the latest kexts and OpenCore version.**
  - **For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality**
 Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Time of Time).
 - **With every EFI update you retrieve from here please remember to go through the post install guide**
  
-|                          Disclaimer                           |
-|---------------------------------------------------------------|
-|- I am not Responsible for any cause of damage for your device.|     
+|                          Disclaimer                               |
+|-------------------------------------------------------------------|
+|Read the entire README before you start.                           |
+|I am not responsible for any damages you may cause.                |
+|- Should you find an error or improve anything,whether in the config or in the documentation,please consider opening an issue or pull request.|    
 
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
 
 ![img](https://img.shields.io/badge/Release%20Update-July-red) ![img](https://img.shields.io/badge/macOS%20Support-Monterey--11.6.7-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.2-red)
 
-# Introduction
+## Introduction
 
 EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 ### Its Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.
+
+<details>  
+<summary><strong>Getting started 📖</strong></summary>
+</br>
+
+**Meet the bootloader:**
+
+- [Why OpenCore](https://dortania.github.io/OpenCore-Install-Guide/why-oc.html)
+- Dortania's [website](https://dortania.github.io)
+
+**Recommended tools:**
+
+- Plist editor [ProperTree](https://github.com/corpnewt/ProperTree)
+- Handy-dandy ESP mounting script [MountEFI](https://github.com/corpnewt/MountEFI)
+- Update OpenCore and kexts [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
+
+**Resources**
+
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg)
+- [Infinix config](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/releases)
+
+</details>
+
 
 - `Tested CPUs`: **i3-1005G1**(not tested in i5/i7, If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev))
 - `Integrated Graphics`: **G1/G4 graphics**
@@ -39,7 +64,7 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 - `Trackpad`: **Voodoo2IC** synaptic
 <hr>
 
-# What's Working.
+### What's working ✅
 - Wifi
 - Working Imessages and Facetime. For these, read my [post install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) which is below the installation .
 - Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
@@ -56,11 +81,11 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - Everything (Much More).
 - #### Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested before, You can also test it.
 
-## What's Not working
+### What's not working ⚠️
 * Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Donot use any hibernate app in macos) Any one is welcomed to fix this issue, contact me.
 * Hdmi slot.
 * Don't expect too much battery in this Hackintosh like windows.But you definitely get more performance sure than windows without plugin the charge in this MacOS..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has realtime sky Nishita with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL".  in windows , And we don't need openCL in macos according to me..
-# Bios
+### Bios
 - Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS
 - ## Disable:
 - Fast Boot
@@ -75,7 +100,7 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - Intel Platform Trust (if you don't see in bios, leave it)
 - CFG Lock (MSR 0xE2 write protection)(This must be off, if you can't find the option then enable AppleXcpmCfgLock under Kernel -> Quirks. Your hack will not boot with CFG-Lock enabled)
 
-- ## Enable:
+- ### Enable:
 - VT-x
 - Above 4G decoding(if you don't see in bios, leave it)
 - Hyper-Threading
