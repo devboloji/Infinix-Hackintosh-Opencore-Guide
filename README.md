@@ -27,8 +27,7 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 
  </details>
  
-- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
-
+- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) and Telegram support channel:[Support Group](https://t.me/Infinix_Inbook_discussion)
 
 ![img](https://img.shields.io/badge/Release%20Update-July-red) ![img](https://img.shields.io/badge/macOS%20Support-Monterey--11.6.7-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.2-red)
 
@@ -39,7 +38,8 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 <img align="right" src="images/infinix laptop image.jpeg" alt="infinx inbook series laptop image" width="300">
 
-- `Tested CPUs`: **i3-1005G1**(not tested in i5/i7, If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev))
+- `Tested CPUs`: **i3-1005G1**(not tested in i5/i7, If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)) and Telegram support channel:[Support Group](https://t.me/Infinix_Inbook_discussion)
+
 
 - `Integrated Graphics`: **G1/G4 graphics**
 
@@ -258,7 +258,7 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
   
 <hr>
 
-- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
+- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) and Telegram support channel:[Support Group](https://t.me/Infinix_Inbook_discussion)
 
  Inform me, If there is any spelling mistake in the Installtion or any where...                                                                      
 Thanks to the OpenCore Team, SAITEJA for testing, also me ofcourse.
