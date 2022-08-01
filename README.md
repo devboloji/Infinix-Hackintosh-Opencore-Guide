@@ -37,11 +37,18 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 **Its Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.**
 
+<img align="right" src="images/infinix laptop image.jpeg" alt="infinx inbook series laptop image" width="300">
+
 - `Tested CPUs`: **i3-1005G1**(not tested in i5/i7, If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev))
+
 - `Integrated Graphics`: **G1/G4 graphics**
+
 - `Sound Card`: **ALC269 (use alcid=26)**
+
 - `Wireless Cards Tested`: **Intel® AX210.**
-- `Trackpad`: **Voodoo2IC** synaptic
+
+- `Trackpad`: **Voodoo2IC synaptic**
+
 <hr>
 
 ### Status
