@@ -36,7 +36,7 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 **Its Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.**
 
-<img align="right" src="images/infinix laptop image.jpeg" alt="infinx inbook series laptop image" width="300">
+<img align="right" src="images/infinix laptop image.jpeg" alt="infinx inbook series laptop image" width="200">
 
 - `Tested CPUs`: **i3-1005G1**(not tested in i5/i7, If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)) and Telegram support channel:[Support Group](https://t.me/Infinix_Inbook_discussion)
 
@@ -51,19 +51,25 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 <hr>
 
-### Status
+### Status : 
 
-- Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested before, You can also test it.
-- #### I have also tested the python benchmark test : Results:  
-      **In windows :**
-          - the script finished compiling on time (on balanced mode)- **4min 36sec.**
+- Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested in different sinarios, You can also test it and let us know about it in [telegram-group](https://t.me/Infinix_Inbook_discussion)
 
-          - the script finished compiling on time (on performance mode)- **4min 26sec.**
+<img align="top" src="images/infinix x1 i3 benchmarks.jpeg" alt="infinx inbook x1 i3 laptop benchmarksimage" width="310">
 
-      **On macOS(hacintosh) :**
+- #### I have also tested the python benchmark test (Just used terminal not IDE) : Results:  
+
+      In windows :
+      
+          - the script finished compiling on time (on balanced mode)- 4min 36sec.
+
+          - the script finished compiling on time (on performance mode)- 4min 26sec.
+
+      On macOS(hacintosh) :
          
-          - the script finished compiling on time - **4min 16sec.**
+          - the script finished compiling on time - 4min 16sec.
 
+   used this [benchmark program](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html)
 - You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows , And we don't need openCL in macos according to me..
  Note - we need to lose the battery backup for performance. You get 4hr battery for common usage.
 <details>
