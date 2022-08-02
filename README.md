@@ -17,6 +17,7 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 
 ### Any one can donate me or buy me a coffee :
 #### via paytm here :`7095160636857@paytm`
+#### via paypal here: [donate here](https://www.paypal.me/369639)
  <details><summary>DISCLAIMER</summary>
  
 |                          Disclaimer                               |
