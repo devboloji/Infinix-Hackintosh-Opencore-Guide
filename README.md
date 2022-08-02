@@ -74,7 +74,7 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
         - the script finished compiling on time - 4min 16sec.
      
       On Ubuntu 22.04 LTS(original) :
-        - the script fininshed compiling on time - 4min 56sec.
+        - the script fininshed compiling on time - 4min 39sec.
 
    used this [benchmark program](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html) compiled the program x16000 times once.
 
