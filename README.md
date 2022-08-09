@@ -224,23 +224,23 @@ You will get display glitches only while installing the macOS via USB or any fla
 # Post Install
 Once you have verifed that your machine boots properly without any issues as described in the "What Works section", proceed to do the following
 
-<details><summary><strong>0. Boot os without usb or any drive</strong></summary>
+<details><summary><strong><ins>0. Boot os without usb or any drive</ins></strong></summary>
  
 After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 </details>
 
-<details><summary><strong>1.Get the black screen texts on boot up</strong></summary>
+<details><summary><strong><ins>1.Get the black screen texts on boot up</ins></strong></summary>
 
 ( Enabling Verbose mode)A real hackintosh User uses this. To enable it, In Config.plist, navigate to NVRAM -> Add -> `7C436110-AB2A-4BBB-A880-FE41995C9F82` -> `boot-args` and give a single space and add the `-v` argument.
  </details>
 
-<details><summary><strong> 2. Disable ShowPicker</strong></summary>
+<details><summary><strong><ins> 2. Disable ShowPicker</ins></strong></summary>
  
 In the Config.plist, You can disable the boot picker screen so that you boot straight to th Apple logo by setting under `Misc` -> `Boot` -> `ShowPicker` False (NO)
 Note: you can still see the boot picker with ShowPicker set to no/false by spamming Esc before the apple logo is displayed during boot.
 </details>
 
-<details><summary><strong>3. Boot faster</strong></summary>
+<details><summary><strong><ins>3. Boot faster</ins></strong></summary>
 You can Disable IntelBluetoothFirmware.kext & IntelBluetoothInjector.kext to be able to Boot faster those kexts in config.plist for BigSur.
 For Monterey, Disable IntelBluetoothFirmware.kext & Bluetool fixup.kext to be able to Boot faster those kexts in config.plist
 This is not done by default to bluetooth working.
@@ -248,7 +248,7 @@ This is not done by default to bluetooth working.
 ***For those on macOS Monterey do not enable IntelBluetoothInjector kext because the system will not boot***
 </details>  
 
-<details><summary><strong> 4. Add Device Properties for Serial number, MLB, ROM, Sytem-UUID.</strong></summary>
+<details><summary><strong><ins> 4. Add Device Properties for Serial number, MLB, ROM, Sytem-UUID.</ins></strong></summary>
  
 Use `MacBookAir9,1` SMBios. Recommended : opencore configurator, Go to the  `PlatformInfo >SMBios`Tick the "Add to the section to config file" in `SMBIOS` and `DATAHUB -GENERIC- PLATFORMNVRAM` and continue your Adding your SMBIOS.
 Follow this [Opencore guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) to set up serial number and the accompanying info to get iServices.
@@ -256,27 +256,27 @@ Follow this [Opencore guide](https://dortania.github.io/OpenCore-Post-Install/un
  Trick to Get exact Processor details in System Information - When you are adding the smbios, Edit `processor type` -> `0` or delete inside of `processor-type` .
  </details>
  
-<details><summary><strong> 5.To fix cursor glitch (ignore, if you are done, before installing)</strong></summary>
+<details><summary><strong><ins> 5.To fix cursor glitch (ignore, if you are done, before installing)</ins></strong></summary>
  
 Goto Bios Settings -> `Chipset Section -> System Agent (SA) Configuration -> Graphics Configuration`
 
 Set` DVMT Total Gfx Memory` setting to `Max`
 Set `DVMT PPre-Allocated` Setting to `160M` or to `max`
 </details>
-<details><summary><strong>6.Fix Imessage and Facetime</strong></summary>
+<details><summary><strong><ins>6.Fix Imessage and Facetime. </ins></strong></summary>
  
 If you are new to the apple account or if you are using apple account for the first time in hackintosh, You need to use the apple account for one month and use icloud. Even though, the imessages or factime don't work..
 The thing is "Use it" for a month or more and automatically after some days, Magically facetime and imessages workss...Tada...
  </details>
  
- <details><summary><strong> 7.Fix "interface is small" (small text and window issue)</string></summary>
+ <details><summary><strong><ins> 7.Fix "interface is small" (small text and window issue)</ins></string></summary>
  
 - To fix, use [one key high dpi](https://github.com/xzhih/one-key-hidpi) here and run `hidpi.command` in the folder and choose `(1) Enable HIDPI` by typing `1` -> Then choose `Macbook` -> choose  `(2) 1920x1080 Display (use 1424x802, fix underscaled after sleep)` -> Reboot your device.
  
 -  After rebooting, go to `system Preferences` -> `Display` -> choose `Scaled` and select what you like.
   </details>
   
-<details><summary><strong> 8. Donot try these things in fixing the sleep </strong></summary>
+<details><summary><strong><ins> 8. Donot try these things in fixing the sleep </ins></strong></summary>
  
  - Donot use any hibernate app in macos.
  - Donot try [opencore sleep fix](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#preparations) .
