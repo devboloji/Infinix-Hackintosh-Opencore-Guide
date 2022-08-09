@@ -15,9 +15,9 @@
 - These are the builts from me.  You might get the future updates for this machine.
 
  - I will try my best to keep the repo updated with the latest kexts and OpenCore version.
- - For macOS Monterey this EFI will work great as BigSur, But bluetooth is not working Only in Monterey. Tried many ways to fix but may fix later releases. so don't expect flawless functionality
+ - For macOS Monterey this EFI will work great as BigSur. so don't expect flawless functionality
 Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Time of Time).
-- With every EFI update you retrieve from here please remember to go through the **post install guide**
+- With every EFI update you retrieve from here please remember to go through the **post install guide**(Below)
 
 # Any one can donate me or buy me a coffee :
 #### via paytm here :`7095160636857@paytm`
@@ -32,7 +32,7 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 
  </details>
  
-- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) and Telegram support channel:[Support Group](https://t.me/Infinix_Inbook_discussion)
+- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) and Telegram support channel:[Support Group](https://t.me/infinix_inbook_discussion)
 
 ![img](https://img.shields.io/badge/Release%20Update-July-red) ![img](https://img.shields.io/badge/macOS%20Support-Monterey--11.6.7-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.2-red)
 
@@ -43,7 +43,9 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 <img align="right" src="images/infinix laptop image.jpeg" alt="infinx inbook series laptop image" width="200">
 
-- `Tested CPUs`: **i3-1005G1**(not tested in i5/i7, If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)) and Telegram support channel:[Support Group](https://t.me/Infinix_Inbook_discussion)
+- `Tested CPUs`: **i3-1005G1**
+
+(not tested in i5/i7, If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)) and Telegram support channel:[Support Group](https://t.me/infinix_inbook_discussion)
 
 
 - `Integrated Graphics`: **G1/G4 graphics**
@@ -58,10 +60,11 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 ### Status : 
 
-- Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows. I have tested in different sinarios, You can also test it and let us know about it in [telegram-group](https://t.me/Infinix_Inbook_discussion)
+- Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows, linux. I have tested in different sinarios, You can also test it and let us know about it in [telegram-group](https://t.me/infinix_inbook_discussion)
 
 - You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows , And we don't need openCL in macos according to me..
- Note - we need to lose the battery backup for performance. You get 4hr battery for common usage.
+
+Note - In this Hacintosh, The cpu is well optimised and you get more performance like you overclocked(without over-clocking). You get 5hr battery for common usage like using xcode,safari instances, social media apps, and 1080p playback at a time, continuously.
 
 <img align="top" src="images/infinix x1 i3 benchmarks.jpeg" alt="infinx inbook x1 i3 laptop benchmarksimage" width="300">
 
@@ -78,7 +81,7 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
         - the script finished compiling on time - 4min 16sec.
      
       On Ubuntu 22.04 LTS(original) :
-        - the script fininshed compiling on time - 4min 39sec.
+        - the script fininshed compiling on time (on Performance mode)- 4min 39sec.
 
    used this [benchmark program](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html) compiled the program x16000 times once.
 
@@ -112,7 +115,7 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 
 <details>
  <summary><strong> Setting Up with Bios</strong></summary>
-  Note:Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS
+  Note:Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS. You cannot change the cpu,fan and other settings. This is due to Locked-bios(cfg-lock). If anyone unlocked the bios, Please tell that good news in [telegram-Group](https://t.me/infinix_inbook_discussion). 
  <details>
 <summary><strong>Disable:</strong></summary>
  
