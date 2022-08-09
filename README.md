@@ -15,8 +15,8 @@
 - These are the builts from me.  You might get the future updates for this machine.
 
  - I will try my best to keep the repo updated with the latest kexts and OpenCore version.
- - For macOS Monterey this EFI will work great as BigSur. so don't expect flawless functionality
-Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Time of Time).
+ - For macOS Monterey this EFI will work great as BigSur. so don't expect flawless functionality.
+ Report me If you find the bugs or any issues. And **don't ask for ETA**(Estimated Time of Time).
 - With every EFI update you retrieve from here please remember to go through the **post install guide**(Below)
 
 # Any one can donate me or buy me a coffee :
@@ -28,7 +28,7 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 |-------------------------------------------------------------------|
 |Read the entire README before you start.                           |
 |I am not responsible for any damages you may cause.                |
-|- Should you find an error or improve anything,whether in the config or in the documentation,please consider opening an issue or pull request.|    
+|If you find an error or improve anything,whether in the config or in the documentation,please consider opening an issue or pull request.|    
 
  </details>
  
@@ -39,6 +39,7 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 ## Introduction
 
 EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
+
 **Its Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.**
 
 ### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook."
@@ -64,9 +65,9 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 - Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows, linux. I have tested in different sinarios, You can also test it and let us know about it in [telegram-group](https://t.me/infinix_inbook_discussion)
 
-- You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)..I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows , And we don't need openCL in macos according to me..
+- You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)... I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows, And we don't need openCL in macos according to me..
 
-Note - In this Hacintosh, The cpu is well optimised and you get more performance like you overclocked(without over-clocking). You get 5hr battery for common usage like using xcode,safari instances, social media apps, and 1080p playback at a time, continuously.
+Note - In this Hacintosh, The cpu is well optimised and you get more performance like you overclocked(by without over-clocking). You get 5hr battery for common usage like using xcode,safari instances, social media apps, and 1080p playback at a time, continuously, simultaneously.
 
 <img align="top" src="images/infinix x1 i3 benchmarks.jpeg" alt="infinx inbook x1 i3 laptop benchmarksimage" width="300">
 
@@ -101,7 +102,7 @@ Note - In this Hacintosh, The cpu is well optimised and you get more performance
 - [x] Trackpad 
 - [x] brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
 - [x] Wake / Shutdown
-- [x] Short sleep. (If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 2 to 3 percentage for every hour when  you put your device into sleep.) 
+- [x] Short sleep. (If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 3 to 8 percentage for every hour when  you put your device into sleep). 
 This is due to continuous fan spinning when sleep. Anyone is welcomed to fix these issues. First contact me to do that
 - Everything (Much More).
 
@@ -110,14 +111,14 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
  <summary><strong>What's not working ⚠️</strong></summary>
  </br>
  
-* Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Donot use any hibernate app in macos) Any one is welcomed to fix this issue, contact me.
+* Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Donot use any hibernate app in macos),Read [Post-install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) Any one is welcomed to fix this issue, contact me.
 * Hdmi slot.
 * Don't expect too much battery in this Hackintosh like windows. You get atleast 5-hours battery-backup.
 </details>
 
 <details>
  <summary><strong> Setting Up with Bios</strong></summary>
-  Note:Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS. You cannot change the cpu,fan and other settings. This is due to Locked-bios(cfg-lock). If anyone unlocked the bios, Please tell that good news in [telegram-Group](https://t.me/infinix_inbook_discussion). 
+  Note:Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned, if many of these options are not available in your BIOS. You cannot change the cpu,fan and other settings. This is due to Locked-bios(cfg-lock). If anyone unlocked the bios, Please tell that good news in [telegram-Group] (https://t.me/infinix_inbook_discussion) . 
  <details>
 <summary><strong>Disable:</strong></summary>
  
@@ -126,28 +127,22 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - Disable windows bit-lock encryption (ignore, if you don't lock it)
 - Secure Boot
 - Serial/COM Port
-- Parallel Port(if you have)
-- VT-d (can be enabled if you set DisableIoMapper to YES)
+- VT-d
 - CSM
 - Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
-- Intel Platform Trust (if you don't see in bios, leave it)
-- CFG Lock (MSR 0xE2 write protection)(This must be off, if you can't find the option then enable AppleXcpmCfgLock under Kernel -> Quirks. Your hack will not boot with CFG-Lock enabled)
  </details>
 <details>
  <summary><strong>Enable:</strong></summary>
  
 - VT-x
-- Above 4G decoding(if you don't see in bios, leave it)
-- Hyper-Threading
 - Execute Disable Bit
-- EHCI/XHCI Hand-off
 - OS type: Windows 8.1/10 UEFI Mode
 - DVMT Pre-Allocated(iGPU Memory): 256MB or MAX
 - Set` DVMT Total Gfx Memory` setting to `Max`
 - Set `DVMT PPre-Allocated` Setting to `160M` or to `max`
 - SATA Mode: AHCI
 - Every setting is not Available so check your self
-- Intel Virtualization Technology.
+- Intel Virtualization Technology not vt-d.
 </details>
 </details>
 
@@ -155,7 +150,9 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
  
 
 ## INSTALLATION
-**This is a simple and quick summary of the online install USB creation**
+
+**This is a simple and quick summary of the online install USB creation.**
+
 You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
  ### macOS Bigsur Installer with Windows And Mac Users:
 <details>
@@ -202,7 +199,7 @@ You will get display glitches only while installing the macOS via USB or any fla
 
  </details>
  <details>
-  <summary><strong>process2.MacOS BigSur Offline Installer from Windows and macOS:</strong></summary>
+  <summary><strong>Process2.MacOS BigSur Offline Installer from Windows and macOS:</strong></summary>
  
 - 1.Search and Download Olarila BigSur or Monterey .raw from [Here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/)the latest version of bigsur is 11.6.7 and for Monterey is 12.3.1
 - 2.Download etcher from [here](https://www.balena.io/etcher/)
@@ -232,7 +229,7 @@ Once you have verifed that your machine boots properly without any issues as des
 After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 </details>
 
-<details><summary><strong>1.Fix the black screen texts on boot up</strong></summary>
+<details><summary><strong>1.Get the black screen texts on boot up</strong></summary>
 
 ( Enabling Verbose mode)A real hackintosh User uses this. To enable it, In Config.plist, navigate to NVRAM -> Add -> `7C436110-AB2A-4BBB-A880-FE41995C9F82` -> `boot-args` and give a single space and add the `-v` argument.
  </details>
@@ -255,9 +252,11 @@ This is not done by default to bluetooth working.
  
 Use `MacBookAir9,1` SMBios. Recommended : opencore configurator, Go to the  `PlatformInfo >SMBios`Tick the "Add to the section to config file" in `SMBIOS` and `DATAHUB -GENERIC- PLATFORMNVRAM` and continue your Adding your SMBIOS.
 Follow this [Opencore guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) to set up serial number and the accompanying info to get iServices.
+ 
+ Trick to Get exact Processor details in System Information - When you are adding the smbios, Edit `processor type` -> `0` or delete inside of `processor-type` .
  </details>
  
-<details><summary><strong> 5.To fix cursor glitch (ignore,if you are done, before installing)</strong></summary>
+<details><summary><strong> 5.To fix cursor glitch (ignore, if you are done, before installing)</strong></summary>
  
 Goto Bios Settings -> `Chipset Section -> System Agent (SA) Configuration -> Graphics Configuration`
 
