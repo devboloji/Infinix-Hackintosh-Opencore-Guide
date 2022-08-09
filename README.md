@@ -126,10 +126,8 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - disable wake on wlan and bluetooth (which causes sleep issues)
 - Disable windows bit-lock encryption (ignore, if you don't lock it)
 - Secure Boot
-- Serial/COM Port
 - VT-d
 - CSM
-- Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
  </details>
 <details>
  <summary><strong>Enable:</strong></summary>
@@ -158,39 +156,43 @@ You will get display glitches only while installing the macOS via USB or any fla
 <details>
  <summary><strong>Process1.MacOS BigSur Online Installer from Windows and macOS:</strong></summary>
  
-- **`For Windows users`**
-1. Download [rufus](https://rufus.ie/en/)
-2. Select the desired flash drive or Sdcard you would like to put the installer on under the device option
-3. Open rufus and Select `non-bootable` as the `boot selection` (REQUIRED)
-4. Select `FAT-32` or `Large FAT-32` as the partition scheme. Hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
-5. If in windows,Open up the usb partition in file explorer and delete all the files created by rufus manually.
-- **`For mac users`**
-1. Launch `Disk Utility`
-2. `Select View` > `Show all devices` at the top left
-3. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`
-4.change `guid patition table`-> `Master Boot Record Partiton`.
-5.hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
+  -  **`For Windows users`**
+      1. Download [rufus](https://rufus.ie/en/) to format the sdcard to fat32.
+      2. Select the desired flash drive or Sdcard you would like to put the installer on under the device option
+      3. Open rufus and Select `non-bootable` as the `boot selection` (REQUIRED)
+      4. Select `FAT-32` or `Large FAT-32` as the partition scheme. Hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
+      5. If in windows,Open up the usb partition in file explorer and delete all the files created by rufus manually.
+  -  **`For mac users`**
+      1. Launch `Disk Utility`
+      2. `Select View` > `Show all devices` at the top left
+      3. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`.
+      
+      4. change `guid patition table`-> `Master Boot Record Partiton`.
+      
+      5. hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
 
-6. Then ........
+6. Then ................
 7. Now, Install Python from Microsoft store or Download manually for MAC and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path to environmet variables for windows users.)
 8. Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases) (Release version is fine).
-9.Select the "macrecovery" folder in the "opencorepkg" folder at `/Utilities/macrecovery/`
-10.Copy the path of the "macrecovery" folder in file manager or finder.
-11.Fire up command prompt or Terminal and type `cd` and hit spacebar and paste the path of the macrecovery folder.
-12.For BigSur  -Run the command: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
-- For Monterey -Run the command: `macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download`
+9. Select the "macrecovery" folder in the "opencorepkg" folder at `/Utilities/macrecovery/` .
+10. Copy the path of the "macrecovery" folder in file manager or finder.
+11. Fire up command prompt or Terminal and type `cd` and hit spacebar and paste the path of the macrecovery folder.
+12.
+  - For BigSur  -Run the command: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
+  - For Monterey -Run the command: `macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download`
 
 13. This will download some files in the macrecovery folder but we only need "BaseSystem.dmg" and "BaseSystem.chunklist" (takes approx. 600mb to 800mb internet)for Downloading the Macos installer.
-14.Create a folder in USB or pendrive or flash drive named `com.apple.recovery.boot`.
+14. Create a folder in USB or pendrive or flash drive named `com.apple.recovery.boot`.
 15. Paste both of those files in the `com.apple.recovery.boot` folder in your flash drive partiton or sdcard or pendrive.
 16. Download the latest EFI created [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
 17. Copy the folder named `EFI` and paste it in your USB partiton.
+
 #### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
 #### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
 
 `Note: Make sure to apply the correct bios settings before continuing (provided above)`
 
-18. Restart your laptop and hit `Delete`button continuously until you go to bios settings.
+ 18. Restart your laptop and hit `Delete`button continuously until you go to bios settings.
 19. Select your flash drive as temporary boot option in boot menu.
 20. Now in the OpenCore menu select the name of your USB partiton.
 21. Great! Now install and set up macOS Big Sur as usual(This process will be required 14gb internet to download full Macos bigsur).
