@@ -50,7 +50,7 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 - `Integrated Graphics`: **G1/G4 graphics**
 
-- `Sound Card`: **ALC269 (use alcid=26)**
+- `Sound Card`: **ALC269 (use alcid=26)** for i3.
 
 - `Wireless Cards Tested`: **Intel® AX210.**
 
@@ -83,7 +83,7 @@ Note - In this Hacintosh, The cpu is well optimised and you get more performance
       On Ubuntu 22.04 LTS(original) :
         - the script fininshed compiling on time (on Performance mode)- 4min 39sec.
 
-   used this [benchmark program](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html) compiled the program x16000 times once.
+   used this python [benchmark program](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html) compiled the program x16000 times once.
 
 <details>
  <summary><strong> What's working ✅ </strong></summary>
@@ -110,7 +110,7 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
  
 * Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Donot use any hibernate app in macos) Any one is welcomed to fix this issue, contact me.
 * Hdmi slot.
-* Don't expect too much battery in this Hackintosh like windows.
+* Don't expect too much battery in this Hackintosh like windows. You get atleast 5-hours battery-backup.
 </details>
 
 <details>
