@@ -41,6 +41,8 @@ Report me If you find the bugs or any issues. And don't ask for ETA(Estimated Ti
 EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 **Its Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.**
 
+### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook."
+
 <img align="right" src="images/infinix laptop image.jpeg" alt="infinx inbook series laptop image" width="200">
 
 - `Tested CPUs`: **i3-1005G1**
@@ -95,7 +97,7 @@ Note - In this Hacintosh, The cpu is well optimised and you get more performance
 - [x] OnBoard Audio(Input/ Output)
 - [x] USB ports
 - [x] Wired headphones
-- [x] You will get upto 3 1/2 hours to 4 hours battery backup for streaming 1080p-youtube and for coding without any pause.You may get more than me.
+- [x] You will get upto 4 hours to 5 hours battery backup for streaming 1080p-youtube and for coding without any pause.You may get more than me.
 - [x] Trackpad 
 - [x] brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
 - [x] Wake / Shutdown
@@ -275,10 +277,17 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
 -  After rebooting, go to `system Preferences` -> `Display` -> choose `Scaled` and select what you like.
   </details>
   
+<details><summary><strong> 8. Donot try these things in fixing the sleep </strong></summary>
+ 
+ - Donot use any hibernate app in macos.
+ - Donot try [opencore sleep fix](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#preparations) .
+ If you use these! When you put your device sleep, the laptop reboots automatically after 30sec. To fix that you need to reinstall the macOS.
+ </details>
+ 
 <hr>
 
-- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) and Telegram support channel:[Support Group](https://t.me/Infinix_Inbook_discussion)
+- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) and Telegram support channel:[Support Group](https://t.me/infinix_inbook_discussion)
 
- Inform me, If there is any spelling mistake in the Installtion or any where...                                                                      
+ Inform me, If there is any error / spelling mistake in the Installtion or any where...                                                                      
 Thanks to the OpenCore Team, SAITEJA for testing, also me ofcourse.
 
