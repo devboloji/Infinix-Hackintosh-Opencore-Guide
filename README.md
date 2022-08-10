@@ -90,6 +90,8 @@ Note - In this Hacintosh, The cpu is well optimised and you get more performance
 
    used this python [benchmark program](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html) compiled the program x16000 times once.
 
+#### <ins> Talking about the battery</ins>, The only issue is when the battery is about 15% or when device shows low battery, don't sleep your device. If you do it, the device may shutdowns or reboots only at that situation.
+
 <details>
  <summary><strong> What's working ✅ </strong></summary>
  </br>
