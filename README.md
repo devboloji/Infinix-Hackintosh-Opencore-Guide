@@ -4,6 +4,8 @@
 ## Infinix-Hackintosh-Guide-Opencore.
 - This repo contains the installation guide and EFI files required to get a perfectly functional of Big Sur and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim. Everything is stable and functional as described in the Readme.
 
+### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
+
 # ********************************
 # This repo is no longer Updated due to lack of Donations and support for this repo. so I can no longer offer support for this. If you donate anytime the repo will be updated.
 # This repo will archived and all open issues are closed
@@ -42,7 +44,7 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 **Its Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.**
 
-### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook."
+### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 
 <img align="right" src="images/infinix laptop image.jpeg" alt="infinx inbook series laptop image" width="200">
 
@@ -149,6 +151,8 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 
 ## INSTALLATION
 
+### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
+
 **This is a simple and quick summary of the online install USB creation.**
 
 You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
@@ -225,6 +229,8 @@ You will get display glitches only while installing the macOS via USB or any fla
 
 # Post Install
 Once you have verifed that your machine boots properly without any issues as described in the "What Works section", proceed to do the following
+
+### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 
 <details><summary><strong><ins>0. Boot os without usb or any drive</ins></strong></summary>
  
