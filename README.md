@@ -42,6 +42,9 @@
 
 EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
+<ins>Ventura betas Under maintenanance.</ins>
+<img align="top" src="images/Ventura beta 5 Proof-Infinix.png" alt="infinx ventura beta 5 system information." width="200">
+
 **Its Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.**
 
 ### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
