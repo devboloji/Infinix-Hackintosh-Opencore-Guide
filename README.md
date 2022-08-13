@@ -2,7 +2,7 @@
 
 
 ## Infinix-Hackintosh-Guide-Opencore.
-- This repo contains the installation guide and EFI files required to get a perfectly functional of Big Sur and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim. Everything is stable and functional as described in the Readme.
+- This repo contains the installation guide and EFI files required to get a perfectly functional of Ventura, Big Sur, Monterey and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim. Everything is stable and functional as described in the Readme.
 
 ### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 
@@ -11,7 +11,7 @@
 - These are the builts from me.  You might get the future updates for this machine.
 
  - I will try my best to keep the repo updated with the latest kexts and OpenCore version.
- - For macOS Monterey this EFI will work great as BigSur. so don't expect flawless functionality.
+ - For macOS Ventura this EFI will work great as BigSur, Monterey. so don't expect flawless functionality.
  Report me If you find the bugs or any issues. And **don't ask for ETA**(Estimated Time of Time).
 - With every EFI update you retrieve from here please remember to go through the **post install guide**(Below)
 
@@ -36,7 +36,7 @@
 
 EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
-<ins>Ventura betas Under maintenanance.</ins>
+<ins>You can use the latest EFI for Ventura .</ins>
 <img align="top" src="images/Ventura beta 5 Proof-Infinix.png" alt="infinx ventura beta 5 system information." width="200">
 
 **Its Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.**
@@ -119,8 +119,10 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 
 <details>
  <summary><strong> Setting Up with Bios</strong></summary>
-  Note:Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned, if many of these options are not available in your BIOS. You cannot change the cpu,fan and other settings. This is due to Locked-bios(cfg-lock). If anyone unlocked the bios, Please tell that good news in [telegram-Group] (https://t.me/infinix_inbook_discussion) . 
- <details>
+  Note:Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned, if many of these options are not available in your BIOS. You cannot change the cpu,fan and other settings. This is due to Locked-bios(cfg-lock). If anyone unlocked the bios, Please tell in "Telegram-Group" ->(https://t.me/infinix_inbook_discussion) that good news.
+
+
+<details>
 <summary><strong>Disable:</strong></summary>
  
 - Fast Boot
@@ -130,8 +132,11 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - VT-d
 - CSM
  </details>
+ 
+ 
 <details>
  <summary><strong>Enable:</strong></summary>
+ 
  
 - VT-x
 - Execute Disable Bit
