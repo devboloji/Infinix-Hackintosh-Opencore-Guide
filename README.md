@@ -1,4 +1,6 @@
-| [Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases) |
+| [Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases) | 
+
+## :star_struck: Now the EFI supports Ventura!!:star_struck: :star_struck:
 
 
 ## Infinix-Hackintosh-Guide-Opencore.
