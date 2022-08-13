@@ -6,12 +6,6 @@
 
 ### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 
-# ********************************
-# This repo is no longer Updated due to lack of Donations and support for this repo. so I can no longer offer support for this. If you donate anytime the repo will be updated.
-# This repo will archived and all open issues are closed
-# The current state of this repo is 100% compatible with macOS Big Sur & Monterey.
-# ********************************
-
 <hr>
 
 - These are the builts from me.  You might get the future updates for this machine.
