@@ -20,6 +20,9 @@
 # Any one can donate me or buy me a coffee :
 #### via paytm here :`7095160636857@paytm`
 #### via paypal here: [donate here](https://www.paypal.me/369639)
+
+ If you ask anyone for EFI they built, They ask you the money. But I am giving the EFI for free to Infinix, There is no result for my Very HardWork and I am giving the Finest EFI by spending Hours by fixing. In Buying your new macbook, I made infinix to Macbook air practically. In-place of buying apple, Donate me to speed up work also for future updates.->[Go to donate session Here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#any-one-can-donate-me-or-buy-me-a-coffee-)
+
  <details><summary>DISCLAIMER</summary>
  
 |                          Disclaimer                               |
