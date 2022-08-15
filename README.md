@@ -8,6 +8,11 @@
 
 ### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 
+## ********************************
+## This repo is Updated slowly due to lack of Donations and support for this repo. so To support this repo longer, donate. If you donate anytime the repo will be updated faster.
+## The current state of this repo is 100% compatible with macOS Ventura, Big Sur & Monterey.
+## ********************************
+
 <hr>
 
 - These are the builts from me.  You might get the future updates for this machine.
