@@ -305,6 +305,19 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  If you use these! When you put your device sleep, the laptop reboots automatically after 30sec. To fix that you need to reinstall the macOS.
  </details>
  
+ <details><summary><strong><ins> 9. Install Windows in Pre-installed MacOS (Dual-Boot). </ins></strong></summary>
+ 
+ 1. Launch `Disk Utility` -> `Select View` > `Show all devices` at the top left
+ 2. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`. Change `guid patition table`-> `Master Boot Record Partiton`. Hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
+ 3. Copy the EFI that you are using right now to the `USB` or store it to another device.
+ 4. Next, to partition your drive, -> Launch `Disk Utility` -> `Select View` > `Show all devices` at the top left -> Choose your `drive` as root -> Click `Partition` -> click `add partition` if you see a popup -> `Name` your partition. -> Change the `Format` type to `ExFat` or `Ms-dos` -> Adjust your `Partition size` as you like. click `Apply`. This process takes atlest 15 min. 
+ 5. Take an Another USB, Now Make bootable of required version of windows by rufus or any other.
+ 6. Boot to USB - Windows from bios. Run the windows Installer as Asusual. But remember to install on ur windows Partition in `where to installer`.
+ 7. When you get into 1st boot-windows, install all Updates and you can also restart when updates required reboot.(Forget about macOS for now). After installing all updates, Plug in the `EFI usb` and reboot to usb from bios to boot into MacOS.
+ 8. When you boot into MacOS, <ins>Mount the EFI folder</ins>, and delete the `Boot`and `OC` folders. Now go to `Microsoft` -> `Boot` -> change `bootmgfw.efi` to `bootmgfw.efi-
+ 
+ </details>
+ 
 <hr>
 
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) and Telegram support channel:[Support Group](https://t.me/infinix_inbook_discussion)
