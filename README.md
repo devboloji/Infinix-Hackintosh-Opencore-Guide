@@ -309,7 +309,7 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  
  - This process is very simple for dual boot and can ask doubts and issues here on [Telegram Group](https://t.me/infinix_inbook_discussion) 
  
- 1. Take a Usb or sd-card & Launch `Disk Utility` -> Select `View` > `Show all devices` at the top left.
+ 1. Take a Usb or sd-card, connect to pc & Launch `Disk Utility` -> Select `View` > `Show all devices` at the top left.
  2. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`. Change `guid patition table` -> `Master Boot Record Partiton`. Hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
  3. Copy the EFI that you are using right now to the `USB` or store it to another device.
  4. Next, to partition your drive, -> Launch `Disk Utility` -> Select `View` > `Show all devices` at the top left -> Choose your `MacOS-drive` as root -> Click `Partition` -> click `add partition` if you see a popup -> `Name` your partition. -> Change the `Format` type to `ExFat` or `Ms-dos` -> Adjust your `Partition size` as you like. click `Apply`. This process takes atleast 15 min. 
