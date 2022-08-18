@@ -253,7 +253,7 @@ After booting into OS, You need to downlaod opencore configurator and mount the 
 
 <details><summary><strong><ins>1.Disable the black screen texts on boot up</ins></strong></summary>
 
-( Disabling the Verbose mode)A new hackintosh User uses this. To disable it, In Config.plist, navigate to NVRAM -> Add -> `7C436110-AB2A-4BBB-A880-FE41995C9F82` -> `boot-args` -> remove the `-v` argument. Save it and reboot. 
+( Disabling the Verbose mode)A new hackintosh User uses this. To disable it, In Config.plist, navigate to 'NVRAM' ->  go to Add `7C436110-AB2A-4BBB-A880-FE41995C9F82` -> `boot-args` -> remove the `-v` argument. Save it and reboot. 
  </details>
 
 <details><summary><strong><ins> 2. Disable ShowPicker</ins></strong></summary>
