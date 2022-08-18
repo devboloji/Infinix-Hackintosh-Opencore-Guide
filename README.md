@@ -251,9 +251,9 @@ Once you have verifed that your machine boots properly without any issues as des
 After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 </details>
 
-<details><summary><strong><ins>1.Get the black screen texts on boot up</ins></strong></summary>
+<details><summary><strong><ins>1.Disable the black screen texts on boot up</ins></strong></summary>
 
-( Enabling Verbose mode)A real hackintosh User uses this. To enable it, In Config.plist, navigate to NVRAM -> Add -> `7C436110-AB2A-4BBB-A880-FE41995C9F82` -> `boot-args` and give a single space and add the `-v` argument.
+( Disabling the Verbose mode)A new hackintosh User uses this. To disable it, In Config.plist, navigate to NVRAM -> Add -> `7C436110-AB2A-4BBB-A880-FE41995C9F82` -> `boot-args` -> remove the `-v` argument. Save it and reboot. 
  </details>
 
 <details><summary><strong><ins> 2. Disable ShowPicker</ins></strong></summary>
