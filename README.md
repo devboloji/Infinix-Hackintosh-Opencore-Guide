@@ -136,7 +136,7 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 <summary><strong>Disable:</strong></summary>
  
 - Fast Boot
-- disable wake on wlan and bluetooth (which causes sleep issues)
+- `chipset` -> `PCH IO configuration` ->`disable wake on wlan and bluetooth` (which causes sleep issues)
 - Disable windows bit-lock encryption (ignore, if you don't lock it)
 - Secure Boot
 - VT-d
@@ -147,16 +147,14 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 <details>
  <summary><strong>Enable:</strong></summary>
  
- 
-- VT-x
+
 - Execute Disable Bit
-- OS type: Windows 8.1/10 UEFI Mode
-- DVMT Pre-Allocated(iGPU Memory): 256MB or MAX
-- Set` DVMT Total Gfx Memory` setting to `Max`
-- Set `DVMT PPre-Allocated` Setting to `160M` or to `max`
+- `DVMT Total Dfx Mem`(iGPU Memory): `MAX` from `System Agent(SA)configuration` -> `Graphics configuration`.
+- Set` DVMT Total Gfx Memory` setting to `Max`from `System Agent(SA)configuration` -> `Graphics configuration`.
+- Set `DVMT PPre-Allocated` Setting to `160M` or to `max` from `System Agent(SA)configuration` -> `Graphics configuration`.
 - SATA Mode: AHCI
 - Every setting is not Available so check your self
-- Intel Virtualization Technology not vt-d.
+- `Intel Virtualization Technology` not vt-d.
 </details>
 </details>
 
