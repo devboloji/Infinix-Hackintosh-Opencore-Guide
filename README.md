@@ -168,7 +168,6 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 
 **This is a simple and quick summary of the online install USB creation.**
 
-You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
  ### macOS Bigsur Installer with Windows And Mac Users:
 <details>
  <summary><strong>Process1.MacOS BigSur Online Installer from Windows and macOS:</strong></summary>
@@ -235,9 +234,23 @@ You will get display glitches only while installing the macOS via USB or any fla
 - 8.Select your sd card or flash drive as temporary boot option in boot menu.
 - 9.Now in the OpenCore menu select the name of your USB partiton
 - install.Enjoy!!!!
-- 10.After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
 
 </details>
+
+### After booting in to the *Macos Recovery* 
+
+  #### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
+
+- 1. open `Disk Utiliy` -> Select `View` which is at the top left -> choose `Show all devices` -> Select your root of your `SSD drive storage` which you want to install MacOS(root SSD drive device) -> Click `Erase` -> `Name` your drive as you like, Prefered to name as `Macintosh` OR `Macintosh HD` -> change `Format` to `APFS` -> `Scheme` to `Guid Patition Map` -> Click `Erase` .
+- 2. Click `done` and close `disk utility` window. 
+- 3. Select `Install MacOS <macos_version_here>` & click `continue` -> select your `SSD drive name` which you renamed before on Disk Utility and click `continue` .
+- 4. The installer takes 1-2 hours to install for online & offline process.
+
+#### Note : Don't make the screen off, until the installation is over or until the it reboots. If the screen is off in the installation process, it reboots and you need to do the same process of installtion.
+- if you don't understand or you confused in the installation process, watch it on youtube-[here](https://youtu.be/eMpjFE2AIwg?t=170) 
+
+- After booting into OS, in `setup` you will see `File-Vault` must be disabled or turn-off. After setup,you need to do little work, read post-install-0
+
 <hr>
 
 # Post Install
@@ -247,7 +260,10 @@ Once you have verifed that your machine boots properly without any issues as des
 
 <details><summary><strong><ins>0. Boot os without usb or any drive</ins></strong></summary>
  
-After booting into OS, You need to downlaod opencore configurator and mount the system drive, Then paste the efi to the mounted efi from the USB or drive. then reboot and remove usb.
+After booting into OS, you cannot boot without usb, because EFI is in USB. So, You need to downlaod opencore configurator [link](https://mackie100projects.altervista.org/opencore-configurator/) -> open `opencore-configurator` give permissions  in `system prefereneces` -> `security` -> `open anyway`. open `opencore-configurator` again -> mount the `EFI` and paste the `EFI<folder>` to the `EFI partition`.
+ - Remove the USB and reboot. `RESET-NVRAM` once in opencore boot-menu and reboot..Done...
+ if you don't understand or confused watch in youtube [here](https://youtu.be/IP7crXa-5lo?t=533) differenet process.
+ 
 </details>
 
 <details><summary><strong><ins>1.Disable the black screen texts on boot up</ins></strong></summary>
