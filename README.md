@@ -22,6 +22,7 @@
  Report me If you find the bugs or any issues. And **don't ask for ETA**(Estimated Time of Time).
 - With every EFI update you retrieve from here please remember to go through the **post install guide**(Below)
 
+# :diamond_shape_with_a_dot_inside: Donate :diamond_shape_with_a_dot_inside:
 |  Any one can donate me or buy me a coffee :|
 |--------------------------------------------|
 |  via paytm here :`7095160636857@paytm`     |
@@ -104,18 +105,19 @@ Note - In this Hacintosh, The cpu is well optimised and you get more performance
  <summary><strong> What's working ✅ </strong></summary>
  </br>
  
-- [x] Wifi
-- [x] iMessage, FaceTime, App Store, iTunes Store `Please generate your own SMBIOS`read my [post install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) which is below the installation.
-- [x] Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
-- [x] OnBoard Audio(Input/ Output)
-- [x] USB ports
-- [x] Wired headphones
-- [x] You will get upto 4 hours to 5 hours battery backup for streaming 1080p-youtube and for coding without any pause.You may get more than me.
-- [x] Trackpad 
-- [x] brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
-- [x] Wake / Shutdown
-- [x] Short sleep. (If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 3 to 8 percentage for every hour when  you put your device into sleep). 
+- :heavy_check_mark: Wifi
+- :heavy_check_mark: iMessage, FaceTime, App Store, iTunes Store `Please generate your own SMBIOS`read my [post install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) which is below the installation.
+- :heavy_check_mark: Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
+- :heavy_check_mark: OnBoard Audio(Input/ Output)
+- :heavy_check_mark: USB ports
+- :heavy_check_mark: Wired headphones
+- :heavy_check_mark: You will get upto 4 hours to 5 hours battery backup for streaming 1080p-youtube and for coding without any pause.You may get more than me.
+- :heavy_check_mark: Trackpad 
+- :heavy_check_mark: brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
+- :heavy_check_mark: Wake / Shutdown
+- :heavy_check_mark: Short sleep. (If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 3 to 8 percentage for every hour when  you put your device into sleep). 
 This is due to continuous fan spinning when sleep. Anyone is welcomed to fix these issues. First contact me to do that
+- :heavy_check_mark: For *HDMI* , buy a USB dock.
 - Everything (Much More).
 
 </details>
@@ -123,9 +125,9 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
  <summary><strong>What's not working ⚠️</strong></summary>
  </br>
  
-* Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Donot use any hibernate app in macos),Read [Post-install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) Any one is welcomed to fix this issue, contact me.
-* Hdmi slot.
-* Don't expect too much battery in this Hackintosh like windows. You get atleast 5-hours battery-backup.
+* :heavy_exclamation_mark: Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Donot use any hibernate app in macos),Read [Post-install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) Any one is welcomed to fix this issue, contact me.
+* :heavy_exclamation_mark: Hdmi slot. To get work, buy a USB Dock.
+* :heavy_exclamation_mark: Don't expect too much battery in this Hackintosh like windows. You get atleast 5-hours battery-backup.
 </details>
 
 <details>
