@@ -55,20 +55,18 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 ### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 
-<img align="right" src="images/infinix laptop image.jpeg" alt="infinx inbook series laptop image" width="200">
+<img align="right" src="images/infinix laptop image.jpeg" alt="infinx inbook series laptop image" width="300">
 
-- `Tested CPUs`: **i3-1005G1**
+| Device Specs                          |
+|--------------------------------------|
+| `Tested CPUs`: **i3-1005G1** |
+| `Integrated Graphics`:   **G1/G4 graphics** |
+| `Sound Card`: **ALC269 (use alcid=26)** for i3. |
+| `Wireless Cards Tested`: **Intel® AX210.** |
+| `Trackpad`: **Voodoo2IC synaptic** |
 
-(not tested in i5/i7, If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)) and Telegram support channel:[Support Group](https://t.me/infinix_inbook_discussion)
-
-
-- `Integrated Graphics`: **G1/G4 graphics**
-
-- `Sound Card`: **ALC269 (use alcid=26)** for i3.
-
-- `Wireless Cards Tested`: **Intel® AX210.**
-
-- `Trackpad`: **Voodoo2IC synaptic**
+ Not tested in i5/i7.
+ If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) & [Telegram Group](https://t.me/infinix_inbook_discussion) 
 
 <hr>
 
