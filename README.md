@@ -61,7 +61,7 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 |--------------------------------------|
 | `Tested CPUs`: **i3-1005G1** |
 | `Integrated Graphics`:   **G1/G4 graphics** |
-| `Sound Card`: **ALC269 (use alcid=26)** for i3. |
+| `Sound Card`: **ALC269 (use alcid=26 & 99)** for i3. |
 | `Wireless Cards Tested`: **Intel® AX210.** |
 | `Trackpad`: **Voodoo2IC synaptic** |
 
