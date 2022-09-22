@@ -277,7 +277,7 @@ In the Config.plist, You can disable the boot picker screen so that you boot str
 Note: you can still see the boot picker with ShowPicker set to no/false by spamming Esc before the apple logo is displayed during boot.
 </details>
 
-<details><summary><strong><ins>3. Boot faster</ins></strong></summary>
+<details><summary><strong><ins>3. Boot faster or Remove Volume has MisHash </ins></strong></summary>
 You can Disable IntelBluetoothFirmware.kext & IntelBluetoothInjector.kext to be able to Boot faster those kexts in config.plist for BigSur.
 For Monterey, Disable IntelBluetoothFirmware.kext & Bluetool fixup.kext to be able to Boot faster those kexts in config.plist
 This is not done by default to bluetooth working.
@@ -308,7 +308,7 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  
  <details><summary><strong><ins> 7.Fix "interface is small" (small text and window issue)</ins></string></summary>
  
-- To fix, use [one key high dpi](https://github.com/xzhih/one-key-hidpi) here and run `hidpi.command` in the folder and choose `(1) Enable HIDPI` by typing `1` -> Then choose `Macbook` -> choose  `(2) 1920x1080 Display (use 1424x802, fix underscaled after sleep)` -> Reboot your device.
+- To fix, use [one key high dpi](https://github.com/xzhih/one-key-hidpi) here and run `hidpi.command` in the folder and choose `(1) Enable HIDPI` by typing `1` -> Then choose `Macbook` -> choose  `(2) 1920x1080 Display (use 1424x802, fix underscaled after sleep)`  or Recommended: for custom resolution -> choose `(6) Manual input resolution` -> then type `1472x828` hit enter -> Reboot your device.
  
 -  After rebooting, go to `system Preferences` -> `Display` -> choose `Scaled` and select what you like.
   </details>
@@ -333,7 +333,7 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  7. When you boot into windows, install all Updates and you can also restart when updates required reboot.(Forget about macOS for now). After installing all updates, Plug in the `EFI usb` and reboot to usb from bios to boot into MacOS.
  8. When you boot into MacOS, <ins>Mount the EFI folder</ins>, and delete `Boot`and `OC` folders and paste the "boot" & "OC" folders from USB to MacOS  EFI. Now go to `Microsoft` -> `Boot` -> change `bootmgfw.efi` to `bootmgfw.efi-ORIG` (replace ".efi" extension to ".efi-ORIG"). Unmount the EFI and reboot.
  9. Reboot to macOS.(you can only see "MacOS" in boot-menu). Now go to `Microsoft` -> `Boot` -> change `bootmgfw.efi-ORIG` to  `bootmgfw.efi` (replace ".efi-ORIG" extension to ".efi" again). Unmount the EFI and reboot.
- 10. Now you can see Windows & MacOS on boot-menu. Enjoy. Donation will be helpful : [Here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#any-one-can-donate-me-or-buy-me-a-coffee-)
+ 10. Now you can see Windows & MacOS on boot-menu. Enjoy. Donation will be helpful : [Here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#diamond_shape_with_a_dot_inside-donate-diamond_shape_with_a_dot_inside)
  
  If you don't understand, watch the tutorial from youtube [here](https://youtu.be/OqvHtwHUROc?t=20)
  . Have a great day. 
