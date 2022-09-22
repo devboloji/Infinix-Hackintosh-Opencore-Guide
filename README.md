@@ -333,7 +333,9 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  7. When you boot into windows, install all Updates and you can also restart when updates required reboot.(Forget about macOS for now). After installing all updates, Plug in the `EFI usb` and reboot to usb from bios to boot into MacOS.
  8. When you boot into MacOS, <ins>Mount the EFI folder</ins>, and delete `Boot`and `OC` folders and paste the "boot" & "OC" folders from USB to MacOS  EFI. Now go to `Microsoft` -> `Boot` -> change `bootmgfw.efi` to `bootmgfw.efi-ORIG` (replace ".efi" extension to ".efi-ORIG"). Unmount the EFI and reboot.
  9. Reboot to macOS.(you can only see "MacOS" in boot-menu). Now go to `Microsoft` -> `Boot` -> change `bootmgfw.efi-ORIG` to  `bootmgfw.efi` (replace ".efi-ORIG" extension to ".efi" again). Unmount the EFI and reboot.
- 10. Now you can see Windows & MacOS on boot-menu. Enjoy. Donation will be helpful : [Here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#any-one-can-donate-me-or-buy-me-a-coffee-) 
+ 10. Now you can see Windows & MacOS on boot-menu. Enjoy. Donation will be helpful : [Here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#any-one-can-donate-me-or-buy-me-a-coffee-)
+ 
+ If you don't understand, watch the tutorial from youtube [here](https://youtu.be/OqvHtwHUROc?t=20)
  . Have a great day. 
  </details>
  
