@@ -42,11 +42,12 @@
  
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) and Telegram support channel:[Support Group](https://t.me/infinix_inbook_discussion)
 
-![img](https://img.shields.io/badge/Release%20Update-July-red) ![img](https://img.shields.io/badge/macOS%20Support-Monterey--11.6.7-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.2-red)
+![img](https://img.shields.io/badge/Release%20Date-Every%20Month-red) ![img](https://img.shields.io/badge/macOS%20Support-Ventura--beta-blue)
+![img](https://img.shields.io/badge/macOS%20Support-Monterey--latest-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.4-red)
 
 ## Introduction
 
-EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
+EFI folder and Guide for Infinix X1, Slim, x2 and Infinix laptop Hackintosh Opencore.
 
 <ins>You can use the latest EFI for Ventura .</ins>
 <img align="top" src="images/Ventura beta 5 Proof-Infinix.png" alt="infinx ventura beta 5 system information." width="200">
@@ -59,13 +60,13 @@ EFI folder and Guide for Infinix X1,Slim and Infinix laptop Hackintosh Opencore.
 
 | Device Specs                          |
 |--------------------------------------|
-| `Tested CPUs`: **i3-1005G1** |
+| `Tested CPUs`: **i3-1005G1,i5,i7** |
 | `Integrated Graphics`:   **G1/G4 graphics** |
 | `Sound Card`: **ALC269 (use alcid=26 & 99)** for i3. |
 | `Wireless Cards Tested`: **Intel® AX210.** |
 | `Trackpad`: **Voodoo2IC synaptic** |
 
- Not tested in i5/i7.
+#### Tested on Infinix InBook x1-i3-i5-i7, Slim, x2 .
  If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) & [Telegram Group](https://t.me/infinix_inbook_discussion) 
 
 <hr>
@@ -258,7 +259,7 @@ Once you have verifed that your machine boots properly without any issues as des
 
 ### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 
-<details><summary><strong><ins>0. Boot os without usb or any drive</ins></strong></summary>
+<details><summary><strong><ins>0. [Must] Boot os without usb or any drive</ins></strong></summary>
  
 After booting into OS, you cannot boot without usb, because EFI is in USB. So, You need to downlaod opencore configurator [link](https://mackie100projects.altervista.org/opencore-configurator/) -> open `opencore-configurator` give permissions  in `system prefereneces` -> `security` -> `open anyway`. open `opencore-configurator` again -> mount the `EFI` and paste the `EFI<folder>` to the `EFI partition`.
  - Remove the USB and reboot. `RESET-NVRAM` once in opencore boot-menu and reboot..Done...
@@ -273,7 +274,7 @@ After booting into OS, you cannot boot without usb, because EFI is in USB. So, Y
 
 <details><summary><strong><ins> 2. Disable ShowPicker</ins></strong></summary>
  
-In the Config.plist, You can disable the boot picker screen so that you boot straight to th Apple logo by setting under `Misc` -> `Boot` -> `ShowPicker` False (NO)
+Don't use this if you are using dual boot. In the Config.plist, You can disable the boot picker screen so that you boot straight to th Apple logo by setting under `Misc` -> `Boot` -> `ShowPicker` False (NO)
 Note: you can still see the boot picker with ShowPicker set to no/false by spamming Esc before the apple logo is displayed during boot.
 </details>
 
