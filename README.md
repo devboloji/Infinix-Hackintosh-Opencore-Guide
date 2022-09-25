@@ -342,7 +342,7 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  
 <hr>
 
-- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) and Telegram support channel:[Support Group](https://t.me/infinix_inbook_discussion)
+- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) and Telegram support channel:[Support Group](https://t.me/infinix_inbook_discussion) or *mail me* - saidev949@gmail.com
 
  Inform me, If there is any error / spelling mistake in the Installtion or any where...                                                                      
 Thanks to the OpenCore Team,Olarila team, SAITEJA for testing, all the hackintosh guides,and me ofcourse.
