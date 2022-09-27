@@ -286,7 +286,27 @@ This is not done by default to bluetooth working.
 ***For those on macOS Monterey do not enable IntelBluetoothInjector kext because the system will not boot***
 </details>  
 
-<details><summary><strong><ins> 4. Add Device Properties for Serial number, MLB, ROM, Sytem-UUID.</ins></strong></summary>
+<details> <summary><strong><ins> 4.Clean Updating your EFI with new EFI release </ins></strong></summary>
+
+To update your EFI with the new Release EFI. The steps:-
+
+1) Download new Release EFI from [here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/releases) 
+
+2) Take the backup of SMBios or windows dual boot file to other folder, if you required. (if you want to backup SMBIOS,copy `system serial number`, `system UUID`, `MLB`, `ROM`, `System product name`.)
+
+3) Now add those SMBIOS or place Windows EFI files as it should be in old EFI to new EFI, if you backuped before.
+
+4) Mount the EFI partition, Delete the OLD EFI.
+
+5) Copy and paste the new EFI to EFI partition.
+
+6) hit reboot, Remember to do only Reset NVRAM once.
+
+7) Done, you have done a clean EFI Update.
+
+</details>
+
+<details><summary><strong><ins> 5. Add Device Properties for Serial number, MLB, ROM, Sytem-UUID.</ins></strong></summary>
  
 Use `MacBookAir9,1` SMBios. Recommended : opencore configurator, Go to the  `PlatformInfo >SMBios`Tick the "Add to the section to config file" in `SMBIOS` and `DATAHUB -GENERIC- PLATFORMNVRAM` and continue your Adding your SMBIOS.
 Follow this [Opencore guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) to set up serial number and the accompanying info to get iServices.
@@ -294,34 +314,34 @@ Follow this [Opencore guide](https://dortania.github.io/OpenCore-Post-Install/un
  Trick to Get exact Processor details in System Information - When you are adding the smbios, Edit `processor type` -> `0` or delete inside of `processor-type` .
  </details>
  
-<details><summary><strong><ins> 5.To fix cursor glitch (ignore, if you are done, before installing)</ins></strong></summary>
+<details><summary><strong><ins> 6.To fix cursor glitch (ignore, if you are done, before installing)</ins></strong></summary>
  
 Goto Bios Settings -> `Chipset Section -> System Agent (SA) Configuration -> Graphics Configuration`
 
 Set` DVMT Total Gfx Memory` setting to `Max`
 Set `DVMT PPre-Allocated` Setting to `160M` or to `max`
 </details>
-<details><summary><strong><ins>6.Fix Imessage and Facetime. </ins></strong></summary>
+<details><summary><strong><ins>7.Fix Imessage and Facetime. </ins></strong></summary>
  
 If you are new to the apple account or if you are using apple account for the first time in hackintosh, You need to use the apple account for one month and use icloud. Even though, the imessages or factime don't work..
 The thing is "Use it" for a month or more and automatically after some days, Magically facetime and imessages workss...Tada...
  </details>
  
- <details><summary><strong><ins> 7.Fix "interface is small" (small text and window issue)</ins></string></summary>
+ <details><summary><strong><ins> 8.Fix "interface is small" (small text and window issue)</ins></string></summary>
  
 - To fix, use [one key high dpi](https://github.com/xzhih/one-key-hidpi) here and run `hidpi.command` in the folder and choose `(1) Enable HIDPI` by typing `1` -> Then choose `Macbook` -> choose  `(2) 1920x1080 Display (use 1424x802, fix underscaled after sleep)`  or Recommended: for custom resolution -> choose `(6) Manual input resolution` -> then type `1472x828` hit enter -> Reboot your device.
  
 -  After rebooting, go to `system Preferences` -> `Display` -> choose `Scaled` and select what you like.
   </details>
   
-<details><summary><strong><ins> 8. Donot try these things in fixing the sleep </ins></strong></summary>
+<details><summary><strong><ins> 9. Donot try these things in fixing the sleep </ins></strong></summary>
  
  - Donot use any hibernate app in macos.
  - Donot try [opencore sleep fix](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#preparations) .
  If you use these! When you put your device sleep, the laptop reboots automatically after 30sec. To fix that you need to reinstall the macOS.
  </details>
  
- <details><summary><strong><ins> 9. Install Windows in Pre-installed MacOS (Dual-Boot). </ins></strong></summary>
+ <details><summary><strong><ins> 10. Install Windows in Pre-installed MacOS (Dual-Boot). </ins></strong></summary>
  
  - This process is very simple for dual boot and can ask doubts and issues here on [Telegram Group](https://t.me/infinix_inbook_discussion) 
  
