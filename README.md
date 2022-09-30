@@ -129,6 +129,16 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 * :heavy_exclamation_mark: Don't expect too much battery in this Hackintosh like windows. You get atleast 5-hours battery-backup.
 </details>
 
+
+ <hr>
+ 
+
+## INSTALLATION
+
+### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
+
+## Start with bios.
+
 <details>
  <summary><strong> Setting Up with Bios</strong></summary>
   Note:Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned, if many of these options are not available in your BIOS. You cannot change the cpu,fan and other settings. This is due to Locked-bios(cfg-lock). If anyone unlocked the bios, Please tell in "Telegram-Group" ->(https://t.me/infinix_inbook_discussion) that good news.
@@ -160,12 +170,6 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 </details>
 </details>
 
- <hr>
- 
-
-## INSTALLATION
-
-### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 
 **This is a simple and quick summary of the online install USB creation.**
 
