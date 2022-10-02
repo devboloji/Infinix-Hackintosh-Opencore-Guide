@@ -333,7 +333,7 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  
  <details><summary><strong><ins> 8.Fix "interface is small" (small text and window issue)</ins></string></summary>
  
-- To fix, use [one key high dpi](https://github.com/xzhih/one-key-hidpi) here and run `hidpi.command` in the folder and choose `(1) Enable HIDPI` by typing `1` -> Then choose `Macbook` -> choose  `(2) 1920x1080 Display (use 1424x802, fix underscaled after sleep)`  or Recommended: for custom resolution -> choose `(6) Manual input resolution` -> then type `1472x828` or if you want 1920x1080p with best quality use `(4) 2560x1440 Display` hit enter -> Reboot your device.
+- To fix, use [one key high dpi](https://github.com/xzhih/one-key-hidpi) here and run `hidpi.command` in the folder and choose `(1) Enable HIDPI` by typing `1` -> Then choose `Macbook` -> if you want 1920x1080p with best quality use `(4) 2560x1440 Display` or if you want more scale use `(2) 1920x1080 Display (use 1424x802, fix underscaled after sleep)`  or Recommended: for custom resolution -> choose `(6) Manual input resolution` -> then type `1472x828` hit enter -> Reboot your device.
  
 -  After rebooting, go to `system Preferences` -> `Display` -> choose `Scaled` and select what you like.
   </details>
