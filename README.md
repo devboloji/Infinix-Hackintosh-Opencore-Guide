@@ -151,7 +151,7 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - `chipset` -> `PCH IO configuration` ->`disable wake on wlan and bluetooth` (which causes sleep issues)
 - Disable windows bit-lock encryption (ignore, if you don't lock it)
 - Secure Boot
-- VT-d
+- VT-d -> Advanced -> Cpu -> Virtualization technology
 - CSM
  </details>
  
