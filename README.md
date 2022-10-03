@@ -40,7 +40,7 @@
 
  </details>
  
-- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) and Telegram support channel:[Support Group](https://t.me/infinix_inbook_discussion)
+- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
 ![img](https://img.shields.io/badge/Release%20Date-Every%20Month-red) ![img](https://img.shields.io/badge/macOS%20Support-Ventura--beta-blue)
 ![img](https://img.shields.io/badge/macOS%20Support-Monterey--latest-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.4-red)
@@ -67,13 +67,13 @@ EFI folder and Guide for Infinix X1, Slim, x2 and Infinix laptop Hackintosh Open
 | `Trackpad`: **Voodoo2IC synaptic** |
 
 #### Tested on Infinix InBook x1-i3-i5-i7, Slim, x2 .
- If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) & [Telegram Group](https://t.me/infinix_inbook_discussion) 
+ If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
 <hr>
 
 ### Status : 
 
-- Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows, linux. I have tested in different sinarios, You can also test it and let us know about it in [telegram-group](https://t.me/infinix_inbook_discussion)
+- Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows, linux. I have tested in different sinarios, You can also test it and let us know about it.
 
 - You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)... I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows, And we don't need openCL in macos according to me..
 
@@ -141,7 +141,7 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 
 <details>
  <summary><strong> Setting Up with Bios</strong></summary>
-  Note:Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned, if many of these options are not available in your BIOS. You cannot change the cpu,fan and other settings. This is due to Locked-bios(cfg-lock). If anyone unlocked the bios, Please tell in "Telegram-Group" ->(https://t.me/infinix_inbook_discussion) that good news.
+  Note:Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned, if many of these options are not available in your BIOS. You cannot change the cpu,fan and other settings. This is due to Locked-bios(cfg-lock). If anyone unlocked the bios,let me know that good news.
 
 
 <details>
@@ -347,7 +347,7 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  
  <details><summary><strong><ins> 10. Install Windows in Pre-installed MacOS (Dual-Boot). </ins></strong></summary>
  
- - This process is very simple for dual boot and can ask doubts and issues here on [Telegram Group](https://t.me/infinix_inbook_discussion) 
+ - This process is very simple for dual boot and can ask doubts and issues here.
  
  1. Take a Usb or sd-card, connect to pc & Launch `Disk Utility` -> Select `View` > `Show all devices` at the top left.
  2. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`. Change `guid patition table` -> `Master Boot Record Partiton`. Hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
@@ -360,13 +360,13 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  9. Reboot to macOS.(you can only see "MacOS" in boot-menu). Now go to `Microsoft` -> `Boot` -> change `bootmgfw.efi-ORIG` to  `bootmgfw.efi` (replace ".efi-ORIG" extension to ".efi" again). Unmount the EFI and reboot.
  10. Now you can see Windows & MacOS on boot-menu. Enjoy. Donation will be helpful : [Here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#diamond_shape_with_a_dot_inside-donate-diamond_shape_with_a_dot_inside)
  
- If you don't understand, watch the tutorial from youtube [here](https://youtu.be/OqvHtwHUROc?t=20)
+
  . Have a great day. 
  </details>
  
 <hr>
 
-- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) and Telegram support channel:[Support Group](https://t.me/infinix_inbook_discussion) or *mail me* - saidev949@gmail.com
+- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) or *mail me* - saidev949@gmail.com
 
  Inform me, If there is any error / spelling mistake in the Installtion or any where...                                                                      
 Thanks to the OpenCore Team,Olarila team, SAITEJA for testing, all the hackintosh guides,and me ofcourse.
