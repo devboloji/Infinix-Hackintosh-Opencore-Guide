@@ -227,7 +227,7 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - 1.Search and Download Olarila BigSur or Monterey .raw from [Here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/)the latest version of bigsur is 11.6.7 and for Monterey is 12.3.1
 - 2.Download etcher from [here](https://www.balena.io/etcher/)
 - 3.Make Usb bootable (Flash the Sdcard) using Etcher and olarila bigsur.
-- 4.mount the efi of Sdcard or bootable drive.You can watch about mounting the efi in windows[Youtube](https://www.youtube.com/watch?v=-XwKjS6hbwQ) just watch how to select the olarila image from the website and mounting the efi 
+- 4.mount the efi of Sdcard or bootable drive.
 - For mac users use Opencore Configurator.app official [here](https://mackie100projects.altervista.org/download-opencore-configurator/)
 - 5.Delete the default EFI folder which is in bootable usb
 - 6.and paste the Efi to USB. Download Efi [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore)
@@ -252,7 +252,7 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
 - 4. The installer takes 1-2 hours to install for online & offline process.
 
 #### Note : Don't make the screen off, until the installation is over or until the it reboots. If the screen is off in the installation process, it reboots and you need to do the same process of installtion.
-- if you don't understand or you confused in the installation process, watch it on youtube-[here](https://youtu.be/eMpjFE2AIwg?t=170) 
+ 
 
 - After booting into OS, in `setup` you will see `File-Vault` must be disabled or turn-off. After setup,you need to do little work, read post-install-0
 
@@ -267,7 +267,7 @@ Once you have verifed that your machine boots properly without any issues as des
  
 After booting into OS, you cannot boot without usb, because EFI is in USB. So, You need to downlaod opencore configurator [link](https://mackie100projects.altervista.org/opencore-configurator/) -> open `opencore-configurator` give permissions  in `system prefereneces` -> `security` -> `open anyway`. open `opencore-configurator` again -> mount the `EFI` and paste the `EFI<folder>` to the `EFI partition`.
  - Remove the USB and reboot. `RESET-NVRAM` once in opencore boot-menu and reboot..Done...
- if you don't understand or confused watch in youtube [here](https://youtu.be/IP7crXa-5lo?t=533) differenet process.
+
  
 </details>
 
