@@ -4,12 +4,11 @@
 
 
 ## Infinix-Hackintosh-Guide-Opencore.
-- This repo contains the installation guide and EFI files required to get a perfectly functional of Ventura, Big Sur, Monterey and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim. Everything is stable and functional as described in the Readme.
+- This repo contains the installation guide and EFI files required to get a perfectly functional of Ventura, Big Sur, Monterey and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim&x2. Everything is stable and functional as described in the Readme.
 
 ### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 
 ## ********************************
-## This repo is Updated slowly due to lack of Donations and support for this repo. so To support this repo longer, donate. If you donate anytime the repo will be updated faster.
 ## The current state of this repo is 100% compatible with macOS Ventura, Big Sur & Monterey.
 ## ********************************
 
@@ -22,13 +21,12 @@
  Report me If you find the bugs or any issues. And **don't ask for ETA**(Estimated Time of Time).
 - With every EFI update you retrieve from here please remember to go through the **post install guide**(Below)
 
-# :diamond_shape_with_a_dot_inside: Donate :diamond_shape_with_a_dot_inside:
-|  Any one can donate me or buy me a coffee :coffee:  :|
+# :diamond_shape_with_a_dot_inside:buy me a coffee :coffee:  :  :diamond_shape_with_a_dot_inside:
+|  buy me a coffee :coffee:  :               |
 |--------------------------------------------|
 |  via paytm here :`7095160636797@paytm`     |
 |  via paypal here: [donate here](https://www.paypal.me/369639)|
 
- If you ask anyone for EFI they built, They ask you the money. But I am giving the EFI for free to Infinix, There is no result for my Very HardWork and I am giving the Finest EFI by spending Hours by fixing. In Buying a new macbook, I made infinix to Macbook air practically. In-place of buying apple, Donate me to speed up the work for future updates.->[Go to donate session Here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/edit/main/README.md#diamond_shape_with_a_dot_inside-donate-diamond_shape_with_a_dot_inside)
 
  <details><summary>DISCLAIMER</summary>
  
@@ -60,7 +58,7 @@ EFI folder and Guide for Infinix X1, Slim, x2 and Infinix laptop Hackintosh Open
 
 | Device Specs                          |
 |--------------------------------------|
-| `Tested CPUs`: **i3-1005G1,i5,i7** |
+| `Tested CPUs`: **i3-1005G1,i5,i7** , slim-i3,i5,i7, X2 |
 | `Integrated Graphics`:   **G1/G4 graphics** |
 | `Sound Card`: **ALC269 (use alcid=26 & 99)** for i3. |
 | `Wireless Cards Tested`: **Intel® AX210.** |
@@ -73,11 +71,11 @@ EFI folder and Guide for Infinix X1, Slim, x2 and Infinix laptop Hackintosh Open
 
 ### Status : 
 
-- Increased performance than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows, linux. I have tested in different sinarios, You can also test it and let us know about it.
+- The performance is better than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows, linux. I have tested in different sinarios, You can also test it and let us know about it.
 
 - You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)... I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows, And we don't need openCL in macos according to me..
 
-Note - In this Hacintosh, The cpu is well optimised and you get more performance like you overclocked(by without over-clocking). You get 5hr battery for common usage like using xcode,safari instances, social media apps, and 1080p playback at a time, continuously, simultaneously.
+Note - In this Hacintosh, You get 5hr battery for common usage like using xcode,safari instances, social media apps, and 1080p playback at a time, continuously, simultaneously.
 
 <img align="top" src="images/infinix x1 i3 benchmarks.jpeg" alt="infinx inbook x1 i3 laptop benchmarksimage" width="300">
 
@@ -358,7 +356,7 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  7. When you boot into windows, install all Updates and you can also restart when updates required reboot.(Forget about macOS for now). After installing all updates, Plug in the `EFI usb` and reboot to usb from bios to boot into MacOS.
  8. When you boot into MacOS, <ins>Mount the EFI folder</ins>, and delete `Boot`and `OC` folders and paste the "boot" & "OC" folders from USB to MacOS  EFI. Now go to `Microsoft` -> `Boot` -> change `bootmgfw.efi` to `bootmgfw.efi-ORIG` (replace ".efi" extension to ".efi-ORIG"). Unmount the EFI and reboot.
  9. Reboot to macOS.(you can only see "MacOS" in boot-menu). Now go to `Microsoft` -> `Boot` -> change `bootmgfw.efi-ORIG` to  `bootmgfw.efi` (replace ".efi-ORIG" extension to ".efi" again). Unmount the EFI and reboot.
- 10. Now you can see Windows & MacOS on boot-menu. Enjoy. Donation will be helpful : [Here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#diamond_shape_with_a_dot_inside-donate-diamond_shape_with_a_dot_inside)
+ 10. Now you can see Windows & MacOS on boot-menu. Enjoy.
  
 
  . Have a great day. 
@@ -368,6 +366,6 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
 
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) or mail me-> saidev949@gmail.com
 
- Inform me, If there is any error / spelling mistake in the Installtion or any where...                                                                      
+ Inform me, If there is any error / spelling mistake in the Installation or any where...                                                                      
 Thanks to the OpenCore Team,Olarila team, SAITEJA for testing, all the hackintosh guides,and me ofcourse.
 
