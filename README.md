@@ -25,7 +25,7 @@
 |  buy me a coffee :coffee:  :               |
 |--------------------------------------------|
 |  via paytm here :`7095160636797@paytm`     |
-|  via paypal here: [donate here](https://www.paypal.me/369639)|
+|  via paypal here: [here](https://www.paypal.me/369639)|
 
 
  <details><summary>DISCLAIMER</summary>
