@@ -96,6 +96,10 @@ Note - In this Hacintosh, You get 5hr battery for common usage like using xcode,
 
    used this python [benchmark program](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html) compiled the program x16000 times once.
 
+And also I have tested Windows10 virtualbox with assigning 4gb ram 50gb storage, These are the benchmarks.
+<img align="middle" src="images/WindowsVirtualboxBench.png" alt="infinx inbook x1 i3 virtualbox benchmarks image" width="300">
+images/WindowsVirtualboxBench.png
+
 #### <ins> Talking about the battery</ins>, The only issue is when the battery is about 15% or when device shows low battery, don't sleep your device. If you do it, the device may shutdowns or reboots only at that situation.
 
 <details>
