@@ -33,7 +33,7 @@
 |                          Disclaimer                               |
 |-------------------------------------------------------------------|
 |Read the entire README before you start.                           |
-|I am not responsible for any damages you may cause.                |
+|I am not responsible for any damages you may cause of your device.                |
 |If you find an error or improve anything,whether in the config or in the documentation,please consider opening an issue or pull request.|    
 
  </details>
@@ -62,7 +62,7 @@ EFI folder and Guide for Infinix X1, Slim, x2 and Infinix laptop Hackintosh Open
 | `Integrated Graphics`:   **G1/G4 graphics** |
 | `Sound Card`: **ALC269 (use alcid=26 & 99)** for i3. |
 | `Wireless Cards Tested`: **Intel® AX210.** |
-| `Trackpad`: **Voodoo2IC synaptic** |
+| `Trackpad`: **Voodoo2IC HID synaptic** |
 
 #### Tested on Infinix InBook x1-i3-i5-i7, Slim, x2 .
  If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
@@ -128,6 +128,9 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
  
 * :heavy_exclamation_mark: Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Donot use any hibernate app in macos),Read [Post-install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) Any one is welcomed to fix this issue, contact me.
 * :heavy_exclamation_mark: Hdmi slot. To get work, buy a USB Dock.
+* :heavy_exclamation_mark: Didn't mapped USBs.
+* :heavy_exclamation_mark: Didn't Mapped Keyboard keys.
+* :heavy_exclamation_mark: Less power Management optimisation.
 * :heavy_exclamation_mark: Don't expect too much battery in this Hackintosh like windows. You get atleast 5-hours battery-backup.
 </details>
 
