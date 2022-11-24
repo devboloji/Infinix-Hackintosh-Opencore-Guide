@@ -38,6 +38,8 @@
 
  </details>
  
+ ### If you want to report or rasie an ISSUE, you must mention your device details in it. And give a detailed information about your issue(images or videos are encouraged).
+ 
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
 ![img](https://img.shields.io/badge/Release%20Date-Every%20Month-red) ![img](https://img.shields.io/badge/macOS%20Support-Ventura--beta-blue)
