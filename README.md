@@ -2,6 +2,11 @@
 
 ## :star_struck: :star_struck: Now the EFI supports Ventura!!:star_struck: :star_struck:
 
+# ********************************
+# I can no longer offer support for this repo
+# ********************************
+
+
 # This repository is EOL (End Of Life).
 
 ## Infinix-Hackintosh-Guide-Opencore.
