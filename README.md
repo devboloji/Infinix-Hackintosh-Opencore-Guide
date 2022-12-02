@@ -23,11 +23,14 @@
 - With every EFI update you retrieve from here please remember to go through the **post install guide**(Below)
 
 # :diamond_shape_with_a_dot_inside:buy me a coffee :coffee:  :  :diamond_shape_with_a_dot_inside:
+
+## Donate
+<a href="https://www.paypal.me/369639/"><img src="blue.svg" height="40"></a>  
+If you enjoyed this project — or just feeling generous, consider buying me a beer. Cheers! :beers:
+
 |  buy me a coffee :coffee:  :               |
 |--------------------------------------------|
 |  via paytm here :`7095160636797@paytm`     |
-|  via paypal here: [here](https://www.paypal.me/369639)|
-
 
  <details><summary>DISCLAIMER</summary>
  
