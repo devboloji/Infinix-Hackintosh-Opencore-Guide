@@ -76,6 +76,39 @@ EFI folder and Guide for Infinix X1, Slim, x2 and Infinix laptop Hackintosh Open
 
 ### Status : 
 
+#### <ins> Talking about the battery</ins>, The only issue is when the battery is about 15% or when device shows low battery, don't sleep your device. If you do it, the device may shutdowns or reboots only at that situation.
+
+<details>
+ <summary><strong> What's working ✅ </strong></summary>
+ </br>
+ 
+- :heavy_check_mark: Wifi
+- :heavy_check_mark: iMessage, FaceTime, App Store, iTunes Store `Please generate your own SMBIOS`read my [post install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) which is below the installation.
+- :heavy_check_mark: Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
+- :heavy_check_mark: OnBoard Audio(Input/ Output)
+- :heavy_check_mark: USB ports
+- :heavy_check_mark: Wired headphones
+- :heavy_check_mark: You will get upto 4 hours to 5 hours battery backup for streaming 1080p-youtube and for coding without any pause.You may get more than me.
+- :heavy_check_mark: Trackpad 
+- :heavy_check_mark: brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
+- :heavy_check_mark: Wake / Shutdown
+- :heavy_check_mark: Short sleep, Long sleep (If you put your device to sleep for all night, it conusmes 6 to 8 percent. Its common in every operating system
+- :heavy_check_mark: For *HDMI* , buy a USB dock not typeC.
+- Everything (Much More).
+
+</details>
+<details>
+ <summary><strong>What's not working ⚠️</strong></summary>
+ </br>
+ 
+* :heavy_exclamation_mark: Hdmi slot. To get work, buy a USB Dock not typeC.(because typeC is dead for our infinix)
+* :heavy_exclamation_mark: USB typeC slot is dead. You cannot use it for file transfer and all. Because in the whole hackintosh, USB typeC is buggy and unstable. So, I disabled.
+* :heavy_exclamation_mark: Didn't Mapped Keyboard keys. But it's not mandatory. I like the default keyboard mapping.
+* :heavy_exclamation_mark: Don't expect too much battery in this Hackintosh like windows. You get atleast 5-hours battery-backup more.
+</details>
+
+
+
 - The performance is better than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows, linux. I have tested in different sinarios, You can also test it and let us know about it.
 
 - You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)... I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows, And we don't need openCL in macos according to me..
@@ -104,36 +137,6 @@ Note - In this Hacintosh, You get 5hr battery for common usage like using xcode,
 And also I have tested Windows10 virtualbox with assigning 1core, 4gb ram 50gb storage, These are the benchmarks.
 <img align="middle" src="images/WindowsVirtualboxBench.png" alt="infinx inbook x1 i3 virtualbox benchmarks image" width="300">
 images/WindowsVirtualboxBench.png
-
-#### <ins> Talking about the battery</ins>, The only issue is when the battery is about 15% or when device shows low battery, don't sleep your device. If you do it, the device may shutdowns or reboots only at that situation.
-
-<details>
- <summary><strong> What's working ✅ </strong></summary>
- </br>
- 
-- :heavy_check_mark: Wifi
-- :heavy_check_mark: iMessage, FaceTime, App Store, iTunes Store `Please generate your own SMBIOS`read my [post install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) which is below the installation.
-- :heavy_check_mark: Bluetooth (Bluetooth Headphones working, also bluetooth file transfer works)
-- :heavy_check_mark: OnBoard Audio(Input/ Output)
-- :heavy_check_mark: USB ports
-- :heavy_check_mark: Wired headphones
-- :heavy_check_mark: You will get upto 4 hours to 5 hours battery backup for streaming 1080p-youtube and for coding without any pause.You may get more than me.
-- :heavy_check_mark: Trackpad 
-- :heavy_check_mark: brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
-- :heavy_check_mark: Wake / Shutdown
-- :heavy_check_mark: Short sleep, Long sleep (If you put your device to sleep for all night, it conusmes 6 to 8 percent. Its common in every operating system
-- :heavy_check_mark: For *HDMI* , buy a USB dock not typeC.
-- Everything (Much More).
-
-</details>
-<details>
- <summary><strong>What's not working ⚠️</strong></summary>
- </br>
- 
-* :heavy_exclamation_mark: Hdmi slot. To get work, buy a USB Dock not typeC.(because typeC is dead for our infinix)
-* :heavy_exclamation_mark: Didn't Mapped Keyboard keys. But it's not mandatory. I like the default keyboard mapping.
-* :heavy_exclamation_mark: Don't expect too much battery in this Hackintosh like windows. You get atleast 5-hours battery-backup more.
-</details>
 
 
  <hr>
