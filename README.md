@@ -99,7 +99,7 @@ Note - In this Hacintosh, You get 5hr battery for common usage like using xcode,
 
    used this python [benchmark program](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html) compiled the program x16000 times once.
 
-And also I have tested Windows10 virtualbox with assigning 4gb ram 50gb storage, These are the benchmarks.
+And also I have tested Windows10 virtualbox with assigning 1core, 4gb ram 50gb storage, These are the benchmarks.
 <img align="middle" src="images/WindowsVirtualboxBench.png" alt="infinx inbook x1 i3 virtualbox benchmarks image" width="300">
 images/WindowsVirtualboxBench.png
 
@@ -119,9 +119,8 @@ images/WindowsVirtualboxBench.png
 - :heavy_check_mark: Trackpad 
 - :heavy_check_mark: brightness keys(To increase(+ve) -> `Pause`key) & (To decrease(-ve) -> `Scr Lk` key)
 - :heavy_check_mark: Wake / Shutdown
-- :heavy_check_mark: Short sleep. (If you make sleep for long hours, The laptop shutdowns. To boot up your device you need to plug in the charge like macbook to wake. But you can make sleep to for 1 to 3 hours(but you will lose 3 to 8 percentage for every hour when  you put your device into sleep). 
-This is due to continuous fan spinning when sleep. Anyone is welcomed to fix these issues. First contact me to do that
-- :heavy_check_mark: For *HDMI* , buy a USB dock.
+- :heavy_check_mark: Short sleep, Long sleep (If you put your device to sleep for all night, it conusmes 6 to 8 percent. Its common in every operating system
+- :heavy_check_mark: For *HDMI* , buy a USB dock not typeC.
 - Everything (Much More).
 
 </details>
@@ -129,12 +128,9 @@ This is due to continuous fan spinning when sleep. Anyone is welcomed to fix the
  <summary><strong>What's not working ⚠️</strong></summary>
  </br>
  
-* :heavy_exclamation_mark: Long Sleep(Using Long sleep, fans still spins and causes battery drain)(Donot use any hibernate app in macos),Read [Post-install](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide#post-install) Any one is welcomed to fix this issue, contact me.
-* :heavy_exclamation_mark: Hdmi slot. To get work, buy a USB Dock.
-* :heavy_exclamation_mark: Didn't mapped USBs.
-* :heavy_exclamation_mark: Didn't Mapped Keyboard keys.
-* :heavy_exclamation_mark: Less power Management optimisation.
-* :heavy_exclamation_mark: Don't expect too much battery in this Hackintosh like windows. You get atleast 5-hours battery-backup.
+* :heavy_exclamation_mark: Hdmi slot. To get work, buy a USB Dock not typeC.(because typeC is dead for our infinix)
+* :heavy_exclamation_mark: Didn't Mapped Keyboard keys. But it's not mandatory. I like the default keyboard mapping.
+* :heavy_exclamation_mark: Don't expect too much battery in this Hackintosh like windows. You get atleast 5-hours battery-backup more.
 </details>
 
 
@@ -345,13 +341,6 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  
 -  After rebooting, go to `system Preferences` -> `Display` -> choose `Scaled` and select what you like.
   </details>
-  
-<details><summary><strong><ins> 9. Donot try these things in fixing the sleep </ins></strong></summary>
- 
- - Donot use any hibernate app in macos.
- - Donot try [opencore sleep fix](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#preparations) .
- If you use these! When you put your device sleep, the laptop reboots automatically after 30sec. To fix that you need to reinstall the macOS.
- </details>
  
  <details><summary><strong><ins> 10. Install Windows in Pre-installed MacOS (Dual-Boot). </ins></strong></summary>
  
