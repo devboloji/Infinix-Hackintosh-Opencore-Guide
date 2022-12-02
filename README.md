@@ -2,17 +2,13 @@
 
 ## :star_struck: :star_struck: Now the EFI supports Ventura!!:star_struck: :star_struck:
 
-# ********************************
+ ********************************
 
 ## Infinix-Hackintosh-Guide-Opencore.
 - This repo contains the installation guide and EFI files required to get a perfectly functional of Ventura, Big Sur, Monterey and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim&x2. Everything is stable and functional as described in the Readme.
 
-### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
-
-## ********************************
+### -->[Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 ## The current state of this repo is 100% compatible with macOS Ventura, Big Sur & Monterey.
-## ********************************
-
 <hr>
 
 - These are the builts from me.  You might get the future updates for this machine.
@@ -47,6 +43,8 @@ If you enjoyed this project — or just feeling generous, consider buying me a b
 
 ![img](https://img.shields.io/badge/Release%20Date-Every%20Month-red) ![img](https://img.shields.io/badge/macOS%20Support-Ventura--beta-blue)
 ![img](https://img.shields.io/badge/macOS%20Support-Monterey--latest-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.7-red)
+
+ ********************************
 
 ## Introduction
 
