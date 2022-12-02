@@ -366,5 +366,13 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
 - You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) or mail me-> saidev949@gmail.com
 
  Inform me, If there is any error / spelling mistake in the Installation or any where...                                                                      
-Thanks to the OpenCore Team,Olarila team, SAITEJA for testing, all the hackintosh guides,and me ofcourse.
+## My sincere thanks to**
 
+- [Acidanthera](https://github.com/acidanthera)
+- [Dortania OC guide](https://dortania.github.io/OpenCore-Install-Guide/)
+- [CorpNewt's tools](https://github.com/corpnewt)
+- [Voodoo2I](https://github.com/VoodooI2C/VoodooI2C)
+- [Daliansky's OC-little repo](https://github.com/daliansky/OC-little)
+- [NitinGaury](https://github.com/nitingaury) for guiding me.
+- SAITEJA for testing
+- and the entire community for inspiring me!
