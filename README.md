@@ -28,9 +28,10 @@
 <a href="https://www.paypal.me/369639/"><img src="blue.svg" height="40"></a>  
 If you enjoyed this project — or just feeling generous, consider buying me a beer. Cheers! :beers:
 
-|  buy me a coffee :coffee:  :               |
-|--------------------------------------------|
-|  via paytm here :`7095160636797@paytm`     |
+| <a><img src="darkblue.svg" height="40"></a> |
+|-------------------------------------------|
+|  `7095160636797@paytm` |
+
 
  <details><summary>DISCLAIMER</summary>
  
