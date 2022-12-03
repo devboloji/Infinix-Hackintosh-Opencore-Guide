@@ -2,6 +2,7 @@
 
 ## :star_struck: :star_struck: Now the EFI supports Ventura!!:star_struck: :star_struck:
 <hr>
+
 ## Infinix-Inbook-series Hackintosh-Guide-Opencore.
 - Ice Lake (10th gen) Inbook or X1,slim & x2.
 ### -->[Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
@@ -33,7 +34,7 @@ If you enjoyed this project — or just feeling generous, consider buying me a b
  
 ### If you want to report or rasie an ISSUE, you must mention your device details in it. And give a detailed information about your issue(images or videos are encouraged).
  
-- You can follow me through [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
+- You can contact me through [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
  ********************************
 
@@ -123,10 +124,10 @@ Note - In this Hacintosh, You get 5hr battery for common usage like using xcode,
         - The program finished compiling on time (on Performance mode)- 4min 39sec.
 
    Used python 3.9 and This [benchmark script](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html) compiled the program x16000 times once.
+   
+![WindowsVirtualboxBench](https://user-images.githubusercontent.com/87069967/205454534-a03595b8-6aa0-4f0f-8494-1504440f5eca.png)
 
 And also I have tested Windows10 virtualbox with assigning 1core, 4gb ram 50gb storage in macOS monterey. These are the benchmarks.
-<img align="middle" src="images/WindowsVirtualboxBench.png" alt="infinx inbook x1 i3 virtualbox benchmarks image">
-images/WindowsVirtualboxBench.png
 
 
  <hr>
@@ -140,12 +141,13 @@ images/WindowsVirtualboxBench.png
 
 <details>
  <summary><strong> Setting Up with Bios</strong></summary>
+ 
   Note:Some of these options may not be present in your Bios. If you didn't find some bios, leave it and don't worry about it.
+  
 <details>
 <summary><strong>Disable:</strong></summary>
  
 - `chipset` -> `PCH IO configuration` ->`disable wake on wlan and bluetooth` (which causes sleep issues)
-
 - Secure Boot
 - `VT-d` -> `Advanced` -> `Cpu` -> `Virtualization technology`
 - Disable windows bit-lock encryption (ignore, if you don't lock it, the pre-installed windows doesn't come with bit-lock. Leave it, if you don't know about it.)
@@ -180,15 +182,16 @@ After setting these settings in bios, save it and exit.
 
   -  **`For mac users`**
 
-  		1. Launch `Disk Utility`
-      	2. `Select View` > `Show all devices` at the top left
-      	3. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`.
-      	4. change `guid patition table`-> `Master Boot Record Partiton`.
-      	5. hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
+       1. Launch `Disk Utility`
+       2. `Select View` > `Show all devices` at the top left
+       3. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`.
+       4. change `guid patition table`-> `Master Boot Record Partiton`.
+       5. hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
+       
   -  **`For Linux users`**
   
-  		1. Install `gparted` and format the usb to `Fat32` and `MBR` OR `MASTER BOOT RECORD PARTITION.
-  		2. DONE.
+  		    1. Install `gparted` and format the usb to `Fat32` and `MBR` OR `MASTER BOOT RECORD PARTITION.
+  	    	2. DONE.
   		
 6. Then ......................
 7. Now, Install Python from Microsoft store or Download manually for MAC,linux and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path to environmet variables for windows users.)
