@@ -1,20 +1,17 @@
 | [Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases) | 
 
 ## :star_struck: :star_struck: Now the EFI supports Ventura!!:star_struck: :star_struck:
-
- ********************************
-
-## Infinix-Hackintosh-Guide-Opencore.
-- This repo contains the installation guide and EFI files required to get a perfectly functional of Ventura, Big Sur, Monterey and later Hackintosh on your Ice Lake (10th gen) Inbook or X1,slim&x2. Everything is stable and functional as described in the Readme.
-
+<hr>
+## Infinix-Inbook-series Hackintosh-Guide-Opencore.
+- Ice Lake (10th gen) Inbook or X1,slim & x2.
 ### -->[Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
-## The current state of this repo is 100% compatible with macOS Ventura, Big Sur & Monterey.
+
 <hr>
 
-- These are the builts from me.  You might get the future updates for this machine.
+![img](https://img.shields.io/badge/Release%20Date-Every%20Month-red) ![img](https://img.shields.io/badge/macOS%20Support-Ventura--beta-blue)
+![img](https://img.shields.io/badge/macOS%20Support-Monterey--latest-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.7-red)
 
- - I will try my best to keep the repo updated with the latest kexts and OpenCore version.
- - For macOS Ventura this EFI will work great as BigSur, Monterey. so don't expect flawless functionality.
+- These are the builts from me.  You might get the future updates for this machine.
  Report me If you find the bugs or any issues. And **don't ask for ETA**(Estimated Time of Time).
 - With every EFI update you retrieve from here please remember to go through the **post install guide**(Below)
 
@@ -29,52 +26,48 @@ If you enjoyed this project — or just feeling generous, consider buying me a b
 
  <details><summary>DISCLAIMER</summary>
  
-|                          Disclaimer                               |
-|-------------------------------------------------------------------|
-|Read the entire README before you start.                           |
-|I am not responsible for any damages you may cause of your device.                |
-|If you find an error or improve anything,whether in the config or in the documentation,please consider opening an issue or pull request.|    
+**Disclaimer**
+- Hackintoshing may be dangerous and can damage your device and I am not responsible for bricked devices, dead devices, thermonuclear war, or you getting fired because your system failed. Please do some research if you have any concerns about hackintoshing before you proceed. YOU are choosing to make these changes to your system, and if you point the finger at me for messing up your device, I will laugh at you.
 
  </details>
  
- ### If you want to report or rasie an ISSUE, you must mention your device details in it. And give a detailed information about your issue(images or videos are encouraged).
+### If you want to report or rasie an ISSUE, you must mention your device details in it. And give a detailed information about your issue(images or videos are encouraged).
  
-- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
-
-![img](https://img.shields.io/badge/Release%20Date-Every%20Month-red) ![img](https://img.shields.io/badge/macOS%20Support-Ventura--beta-blue)
-![img](https://img.shields.io/badge/macOS%20Support-Monterey--latest-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.7-red)
+- You can follow me through [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
  ********************************
 
 ## Introduction
 
-EFI folder and Guide for Infinix X1, Slim, x2 and Infinix laptop Hackintosh Opencore.
-
-<ins>You can use the latest EFI for Ventura .</ins>
-<img align="top" src="images/Ventura beta 5 Proof-Infinix.png" alt="infinx ventura beta 5 system information." width="200">
-
-**Its Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.**
+**This EFI Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.**
 
 ### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 
-<img align="right" src="images/infinix laptop image.jpeg" alt="infinx inbook series laptop image" width="300">
+# _Device Information_                    
 
-| Device Specs                          |
-|--------------------------------------|
-| `Tested CPUs`: **i3-1005G1,i5,i7** , slim-i3,i5,i7, X2 |
-| `Integrated Graphics`:   **G1/G4 graphics** |
-| `Sound Card`: **ALC269 (use alcid=26 & 99)** for i3. |
-| `Wireless Cards Tested`: **Intel® AX210.** |
-| `Trackpad`: **Voodoo2IC HID synaptic** |
+ `Tested Devices`: All (i3,i5,i7)-> Inbook x1, Slim edition, x2.
+ 
+ `Tested CPUs`: **i3-1005G1, i5,i7.**
+ 
+ `Integrated Graphics`:   **G1/G4 , Iris graphics**
+ 
+ `Wireless Cards Tested`: **Intel® AX210.**
+  
+ `Trackpad`: **Voodoo2IC HID synaptic** 
+ 
+  `Sound Card`: (x1 i3)**ALC269** ->alcid=26 or 99 for i3,
+  					(x1 pro-i7)**ALC256** -> alcid=69,
+  					x1 slim or x2 = don't know.
 
-#### Tested on Infinix InBook x1-i3-i5-i7, Slim, x2 .
+
  If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
 
 <hr>
 
-### Status : 
+## Status : 
 
-#### <ins> Talking about the battery</ins>, The only issue is when the battery is about 15% or when device shows low battery, don't sleep your device. If you do it, the device may shutdowns or reboots only at that situation.
+**Talking about the battery🔋**, The only issue is when the battery is about 10% or when device shows low battery, don't sleep your device. If you do it, the device may shutdowns or reboots only at that situation.
+Note - In this Hacintosh, You get 5hr battery for common usage like using xcode,safari instances, social media apps, and 1080p playback at a time, continuously, simultaneously.
 
 <details>
  <summary><strong> What's working ✅ </strong></summary>
@@ -100,40 +93,39 @@ EFI folder and Guide for Infinix X1, Slim, x2 and Infinix laptop Hackintosh Open
  </br>
  
 * :heavy_exclamation_mark: Hdmi slot. To get work, buy a USB Dock not typeC.(because typeC is dead for our infinix)
-* :heavy_exclamation_mark: USB typeC slot is dead. You cannot use it for file transfer and all. Because in the whole hackintosh, USB typeC is buggy and unstable. So, I disabled.
+* :heavy_exclamation_mark: USB typeC slot is dead. You cannot use it for file transfer and all. Because in the whole hackintosh, USB typeC is buggy and unstable. So, I disabled for now.
 * :heavy_exclamation_mark: Didn't Mapped Keyboard keys. But it's not mandatory. I like the default keyboard mapping.
 * :heavy_exclamation_mark: Don't expect too much battery in this Hackintosh like windows. You get atleast 5-hours battery-backup more.
 </details>
-
 
 
 - The performance is better than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows, linux. I have tested in different sinarios, You can also test it and let us know about it.
 
 - You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)... I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows, And we don't need openCL in macos according to me..
 
-Note - In this Hacintosh, You get 5hr battery for common usage like using xcode,safari instances, social media apps, and 1080p playback at a time, continuously, simultaneously.
 
 <img align="top" src="images/infinix x1 i3 benchmarks.jpeg" alt="infinx inbook x1 i3 laptop benchmarksimage" width="300">
 
-- #### I have also tested the python program benchmark test  (Just used terminal not IDE) : Results:  
+- **I have also tested the python program benchmark test  (Just used terminal not IDE) : Results:** 
 
       In windows :
       
-        - the program finished compiling on time (on balanced mode)- 4min 36sec.
+        - The program finished compiling on time (on balanced mode)- 4min 36sec.
 
-        - the script finished compiling on time (on performance mode)- 4min 26sec.
+        - The script finished compiling on time (on performance mode)- 4min 26sec.
 
-      On macOS(hacintosh) :
+      On macOS(hacintosh)without plugging in charge :
          
-        - the script finished compiling on time - 4min 16sec.
+        - The program finished compiling on time - 4min 16sec.
      
       On Ubuntu 22.04 LTS(original) :
-        - the script fininshed compiling on time (on Performance mode)- 4min 39sec.
+      
+        - The program finished compiling on time (on Performance mode)- 4min 39sec.
 
-   used this python [benchmark program](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html) compiled the program x16000 times once.
+   Used python 3.9 and This [benchmark script](https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/mandelbrot-python3-7.html) compiled the program x16000 times once.
 
-And also I have tested Windows10 virtualbox with assigning 1core, 4gb ram 50gb storage, These are the benchmarks.
-<img align="middle" src="images/WindowsVirtualboxBench.png" alt="infinx inbook x1 i3 virtualbox benchmarks image" width="300">
+And also I have tested Windows10 virtualbox with assigning 1core, 4gb ram 50gb storage in macOS monterey. These are the benchmarks.
+<img align="middle" src="images/WindowsVirtualboxBench.png" alt="infinx inbook x1 i3 virtualbox benchmarks image">
 images/WindowsVirtualboxBench.png
 
 
@@ -148,64 +140,63 @@ images/WindowsVirtualboxBench.png
 
 <details>
  <summary><strong> Setting Up with Bios</strong></summary>
-  Note:Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned, if many of these options are not available in your BIOS. You cannot change the cpu,fan and other settings. This is due to Locked-bios(cfg-lock). If anyone unlocked the bios,let me know that good news.
-
-
+  Note:Some of these options may not be present in your Bios. If you didn't find some bios, leave it and don't worry about it.
 <details>
 <summary><strong>Disable:</strong></summary>
  
-- Fast Boot
 - `chipset` -> `PCH IO configuration` ->`disable wake on wlan and bluetooth` (which causes sleep issues)
-- Disable windows bit-lock encryption (ignore, if you don't lock it)
+
 - Secure Boot
-- VT-d -> Advanced -> Cpu -> Virtualization technology
-- CSM
+- `VT-d` -> `Advanced` -> `Cpu` -> `Virtualization technology`
+- Disable windows bit-lock encryption (ignore, if you don't lock it, the pre-installed windows doesn't come with bit-lock. Leave it, if you don't know about it.)
  </details>
  
  
 <details>
  <summary><strong>Enable:</strong></summary>
  
-
-- Execute Disable Bit
 - `DVMT Total Dfx Mem`(iGPU Memory): `MAX` from `System Agent(SA)configuration` -> `Graphics configuration`.
 - Set` DVMT Total Gfx Memory` setting to `Max`from `System Agent(SA)configuration` -> `Graphics configuration`.
 - Set `DVMT PPre-Allocated` Setting to `160M` or to `max` from `System Agent(SA)configuration` -> `Graphics configuration`.
-- SATA Mode: AHCI
-- Every setting is not Available so check your self
 - `Intel Virtualization Technology` not vt-d.
 </details>
-</details>
 
+After setting these settings in bios, save it and exit.
+</details>
 
 **This is a simple and quick summary of the online install USB creation.**
 
- ### macOS Bigsur Installer with Windows And Mac Users:
+### macOS Bigsur Installer with Windows And Mac Users:
 <details>
- <summary><strong>Process1.MacOS BigSur Online Installer from Windows and macOS:</strong></summary>
+ <summary><strong>Process1.MacOS BigSur Online Installer from Windows, linux and macOS:</strong></summary>
  
   -  **`For Windows users`**
-      1. Download [rufus](https://rufus.ie/en/) to format the sdcard to fat32.
-      2. Select the desired flash drive or Sdcard you would like to put the installer on under the device option
-      3. Open rufus and Select `non-bootable` as the `boot selection` (REQUIRED)
-      4. Select `FAT-32` or `Large FAT-32` as the partition scheme. Hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
-      5. If in windows,Open up the usb partition in file explorer and delete all the files created by rufus manually.
-  -  **`For mac users`**
-      1. Launch `Disk Utility`
-      2. `Select View` > `Show all devices` at the top left
-      3. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`.
-      
-      4. change `guid patition table`-> `Master Boot Record Partiton`.
-      
-      5. hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
+  
+     	 1. Download [rufus](https://rufus.ie/en/) to format the sdcard to fat32.
+     	 2. Select the desired flash drive or Sdcard you would like to put the installer on under the device option
+     	 3. Open rufus and Select `non-bootable` as the `boot selection` (REQUIRED)
+     	 4. Select `FAT-32` or `Large FAT-32` as the partition scheme. Hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
+     	 5. If in windows,Open up the usb partition in file explorer and delete all the files created by rufus manually.
 
-6. Then ................
-7. Now, Install Python from Microsoft store or Download manually for MAC and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path to environmet variables for windows users.)
+  -  **`For mac users`**
+
+  		1. Launch `Disk Utility`
+      	2. `Select View` > `Show all devices` at the top left
+      	3. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`.
+      	4. change `guid patition table`-> `Master Boot Record Partiton`.
+      	5. hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
+  -  **`For Linux users`**
+  
+  		1. Install `gparted` and format the usb to `Fat32` and `MBR` OR `MASTER BOOT RECORD PARTITION.
+  		2. DONE.
+  		
+6. Then ......................
+7. Now, Install Python from Microsoft store or Download manually for MAC,linux and Windows users here -> [python](https://www.python.org/downloads/) (Make sure you select add python x.x to path to environmet variables for windows users.)
 8. Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases) (Release version is fine).
 9. Select the "macrecovery" folder in the "opencorepkg" folder at `/Utilities/macrecovery/` .
 10. Copy the path of the "macrecovery" folder in file manager or finder.
 11. Fire up command prompt or Terminal and type `cd` and hit spacebar and paste the path of the macrecovery folder.
-12.
+12.If you cannot run this command, add `python` or `python3` to the beginning of these code.
   - For BigSur  -Run the command: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
   - For Monterey -Run the command: `macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download`
 
@@ -215,12 +206,14 @@ images/WindowsVirtualboxBench.png
 16. Download the latest EFI created [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases)
 17. Copy the folder named `EFI` and paste it in your USB partiton.
 
-#### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
-#### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
+**Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.**
+
+**You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.**
 
 `Note: Make sure to apply the correct bios settings before continuing (provided above)`
 
  18. Restart your laptop and hit `Delete`button continuously until you go to bios settings.
+`Note: Make sure to apply the correct bios settings before continuing (provided above)`
 19. Select your flash drive as temporary boot option in boot menu.
 20. Now in the OpenCore menu select the name of your USB partiton.
 21. Great! Now install and set up macOS Big Sur as usual(This process will be required 14gb internet to download full Macos bigsur).
@@ -231,7 +224,7 @@ images/WindowsVirtualboxBench.png
  <details>
   <summary><strong>Process2.MacOS BigSur Offline Installer from Windows and macOS:</strong></summary>
  
-- 1.Search and Download Olarila BigSur or Monterey .raw from [Here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/)the latest version of bigsur is 11.6.7 and for Monterey is 12.3.1
+- 1.Search and Download Olarila BigSur or Monterey .raw from [Here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/)the latest version of bigsur is 11.xxxx and for Monterey is 12.xxxx
 - 2.Download etcher from [here](https://www.balena.io/etcher/)
 - 3.Make Usb bootable (Flash the Sdcard) using Etcher and olarila bigsur.
 - 4.mount the efi of Sdcard or bootable drive.
@@ -239,8 +232,9 @@ images/WindowsVirtualboxBench.png
 - 5.Delete the default EFI folder which is in bootable usb
 - 6.and paste the Efi to USB. Download Efi [here](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore)
 
-#### Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.
-#### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
+**Note: If you need to edit Config.plist, don't Clover configurator because its opencore. Use OpenCore configurator , use PlistEdit pro, PropperTree, or Xcode.**
+
+**You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.**
 
 - 7.Restart your laptop and hit `Delete`button continuously until you go to bios settings.
 - 8.Select your sd card or flash drive as temporary boot option in boot menu.
@@ -249,19 +243,23 @@ images/WindowsVirtualboxBench.png
 
 </details>
 
+<details >
 ### After booting in to the *Macos Recovery* 
+<summary><strong>After booting in to the *Macos Recovery*</strong></summary>
 
-  #### You will get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or using the MacOS as a daily driver.
+**You may get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or Using the MacOS as a daily driver.**
 
 - 1. open `Disk Utiliy` -> Select `View` which is at the top left -> choose `Show all devices` -> Select your root of your `SSD drive storage` which you want to install MacOS(root SSD drive device) -> Click `Erase` -> `Name` your drive as you like, Prefered to name as `Macintosh` OR `Macintosh HD` -> change `Format` to `APFS` -> `Scheme` to `Guid Patition Map` -> Click `Erase` .
 - 2. Click `done` and close `disk utility` window. 
 - 3. Select `Install MacOS <macos_version_here>` & click `continue` -> select your `SSD drive name` which you renamed before on Disk Utility and click `continue` .
-- 4. The installer takes 1-2 hours to install for online & offline process.
+- 4. The installer takes 1-3 hours to install for online & offline process.
 
 #### Note : Don't make the screen off, until the installation is over or until the it reboots. If the screen is off in the installation process, it reboots and you need to do the same process of installtion.
  
 
 - After booting into OS, in `setup` you will see `File-Vault` must be disabled or turn-off. After setup,you need to do little work, read post-install-0
+
+</details>
 
 <hr>
 
@@ -366,9 +364,9 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  
 <hr>
 
-- You can follow me on [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) or mail me-> saidev949@gmail.com
+Inform me, If there is any error / spelling mistakes in the Installation or any where...    
+- You can contact me throught [facebook](https://www.facebook.com/sai.dev.92317) , [telegram](https://t.me/Pappusaidev) or mail -> saidev949@gmail.com
 
- Inform me, If there is any error / spelling mistake in the Installation or any where...                                                                      
 ## My sincere thanks to**
 
 - [Acidanthera](https://github.com/acidanthera)
