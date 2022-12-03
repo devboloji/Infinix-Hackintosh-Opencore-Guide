@@ -173,7 +173,7 @@ After setting these settings in bios, save it and exit.
  <summary><strong>Process1.MacOS BigSur Online Installer from Windows, linux and macOS:</strong></summary>
  
   -  **`For Windows users`**
-  
+ 
      	 1. Download [rufus](https://rufus.ie/en/) to format the sdcard to fat32.
      	 2. Select the desired flash drive or Sdcard you would like to put the installer on under the device option
      	 3. Open rufus and Select `non-bootable` as the `boot selection` (REQUIRED)
@@ -182,11 +182,11 @@ After setting these settings in bios, save it and exit.
 
   -  **`For mac users`**
 
-       1. Launch `Disk Utility`
-       2. `Select View` > `Show all devices` at the top left
-       3. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`.
-       4. change `guid patition table`-> `Master Boot Record Partiton`.
-       5. hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
+         1. Launch `Disk Utility`
+         2. `Select View` > `Show all devices` at the top left
+         3. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`.
+         4. change `guid patition table`-> `Master Boot Record Partiton`.
+         5. hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
        
   -  **`For Linux users`**
   
@@ -247,15 +247,16 @@ After setting these settings in bios, save it and exit.
 </details>
 
 <details >
-### After booting in to the *Macos Recovery* 
+ 
 <summary><strong>After booting in to the *Macos Recovery*</strong></summary>
+ 
 
 **You may get display glitches only while installing the macOS via USB or any flash drive. But you won't get Atleast ONE glitch after installing of macos or Using the MacOS as a daily driver.**
 
-- 1. open `Disk Utiliy` -> Select `View` which is at the top left -> choose `Show all devices` -> Select your root of your `SSD drive storage` which you want to install MacOS(root SSD drive device) -> Click `Erase` -> `Name` your drive as you like, Prefered to name as `Macintosh` OR `Macintosh HD` -> change `Format` to `APFS` -> `Scheme` to `Guid Patition Map` -> Click `Erase` .
-- 2. Click `done` and close `disk utility` window. 
-- 3. Select `Install MacOS <macos_version_here>` & click `continue` -> select your `SSD drive name` which you renamed before on Disk Utility and click `continue` .
-- 4. The installer takes 1-3 hours to install for online & offline process.
+        - 1. open `Disk Utiliy` -> Select `View` which is at the top left -> choose `Show all devices` -> Select your root of your `SSD drive storage` which you want to install MacOS(root SSD drive device) -> Click `Erase` -> `Name` your drive as you like, Prefered to name as `Macintosh` OR `Macintosh HD` -> change `Format` to `APFS` -> `Scheme` to `Guid Patition Map` -> Click `Erase` .
+        - 2. Click `done` and close `disk utility` window. 
+        - 3. Select `Install MacOS <macos_version_here>` & click `continue` -> select your `SSD drive name` which you renamed before on Disk Utility and click `continue` .
+        - 4. The installer takes 1-3 hours to install for online & offline process.
 
 #### Note : Don't make the screen off, until the installation is over or until the it reboots. If the screen is off in the installation process, it reboots and you need to do the same process of installtion.
  
