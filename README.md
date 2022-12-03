@@ -377,5 +377,5 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
 - [Voodoo2I](https://github.com/VoodooI2C/VoodooI2C)
 - [Daliansky's OC-little repo](https://github.com/daliansky/OC-little)
 - ## Thanks for [NitinGaury](https://github.com/nitingaury) for helping in making this project possible.
-- Thanks for [SaiTeja](https://t.me/Xofficialtech) , he founded and started the Infinix hackintosh project.
+- Thanks for [SaiTeja](https://t.me/Xofficialtech) , he founded and started this Infinix hackintosh project.
 - and the entire community for inspiring me!
