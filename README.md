@@ -352,15 +352,18 @@ The thing is "Use it" for a month or more and automatically after some days, Mag
  - This process is very simple for dual boot and can ask doubts and issues here.
  
  1. Take a Usb or sd-card, connect to pc & Launch `Disk Utility` -> Select `View` > `Show all devices` at the top left.
- 2. Select your flash drive (root usb device)and format it as `MS-DOS (FAT)` or `FAT-32`. Change `guid patition table` -> `Master Boot Record Partiton`. Hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
- 3. Copy the EFI that you are using right now to the `USB` or store it to another device.
- 4. Next, to partition your drive, -> Launch `Disk Utility` -> Select `View` > `Show all devices` at the top left -> Choose your `MacOS-drive` as root -> Click `Partition` -> click `add partition` if you see a popup -> `Name` your partition. -> Change the `Format` type to `ExFat` or `Ms-dos` -> Adjust your `Partition size` as you like. click `Apply`. This process takes atleast 15 min. 
- 5. Take an Another USB, Now Make bootable of required version of windows by rufus or any other.
- 6. Boot to USB from bios. Run the windows Installer as Asusual. But remember to install in your windows Partition in `where to install` in windows disk.
- 7. When you boot into windows, install all Updates and you can also restart when updates required reboot.(Forget about macOS for now). After installing all updates, Plug in the `EFI usb` and reboot to usb from bios to boot into MacOS.
- 8. When you boot into MacOS, <ins>Mount the EFI folder</ins>, and delete `Boot`and `OC` folders and paste the "boot" & "OC" folders from USB to MacOS  EFI. Now go to `Microsoft` -> `Boot` -> change `bootmgfw.efi` to `bootmgfw.efi-ORIG` (replace ".efi" extension to ".efi-ORIG"). Unmount the EFI and reboot.
- 9. Reboot to macOS.(you can only see "MacOS" in boot-menu). Now go to `Microsoft` -> `Boot` -> change `bootmgfw.efi-ORIG` to  `bootmgfw.efi` (replace ".efi-ORIG" extension to ".efi" again). Unmount the EFI and reboot.
- 10. Now you can see Windows & MacOS on boot-menu. Enjoy.
+ 2. Select your flash device (root of your usb device)and format it as `MS-DOS (FAT)` or `FAT-32`. Change `guid patition table` -> `Master Boot Record Partiton`. Hit start(by doing this the sdcard formats so you will lose the all the data in sdcard).
+ 3. Copy the EFI that you are using right now to the `USB` device.
+ 4. Now download the [Microsoft.zip](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/blob/main/Microsoft.zip) file from my Github and paste the `Microsoft<folder>` inside of `EFI` folder of the USB or sdcard(where you see the `boot`,`OC` folders inside of EFI<folder> in your USb).
+ 5. Next, to partition your drive, -> Launch `Disk Utility` -> Select `View` > `Show all devices` at the top left -> Choose your `MacOS-drive` as root -> Click `Partition` -> click `add partition` if you see a popup -> `Name` your partition. -> Change the `Format` type to `ExFat` or `Ms-dos` -> Adjust your `Partition size` as you like. click `Apply`. This process takes atleast 15 min. 
+ 6. Take an Another USB, Now Make bootable of required version of windows by rufus or any other.
+ 7. Boot to USB from bios. Run the windows Installer as Asusual. But remember to install in your windows Partition in `where to install` in windows disk.
+ 8. When you boot into windows, install all Updates and you can also restart when updates required reboot.(Forget about macOS for now). After installing all updates, Plug in the `EFI usb` or sdcard(that you previously copied the EFI and Microsoft folders) and reboot to usb from bios to boot into MacOS.
+ 9. When you boot into MacOS, <ins>Mount the EFI folder</ins>, and Replace default EFI(the drive efi) with your usb or sdcard EFI. Unmount the EFI and reboot.
+ 10. Try checking the boot menus by Rebooting to macOS & Windows.(you can see "MacOS" & "Windows" in boot-menu)..
+ 11. Now you can Easily get Windows & MacOS on boot-menu. Enjoy.
+ 
+Thanks to [NitinGaury](https://github.com/nitingaury) for sharing the Dual-boot win&macos in EFI.
  
 
  . Have a great day. 
