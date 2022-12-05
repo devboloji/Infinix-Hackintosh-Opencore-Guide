@@ -376,6 +376,7 @@ Inform me, If there is any error / spelling mistakes in the Installation or any 
 - [Acidanthera](https://github.com/acidanthera)
 - [Dortania OC guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [CorpNewt's tools](https://github.com/corpnewt)
+- Thanks for [NitinGaury](https://github.com/nitingaury) for sharing the Dual-boot win&macos in EFI.
 - [Voodoo2I](https://github.com/VoodooI2C/VoodooI2C)
 - [Daliansky's OC-little repo](https://github.com/daliansky/OC-little)
 - ## Thanks for [NitinGaury](https://github.com/nitingaury) for helping in making this project possible.
