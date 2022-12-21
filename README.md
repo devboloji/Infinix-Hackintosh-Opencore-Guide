@@ -292,6 +292,7 @@ Note: you can still see the boot picker with ShowPicker set to no/false by spamm
 </details>
 
 <details><summary><strong><ins>3. Boot faster or Remove Volume has MisHash </ins></strong></summary>
+If anyone facing Volume Hash Mismatch, Just type `sudo purge` in terminal so you can use bluetooth without rebooting the device.😉
 You can Disable IntelBluetoothFirmware.kext & IntelBluetoothInjector.kext to be able to Boot faster those kexts in config.plist for BigSur.
 For Monterey, Disable IntelBluetoothFirmware.kext & Bluetool fixup.kext to be able to Boot faster those kexts in config.plist
 This is not done by default to bluetooth working.
