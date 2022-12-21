@@ -34,7 +34,7 @@ If you enjoyed this project — or just feeling generous, consider buying me a b
  
 ### If you want to report or rasie an ISSUE, you must mention your device details in it. And give a detailed information about your issue(images or videos are encouraged).
  
-- You can contact me through [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
+- You can contact me through [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) , [Telegram-support-group](https://t.me/infinxinbooksupport)
 
  ********************************
 
@@ -61,8 +61,8 @@ If you enjoyed this project — or just feeling generous, consider buying me a b
   					x1 slim or x2 = don't know.
 
 
- If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev)
-
+ If anyone tested, Let me know: [facebook](https://www.facebook.com/sai.dev.92317) and [telegram](https://t.me/Pappusaidev) ,
+[Telegram-support-group](https://t.me/infinxinbooksupport)
 <hr>
 
 ## Status : 
@@ -372,8 +372,7 @@ Thanks to [NitinGaury](https://github.com/nitingaury) for sharing the Dual-boot 
 <hr>
 
 Inform me, If there is any error / spelling mistakes in the Installation or any where...    
-- You can contact me throught [facebook](https://www.facebook.com/sai.dev.92317) , [telegram](https://t.me/Pappusaidev) or mail -> saidev949@gmail.com
-
+- You can contact me throught [facebook](https://www.facebook.com/sai.dev.92317) , [telegram](https://t.me/Pappusaidev) , [Telegram-support-group](https://t.me/infinxinbooksupport) or mail -> saidev949@gmail.com 
 ## My sincere thanks to**
 
 - [Acidanthera](https://github.com/acidanthera)
