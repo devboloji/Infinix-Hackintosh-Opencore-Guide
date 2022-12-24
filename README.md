@@ -40,7 +40,7 @@ If you enjoyed this project — or just feeling generous, consider buying me a b
 
 ## Introduction
 
-**This EFI Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work themselves to work dual boot.**
+**This EFI Only for Single boot users.not for multi-boot users.For multi-boot users need to do some work to work dual boot. Read post-install.**
 
 ### [Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 
@@ -92,10 +92,9 @@ Note - In this Hacintosh, You get 5hr battery for common usage like using xcode,
  <summary><strong>What's not working ⚠️</strong></summary>
  </br>
  
-* :heavy_exclamation_mark: Hdmi slot. To get work, buy a USB Dock not typeC.(because typeC is dead for our infinix)
-* :heavy_exclamation_mark: USB typeC slot is dead. You cannot use it for file transfer and all. Because in the whole hackintosh, USB typeC is buggy and unstable. So, I disabled for now.
+* :heavy_exclamation_mark: Hdmi slot. To get work, buy a USB Dock.(Try Type-c and usb Type A docks for our infinix) IF the usb Type-C dock works for display out, Inform me.
 * :heavy_exclamation_mark: Didn't Mapped Keyboard keys. But it's not mandatory. I like the default keyboard mapping.
-* :heavy_exclamation_mark: Don't expect too much battery in this Hackintosh like windows. You get atleast 5-hours battery-backup more.
+* :heavy_exclamation_mark: Don't expect too much battery in this Hackintosh like windows. You get atleast 6-hours battery-backup more.
 </details>
 
 
