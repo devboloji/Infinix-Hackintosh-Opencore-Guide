@@ -23,7 +23,7 @@
 |-------------------------------------------|
 |  `7095160636797@paytm` |
 
-If you enjoyed this project — or just feeling generous, consider buying me a beer. Cheers! :beers:
+If you enjoyed this project — or just feeling generous, consider buying me a coffee.! :coffee:
 
  <details><summary>DISCLAIMER</summary>
  
@@ -377,7 +377,7 @@ Inform me, If there is any error / spelling mistakes in the Installation or any 
 - [Acidanthera](https://github.com/acidanthera)
 - [Dortania OC guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [CorpNewt's tools](https://github.com/corpnewt)
-- Special Thanks to [NitinGaury](https://github.com/nitingaury) for sharing the Dual-boot win&macos in EFI.
+- Special Thanks to [NitinGaury](https://github.com/nitingaury) for sharing me the Dual-boot win&macOS in EFI.
 - [Voodoo2I](https://github.com/VoodooI2C/VoodooI2C)
 - [Daliansky's OC-little repo](https://github.com/daliansky/OC-little)
 - ## Thanks for [NitinGaury](https://github.com/nitingaury) for helping in making this project possible.
