@@ -272,7 +272,7 @@ Once you have verifed that your machine boots properly without any issues as des
 
 <details><summary><strong><ins>0. [Must] Boot os without usb or any drive</ins></strong></summary>
  
-After booting into OS, you cannot boot without usb, because EFI is in USB. So, You need to downlaod opencore configurator [link](https://mackie100projects.altervista.org/opencore-configurator/) -> open `opencore-configurator` give permissions  in `system prefereneces` -> `security` -> `open anyway`. open `opencore-configurator` again -> mount the `EFI` and paste the `EFI<folder>` to the `EFI partition`.
+After booting into OS! So, You need to downlaod opencore configurator [link](https://mackie100projects.altervista.org/opencore-configurator/) -> Open `opencore-configurator`. If it doesn't open, go to `system prefereneces`(Monterey or older) ->  `security`  -> `open anyway`. Open `opencore-configurator` again -> Now mount the `EFI` and paste the `EFI<named-folder>` to the `EFI partition` of your system drive.
  - Remove the USB and reboot. `RESET-NVRAM` once in opencore boot-menu and reboot..Done...
 
  
