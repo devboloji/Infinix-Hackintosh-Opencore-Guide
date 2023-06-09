@@ -6,8 +6,9 @@
 ### If you people want Sonoma support for our infinix, let me know here.. [Ask here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/discussions/33#discussion-5280277)
 
 ## Infinix-Inbook-series Hackintosh-Guide-Opencore.
-- Ice Lake (10th gen) Inbook or X1,slim & x2. Read full guide before you proceed.
+- Ice Lake (10th gen) Inbook or X1, pro,slim & x2. Read full guide before you proceed.
 ### -->[Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
+Our infinix's is approximately equal to macbook air 2017. 
 
 <hr>
 
@@ -48,7 +49,7 @@ If you enjoyed this project — or just feeling generous, consider buying me a c
 
 # _Device Information_                    
 
- `Tested Devices`: All (i3,i5,i7)-> Inbook x1, Slim edition, x2.
+ `Tested Devices`: All (i3,i5,i7)-> Inbook x1, pro, x2, Slim edition.
  
  `Tested CPUs`: **i3-1005G1, i5,i7.**
  
