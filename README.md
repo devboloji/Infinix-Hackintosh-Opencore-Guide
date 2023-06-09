@@ -1,6 +1,6 @@
 | [Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases) | 
 
-## :star_struck: :star_struck: Now the EFI supports Ventura. Sonoma is under testing!!:star_struck: :star_struck:
+## :star_struck: :star_struck: Now the EFI supports Ventura. Sonoma EFI is under development!!:star_struck: :star_struck:
 <hr>
 
 ### If you people want Sonoma support for our infinix, let me know here.. [Ask here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/discussions/33#discussion-5280277)
