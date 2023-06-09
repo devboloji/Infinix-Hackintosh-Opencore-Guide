@@ -4,7 +4,7 @@
 <hr>
 
 ## Infinix-Inbook-series Hackintosh-Guide-Opencore.
-- Ice Lake (10th gen) Inbook or X1,slim & x2.
+- Ice Lake (10th gen) Inbook or X1,slim & x2. Read full guide before you proceed.
 ### -->[Devboloji](https://github.com/devboloji)-Quote - "think like you have Macbook Air."
 
 <hr>
@@ -94,13 +94,14 @@ Note - In this Hacintosh, You get 5hr battery for common usage like using xcode,
  
 * :heavy_exclamation_mark: Hdmi slot. To get work, buy a USB Dock.(Try Type-c and usb Type A docks for our infinix) IF the usb Type-C dock works for display out, Inform me.
 * :heavy_exclamation_mark: Didn't Mapped Keyboard keys. But it's not mandatory. I like the default keyboard mapping.
+* :heavy_exclamation_mark: Audio is dead in x2 or x1 slim due to those devices have intel bluetooth sound cards. But using via headphones or bluetooth or any external audio dongle will work for x2 and x1 slim. Audio is 100% working for x1 and x1 pro.
 * :heavy_exclamation_mark: Don't expect too much battery in this Hackintosh like windows. You get atleast 6-hours battery-backup more.
 </details>
 
 
 - The performance is better than windows and linux.(don't check benchmarks with geekbeench. You will see low scores than windows. But in performance, This macOS has great performance than windows, linux. I have tested in different sinarios, You can also test it and let us know about it.
 
-- You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)... I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows, And we don't need openCL in macos according to me..
+- You definitely get more performance sure than windows without plugin the charge in this MacOS(Hacintosh)... I have tested blender in Both OSes.Blender worked very very smooth than windows(Tested my personal project has "realtime sky Nishita" which puts high work on device with blender 3.2.1.  So you can expect more performance it in My efi. Here, the performace is because of "Metal-Optimisation", but not optimised in "OpenCL" in windows, And we don't need openCL in macos according to me.. Don't except higher performace in gaming like windows & linux in macos
 
 
 <img align="top" src="images/infinix x1 i3 benchmarks.jpeg" alt="infinx inbook x1 i3 laptop benchmarksimage" width="300">
