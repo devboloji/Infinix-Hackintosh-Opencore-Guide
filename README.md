@@ -376,13 +376,12 @@ Thanks to [NitinGaury](https://github.com/nitingaury) for sharing the Dual-boot 
 Inform me, If there is any error / spelling mistakes in the Installation or any where...    
 - You can contact me throught [facebook](https://www.facebook.com/sai.dev.92317) , [telegram](https://t.me/Pappusaidev) , or mail -> saidev949@gmail.com 
 ## My sincere thanks to**
-
+- ## Thanks for [SaiTeja](https://t.me/Xofficialtech) , he founded and started this Infinix hackintosh project.
 - [Acidanthera](https://github.com/acidanthera)
 - [Dortania OC guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [CorpNewt's tools](https://github.com/corpnewt)
 - Special Thanks to [NitinGaury](https://github.com/nitingaury) for sharing me the Dual-boot win&macOS in EFI.
 - [Voodoo2I](https://github.com/VoodooI2C/VoodooI2C)
 - [Daliansky's OC-little repo](https://github.com/daliansky/OC-little)
-- ## Thanks for [NitinGaury](https://github.com/nitingaury) for helping in making this project possible.
-- Thanks for [SaiTeja](https://t.me/Xofficialtech) , he founded and started this Infinix hackintosh project.
+- ### Thanks for [NitinGaury](https://github.com/nitingaury) for helping in making this project possible.
 - and the entire community for inspiring me!
