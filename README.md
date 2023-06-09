@@ -67,7 +67,7 @@ If you enjoyed this project — or just feeling generous, consider buying me a c
 ## Status : 
 
 **Talking about the battery🔋**, The only issue is when the battery is about 10% or when device shows low battery, don't sleep your device. If you do it, the device may shutdowns or reboots only at that situation.
-Note - In this Hacintosh, You get 5hr battery for common usage like using xcode,safari instances, social media apps, and 1080p playback at a time, continuously, simultaneously.
+Note - In this Hacintosh, You get 5hr battery for common usage like using xcode,safari instances, social media apps, and 1080p playback at a time, continuously, simultaneously. **Users** reviews= [see here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/discussions/24#discussioncomment-4570115)
 
 <details>
  <summary><strong> What's working ✅ </strong></summary>
