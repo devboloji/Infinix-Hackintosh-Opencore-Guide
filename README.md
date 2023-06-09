@@ -1,6 +1,6 @@
 | [Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases) | 
 
-## :star_struck: :star_struck: Now the EFI supports Ventura!!:star_struck: :star_struck:
+## :star_struck: :star_struck: Now the EFI supports Ventura. Sonoma is under testing!!:star_struck: :star_struck:
 <hr>
 
 ## Infinix-Inbook-series Hackintosh-Guide-Opencore.
