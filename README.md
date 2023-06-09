@@ -3,7 +3,7 @@
 ## :star_struck: :star_struck: Now the EFI supports Ventura. Sonoma is under testing!!:star_struck: :star_struck:
 <hr>
 
-### If you people want Sonoma, let me know here.. [Ask here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/discussions/33#discussion-5280277)
+### If you people want Sonoma support for our infinix, let me know here.. [Ask here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/discussions/33#discussion-5280277)
 
 ## Infinix-Inbook-series Hackintosh-Guide-Opencore.
 - Ice Lake (10th gen) Inbook or X1,slim & x2. Read full guide before you proceed.
