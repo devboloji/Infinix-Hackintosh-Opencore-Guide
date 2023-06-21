@@ -24,7 +24,8 @@ Our infinix's is approximately equal to macbook air 2017.
 <a href="https://www.paypal.me/369639/"><img src="blue.svg" height="40"></a>  
 | <a><img src="darkblue.svg" height="40"></a> |
 |-------------------------------------------|
-|  `7095160636797@paytm` |
+|  `9392656181` |
+UPI also works for this number.
 
 If you enjoyed this project — or just feeling generous, consider buying me a coffee.! :coffee:
 
