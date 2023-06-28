@@ -1,9 +1,9 @@
 | [Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases) | 
 
-## :star_struck: :star_struck: Now the EFI supports Ventura. Sonoma EFI is under development!!:star_struck: :star_struck:
+## :star_struck: :star_struck: Now the EFI supports Ventura. Sonoma EFI is under beta!!:star_struck: :star_struck:
 <hr>
 
-### If you people want Sonoma support for our infinix, let me know here.. [Ask here](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/discussions/33#discussion-5280277)
+### This may be the [last update](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/releases/tag/sonomaEFI_beta) even I am working for Sonoma Beta. But if anyone contributed for this project, I will update EFI for every release. A small cotribution will also be appreciated. If anyone are ready to contribute their EFI here will be appriciated too. Because this repository is growed as a main branch for our Infinix INBOOKS Hackintosh. So anyone can work in this repository about our all INFINIX INBOOKS.
 
 ## Infinix-Inbook-series Hackintosh-Guide-Opencore.
 - Ice Lake (10th gen) Inbook or X1, pro,slim & x2. Read full guide before you proceed.
