@@ -12,8 +12,8 @@ Our infinix's is approximately equal to macbook air 2017.
 
 <hr>
 
-![img](https://img.shields.io/badge/Release%20Date-Every%20Month-red) ![img](https://img.shields.io/badge/macOS%20Support-Ventura--beta-blue)
-![img](https://img.shields.io/badge/macOS%20Support-Monterey--latest-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.8.7-red)
+![img](https://img.shields.io/badge/Release%20Date-Every%20Month-red) ![img](https://img.shields.io/badge/macOS%20Support-Sonoma-blue) ![img](https://img.shields.io/badge/macOS%20Support-Ventura--beta-blue)
+![img](https://img.shields.io/badge/macOS%20Support-Monterey--latest-blue)![img](https://img.shields.io/badge/macOS%20Support-BigSur-blue) ![img](https://img.shields.io/badge/OpenCore%20Version-0.9.0-red)
 
 - These are the builts from me.  You might get the future updates for this machine.
  Report me If you find the bugs or any issues. And **don't ask for ETA**(Estimated Time of Time).
