@@ -1,6 +1,6 @@
 | [Releases `+1`](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore/releases) | 
 
-## :star_struck: :star_struck: Now the EFI supports Ventura. Sonoma EFI is under beta!!:star_struck: :star_struck:
+## :star_struck: :star_struck: Now the EFI supports Sonoma stable !!:star_struck: :star_struck:
 <hr>
 
 ### This may be the [last update](https://github.com/devboloji/Infinix-Hackintosh-Opencore-Guide/releases/tag/sonomaEFI_beta) even I am working for Sonoma Beta. But if anyone contributed for this project, I will update EFI for every release. A small cotribution will also be appreciated. If anyone are ready to contribute their EFI here will be appriciated too. Because this repository is growed as a main branch for our Infinix INBOOKS Hackintosh. So anyone can work in this repository about our all INFINIX INBOOKS but give credits. EOL due to i don't have a infinix laptop(broken).
