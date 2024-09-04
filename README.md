@@ -341,6 +341,10 @@ Set `DVMT PPre-Allocated` Setting to `160M` or to `max`
 <details><summary><strong><ins>7.Fix Imessage and Facetime. </ins></strong></summary>
  
 If you are new to the apple account or if you are using apple account for the first time in hackintosh, You need to use the apple account for one month and use icloud. Even though, the imessages or factime don't work..
+- ⁠iMessages and Face TIme works if we connect the internet via USB(usb debugging),
+•⁠  ⁠Music works on Wi-Fi.
+•⁠  ⁠⁠Message and face time works on usb(usb debugging) need HornDIS application installed on mac if not detected.
+or else you need to remove AirportItlwm.kext and replace with Heliport(itlwm) as complete fix, but you need to sacrifice speed and nativity of wifi.
 The thing is "Use it" for a month or more and automatically after some days, Magically facetime and imessages workss...Tada...
  </details>
  
