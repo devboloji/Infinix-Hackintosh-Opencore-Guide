@@ -205,6 +205,8 @@ After setting these settings in bios, save it and exit.
 12.If you cannot run this command, add `python` or `python3` to the beginning of these code.
   - For BigSur  -Run the command: `macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`
   - For Monterey -Run the command: `macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download`
+  - For Ventura -Run the command: `macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000 download`
+  - For Sonoma -Run the command: `macrecovery.py -b Mac-226CB3C6A851A671 -m 00000000000000000 download`
 
 13. This will download some files in the macrecovery folder but we only need "BaseSystem.dmg" and "BaseSystem.chunklist" (takes approx. 600mb to 800mb internet)for Downloading the Macos installer.
 14. Create a folder in USB or pendrive or flash drive named `com.apple.recovery.boot`.
