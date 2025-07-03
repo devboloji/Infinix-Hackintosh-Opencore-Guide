@@ -27,7 +27,7 @@ Our infinix's is approximately equal to macbook air 2017.
 |  `9392656181` |
 UPI also works for this number.
 
-If you enjoyed this project — or just feeling generous, consider buying me a coffee.! :coffee:
+# ☕ If You Enjoyed This Project — or Just Feeling Generous, Consider Buying Me a Coffee.! :coffee:
 
  <details><summary>DISCLAIMER</summary>
  
