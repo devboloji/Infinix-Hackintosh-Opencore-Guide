@@ -5,13 +5,13 @@
 *.cpp linguist-language=C++
 *.c linguist-language=C++
 *.h linguist-language=C++
-*.hpp linguist-language=C++
+*.hpp linguist-language=C++sfdfs
 
 # --- ACPI Source Language (ASL, 30%) ---
 *.dsl linguist-language=ASL
 *.asl linguist-language=ASL
 
-# --- Swift (10%) ---
+# --- Swift (10%) ---fdfsdfdfs
 *.swift linguist-language=Swift
 
 # --- Objective-C (Included with Swift section) ---
@@ -27,28 +27,28 @@
 *.command linguist-language=Shell
 
 # --- XML / Config files (4%) ---
-*.xml linguist-language=XML
+*.xml linguist-language=XMLfvsdfg
 
 # --- Ignore non-code files ---
 *.plist linguist-detectable=false
-*.json linguist-detectable=false
+*.json linguist-detectable=falsegs
 *.yaml linguist-detectable=false
 *.yml linguist-detectable=false
 *.ini linguist-detectable=false
 *.txt linguist-detectable=false
 *.log linguist-generated
-*.bin linguist-generated
+*.bin linguist-generatedgfdsfdsf
 *.efi linguist-generated
 *.zip linguist-generated
 *.pkg linguist-generated
 *.o linguist-generated
 *.obj linguist-generated
-
+s
 # --- Ignore vendored or generated folders ---
 Docs/* linguist-documentation
 EFI/OC/ACPI/* linguist-vendored
 EFI/OC/Kexts/* linguist-vendored
 EFI/OC/Resources/* linguist-vendored
-EFI/BOOT/* linguist-vendored
+EFI/BOOT/* linguist-vendoreddfdf
 Tools/* linguist-vendored
 Scripts/* linguist-vendored
