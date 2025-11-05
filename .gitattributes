@@ -1,38 +1,41 @@
 # --- Devboloji Infinix Inbook X1 Hackintosh Repository ---
-# Goal: Show realistic language distribution (C++, Swift, Obj-C, Python, ASL, Shell)
+# Goal: Show realistic language distribution (C++, Swift, Objective-C, Python, ASL, Shell, XML)
 
-# --- Primary: C++ (~40%) ---
+# --- Primary: C++ (22%) ---
 *.cpp linguist-language=C++
 *.c linguist-language=C++
 *.h linguist-language=C++
 *.hpp linguist-language=C++
 
-# --- ACPI Source Language (ASL, ~30%) ---
+# --- ACPI Source Language (ASL, 30%) ---
 *.dsl linguist-language=ASL
 *.asl linguist-language=ASL
 
-# --- Swift (~15%) ---
+# --- Swift (10%) ---
 *.swift linguist-language=Swift
 
-# --- Objective-C (~7%) ---
+# --- Objective-C (Included with Swift section) ---
 *.m linguist-language=Objective-C
 *.mm linguist-language=Objective-C++
 
-# --- Python (~4%) ---
+# --- Python (27%) ---
 *.py linguist-language=Python
 
-# --- Shell / Bash (~3%) ---
+# --- Shell / Bash (7%) ---
 *.sh linguist-language=Shell
-*.command linguist-language=Shell
 *.bash linguist-language=Shell
+*.command linguist-language=Shell
 
-# --- Ignore configs, data, docs, and build outputs ---
+# --- XML / Config files (4%) ---
+*.xml linguist-language=XML
+
+# --- Ignore non-code files ---
 *.plist linguist-detectable=false
-*.xml linguist-detectable=false
 *.json linguist-detectable=false
 *.yaml linguist-detectable=false
 *.yml linguist-detectable=false
 *.ini linguist-detectable=false
+*.txt linguist-detectable=false
 *.log linguist-generated
 *.bin linguist-generated
 *.efi linguist-generated
@@ -40,6 +43,8 @@
 *.pkg linguist-generated
 *.o linguist-generated
 *.obj linguist-generated
+
+# --- Ignore vendored or generated folders ---
 Docs/* linguist-documentation
 EFI/OC/ACPI/* linguist-vendored
 EFI/OC/Kexts/* linguist-vendored
