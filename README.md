@@ -21,7 +21,7 @@ Our infinix's is approximately equal to macbook air 2017.
 
 # :diamond_shape_with_a_dot_inside:buy me a coffee :coffee:  Donate :  :diamond_shape_with_a_dot_inside:
 
-<a href="https://www.paypal.me/369639/"><img src="blue.svg" height="40"></a>  
+<a href="https://www.paypal.com/paypalme/saidevpappu/"><img src="blue.svg" height="40"></a>  
 | <a><img src="darkblue.svg" height="40"></a> |
 |-------------------------------------------|
 |  `9392656181` |
