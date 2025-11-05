@@ -1,43 +1,49 @@
 # --- Devboloji Infinix Inbook X1 Hackintosh Repository ---
-# Forces GitHub to recognize multiple languages (no percentages required)
+# Goal: Show realistic language distribution (C++, Swift, Obj-C, Python, ASL, Shell)
 
-# --- Main Hackintosh Core ---
+# --- Primary: C++ (~40%) ---
 *.cpp linguist-language=C++
 *.c linguist-language=C++
 *.h linguist-language=C++
 *.hpp linguist-language=C++
 
-# --- ACPI Source Language ---
+# --- ACPI Source Language (ASL, ~30%) ---
 *.dsl linguist-language=ASL
 *.asl linguist-language=ASL
 
-# --- macOS Development Languages ---
+# --- Swift (~15%) ---
 *.swift linguist-language=Swift
+
+# --- Objective-C (~7%) ---
 *.m linguist-language=Objective-C
 *.mm linguist-language=Objective-C++
 
-# --- Helper / Utility Languages ---
+# --- Python (~4%) ---
 *.py linguist-language=Python
-*.sh linguist-language=Shell
-*.bash linguist-language=Shell
-*.command linguist-language=Shell
 
-# --- Ignore configuration, documentation, and binaries ---
+# --- Shell / Bash (~3%) ---
+*.sh linguist-language=Shell
+*.command linguist-language=Shell
+*.bash linguist-language=Shell
+
+# --- Ignore configs, data, docs, and build outputs ---
 *.plist linguist-detectable=false
 *.xml linguist-detectable=false
 *.json linguist-detectable=false
 *.yaml linguist-detectable=false
 *.yml linguist-detectable=false
 *.ini linguist-detectable=false
-*.md linguist-documentation
-*.txt linguist-documentation
+*.log linguist-generated
 *.bin linguist-generated
 *.efi linguist-generated
 *.zip linguist-generated
 *.pkg linguist-generated
 *.o linguist-generated
 *.obj linguist-generated
-
-# --- Do not mark EFI folders as vendored (keep visible) ---
-EFI/OC/* linguist-detectable=true
-ACPI/* linguist-detectable=true
+Docs/* linguist-documentation
+EFI/OC/ACPI/* linguist-vendored
+EFI/OC/Kexts/* linguist-vendored
+EFI/OC/Resources/* linguist-vendored
+EFI/BOOT/* linguist-vendored
+Tools/* linguist-vendored
+Scripts/* linguist-vendored
